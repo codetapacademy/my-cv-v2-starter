@@ -4,13 +4,21 @@
   height: 40px;
   align-content: center;
   display: flex; 
-  margin: round;
+  margin-left: 160px;
+  margin-top: 30px;
+  border-radius: 25px;
+
 }
 
 .download-button {
   text-decoration: none;
   align-content: center;
   color: white;
+  margin-top: 3px;
+  padding: 12px 25px;
+  font-size: 12px;
+  display: flex;
+
 }
 
 .down-arrow {
@@ -18,9 +26,37 @@
   height: 40px;
   width: 40px;
   align-content: center;
+  margin-left: 210px;
+  margin-top: 40px;
+  border-radius: 50%;
+  display: flex;
 }
 
 .arrow-down {
   color: white;
+ 
+  align-content: center;
 }
 
+.paragraph {
+  display: flex;
+  justify-content: center;
+  margin: 0 40px;
+  padding: 25px;
+  font-size: 14px;
+  color: #400B0B;
+  background-color: #FAFAFA ;
+
+
+
+.paragraph_wrapper {
+  background-color: #FAFAFA;
+  width: 500px;
+  height: 120;
+  resize: auto;
+  background-blend-mode: normal;
+  box-shadow: #000000;
+
+
+
+}
