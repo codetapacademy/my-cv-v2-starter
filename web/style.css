@@ -1,0 +1,26 @@
+.download_wrapper {
+  background-color: #FE004E;
+  width: 140px;
+  height: 40px;
+  align-content: center;
+  display: flex; 
+  margin: round;
+}
+
+.download-button {
+  text-decoration: none;
+  align-content: center;
+  color: white;
+}
+
+.down-arrow {
+  background-color: #2DD070;
+  height: 40px;
+  width: 40px;
+  align-content: center;
+}
+
+.arrow-down {
+  color: white;
+}
+
