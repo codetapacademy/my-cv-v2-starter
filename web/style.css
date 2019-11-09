@@ -1,61 +1,10 @@
-.download_wrapper {
-  background-color: #FE004E;
-  width: 140px;
-  height: 40px;
-  align-content: center;
-  display: flex; 
-  margin-left: 190px;
-  margin-top: 30px;
-  border-radius: 25px;
+@import 'component/config/reset.css';
+@import 'component/config/color.css';
+@import 'component/config/down-arrow.css';
+@import 'component/welcome/welcome.css';
 
-}
-
-.download-button {
-  text-decoration: none;
-  align-content: center;
-  color: white;
-  margin-top: 3px;
-  font-size: 12px;
-  display: flex;
-  font-weight: Bold;
-   padding: 10px 23px;
-
-
-
-}
-
-.down-arrow {
-  background-color: #2DD070;
-  height: 40px;
-  width: 40px;
-  align-content: center;
-  margin-left: 235px;
-  margin-top: 40px;
-  border-radius: 50%;
-  display: flex;
-}
-
-.paragraph {
+/* .down-arrow {
   display: flex;
   justify-content: center;
-  padding: 25px;
-  font-size: 13px;
-  color: #400B0B;
-  width: 400px;
-  height: 137px;
-  line-height: 30px;
-  font-family: Roboto;
-}
-
-
-
-.paragraph_wrapper {
-  height: 177.19px;
-  width: 459px;
-  resize: auto;
-  box-shadow: 2px 2px 5px #C0C0C0;
-  background-color: #FAFAFA;
-  margin-left: 40px;
-  border-radius: 8px;
-  
-}
+  margin-top: 40px;
+} */
