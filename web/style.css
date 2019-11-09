@@ -4,7 +4,7 @@
   height: 40px;
   align-content: center;
   display: flex; 
-  margin-left: 160px;
+  margin-left: 190px;
   margin-top: 30px;
   border-radius: 25px;
 
@@ -15,9 +15,12 @@
   align-content: center;
   color: white;
   margin-top: 3px;
-  padding: 12px 25px;
   font-size: 12px;
   display: flex;
+  font-weight: Bold;
+   padding: 10px 23px;
+
+
 
 }
 
@@ -26,37 +29,33 @@
   height: 40px;
   width: 40px;
   align-content: center;
-  margin-left: 210px;
+  margin-left: 235px;
   margin-top: 40px;
   border-radius: 50%;
   display: flex;
 }
 
-.arrow-down {
-  color: white;
- 
-  align-content: center;
-}
-
 .paragraph {
   display: flex;
   justify-content: center;
-  margin: 0 40px;
   padding: 25px;
-  font-size: 14px;
+  font-size: 13px;
   color: #400B0B;
-  background-color: #FAFAFA ;
+  width: 400px;
+  height: 137px;
+  line-height: 30px;
+  font-family: Roboto;
+}
 
 
 
 .paragraph_wrapper {
-  background-color: #FAFAFA;
-  width: 500px;
-  height: 120;
+  height: 177.19px;
+  width: 459px;
   resize: auto;
-  background-blend-mode: normal;
-  box-shadow: #000000;
-
-
-
+  box-shadow: 2px 2px 5px #C0C0C0;
+  background-color: #FAFAFA;
+  margin-left: 40px;
+  border-radius: 8px;
+  
 }
