@@ -11,3 +11,12 @@ html,
 body {
   height: 100%;
 }
+
+:root {
+  --color-shamrock: #2DD070;
+  --color-torch-red: #FD004D;
+  --color-gray: #808080;
+  --color-buttercup: #F29E1A;
+}
+
+
