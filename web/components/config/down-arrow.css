@@ -1,0 +1,11 @@
+.new-shape {
+  /* background-image: url(../../_asset/svg/arrow-down.svg) white; */
+  box-sizing: border-box;
+  padding: 0.5rem;
+  /* fill: var(--color-white); */
+  border-radius: 50%;
+  background: var(--color-shamrock);
+}
+.new-shape {
+  fill: var(--color-white);
+}
