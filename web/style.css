@@ -14,9 +14,55 @@ body {
 
 :root {
   --color-shamrock: #2DD070;
+  --color-cod-gray: #1A1A1A;
   --color-torch-red: #FD004D;
   --color-gray: #808080;
   --color-buttercup: #F29E1A;
+  --color-alabaster: #FAFAFA;
+
 }
+
+.fullname {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--color-cod-gray);
+}
+
+.careerlvl {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--color-cod-gray);
+}
+
+.about-me {
+  display: flex;
+  padding-left: 30px;
+  color: var(--color-gray);
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.message__description {
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 15px 25px;
+  justify-content: center;
+  background-color: var(--color-alabaster);
+  color: var(--color-gray);
+  border-radius: 10px;
+  box-shadow: 0 0 0 3px rgb(128, 128, 128, 0.1);
+  margin: 20px;
+}
+
+
+
+
 
 
