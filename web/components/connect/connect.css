@@ -1,0 +1,75 @@
+.connect h3 {
+  margin-left: 60px;
+  margin-top: 50px;
+  color: var(--color-gray);
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  min-width: 302px;
+  height: 302px;
+}
+
+.avatar img {
+  height: 100%;
+  border: 1px solid var(--color-dove-gray);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.svg-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.svg-files {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 320px;
+  padding: 20px;
+  margin: 25px;
+}
+
+.svg-files img {
+  border-radius: 50%;
+  margin-top: 30px;
+  padding: 20px;
+  margin: 3px;
+}
+img:nth-child(1) {
+  background: var(--color-onahau);
+}
+img:nth-child(2) {
+  background: var(--color-granny-apple);
+}
+img:nth-child(3) {
+  background: var(--color-oasis);
+}
+img:nth-child(4) {
+  background: var(--color-onahau-light);
+}
+img:nth-child(5) {
+  background: var(--color-blue-chalk);
+}
+img:nth-child(6) {
+  background: var(--color-pastel-pink);
+}
+img:nth-child(7) {
+  background: var(--color-azalea);
+}
+img:nth-child(8) {
+  background: var(--color-moon-raker);
+}
+img:nth-child(9) {
+  background: var(--color-white-ice);
+}
+img:nth-child(10) {
+  background: var(--color-janna);
+}
+img:nth-child(11) {
+  background: var(--color-double-pearl-lusta);
+}
