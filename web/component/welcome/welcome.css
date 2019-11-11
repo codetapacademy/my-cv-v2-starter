@@ -20,43 +20,35 @@
   background: var(--color-alabaster);
   border-radius: 7px;
   box-shadow: 0 0 9px var(--color-dove-gray), 0 0 8px var(--color-alabaster);
-
 }
 
 .download_wrapper {
   display: flex; 
   justify-content: center;
-  background-color: var(--color-torch-red);
-  width: 140px;
-  height: 40px;
   align-content: center;
-   margin-left: 170px;
-  margin-top: 30px;
-  border-radius: 25px;
+  margin-top: 40px;
 }
 
 .download-button {
+  background-color: var(--color-torch-red);
   text-decoration: none;
-  align-content: center;
+  line-height: 40px;
+  height: 40px;
+  border-radius: 20px;
   color: white;
-  margin-top: 3px;
   font-size: 12px;
-  display: flex;
-  font-weight: Bold;
-  padding: 10px 23px;
+  font-weight: bold;
+  padding: 0px 24px;
 }
 
 
-.down-arrow {
+.arrow {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  height: 40px;
-  width: 40px;
-  background-color: #2DD070;
-  margin-left: 219px;
+  width: 20px;
+  background-color: var(--color-shamrock);
   border-radius: 50%;
-  fill: white;
+  margin: 50px auto;
+  padding: 10px;
 }
 
 /*.section h4 {
