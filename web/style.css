@@ -40,7 +40,8 @@ body {
   color: var(--color-cod-gray);
 }
 
-.about-me {
+.about-me,
+.connect-header {
   display: flex;
   padding: 30px 85px 0;
   color: var(--color-gray);
