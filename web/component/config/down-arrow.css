@@ -1,0 +1,7 @@
+.svg {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  fill: var(--color-white);
+  border-radius: 50%;
+  background: var(--color-shamrock);
+}

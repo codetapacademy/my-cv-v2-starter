@@ -1,0 +1,11 @@
+@import 'component/config/reset.css';
+@import 'component/config/color.css';
+@import 'component/config/down-arrow.css';
+@import 'component/welcome/welcome.css';
+@import 'component/connect/connect.css'
+
+/* .down-arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+} */
