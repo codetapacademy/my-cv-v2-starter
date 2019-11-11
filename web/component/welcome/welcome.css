@@ -1,0 +1,77 @@
+
+.section h1, h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--color-cod-gray);
+}
+
+.section h3 {
+  margin-left: 50px;
+  color: var(--color-gray);
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  margin: 0 40px;
+  padding: 25px;
+  font-size: 13px;
+  color: var(--color-gray);
+  background: var(--color-alabaster);
+  border-radius: 7px;
+  box-shadow: 0 0 9px var(--color-dove-gray), 0 0 8px var(--color-alabaster);
+
+}
+
+.download_wrapper {
+  display: flex; 
+  justify-content: center;
+  background-color: var(--color-torch-red);
+  width: 140px;
+  height: 40px;
+  align-content: center;
+   margin-left: 170px;
+  margin-top: 30px;
+  border-radius: 25px;
+}
+
+.download-button {
+  text-decoration: none;
+  align-content: center;
+  color: white;
+  margin-top: 3px;
+  font-size: 12px;
+  display: flex;
+  font-weight: Bold;
+  padding: 10px 23px;
+}
+
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: #2DD070;
+  margin-left: 219px;
+  border-radius: 50%;
+  fill: white;
+}
+
+/*.section h4 {
+  margin-left: 50px;
+  color: var(--color-gray);
+  display: flex;
+}
+
+.poza_profil {
+  display: flex;
+  justify-content: center;
+  margin: 0 90px;
+  border: 1px solid #A9ADB7;
+  padding: 5px;
+  width: 300px;
+}
+
+
