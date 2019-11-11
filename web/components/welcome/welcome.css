@@ -36,6 +36,7 @@ h2 {
   color: var(--color-white);
   border: none;
   font-size: 0.7rem;
+  text-decoration: none;
 }
 
 .download-button:hover {
