@@ -1,4 +1,5 @@
-@import 'components/config/colors.css';
-@import 'components/config/reset.css';
-@import 'components/welcome/welcome.css';
-@import 'components/connect/connect.css';
+@import "components/config/colors.css";
+@import "components/config/reset.css";
+@import "components/welcome/welcome.css";
+@import "components/connect/connect.css";
+@import "components/skills/skills.css";
