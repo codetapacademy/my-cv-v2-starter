@@ -1,12 +1,17 @@
 .section h4 {
-  margin-left: 50px;
+  margin: 40px;
   color: var(--color-gray);
-  display: flex;
+  height: 15px;
+  font-family: roboto;
+  line-height: 30px;
+  font-size: 22px;
 }
 
 .profile-photo {
-  margin: 30px 0 0 75px;
-  border: 1px solid #FFFFFF width="400";
-  padding: 10px;
-  width: 352px;
+  margin: 0 40px;
+  border: 1px solid #cccccc66;
+  width: 302px;
+  border-radius: 2%;
+  padding: 7px;
 }
+
