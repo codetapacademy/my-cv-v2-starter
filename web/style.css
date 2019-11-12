@@ -94,6 +94,13 @@ body {
   border: 1px dashed black
 }
 
+.connect-icon {
+  display: inline-flex;
+  height: 76px;
+  border-radius: 50%;
+  list-style-type: none;
+}
+
 
 
 
