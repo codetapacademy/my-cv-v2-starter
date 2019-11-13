@@ -114,8 +114,63 @@ body {
   list-style-type: none;
   padding: 15px;
   margin: 25px;
+
 }
 
+
+.connect-icon img {
+  padding: 15px;
+  margin: 5px;
+}
+
+
+li:nth-child(1) {
+  background-color: var(--color-oasis);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(2) {
+  background-color: var(--color-blue-chalk);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(3) {
+  background-color: var(--color-onahau);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(4) {
+  background-color: var(--color-azalea);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(5) {
+  background-color: var(--color-janna);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(6) {
+  background-color: var(--color-oasis);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(7) {
+  background-color: var(--color-onahauu);
+  border-radius: 50%;
+  margin: 2px;
+}
+
+li:nth-child(8) {
+  background-color: var(--color-pastel-pink);
+  border-radius: 50%;
+  margin: 2px;
+}
 
 
 
