@@ -1,0 +1,28 @@
+{
+  "name": "my-cv-v2-starter",
+  "version": "1.0.0",
+  "description": "Project for first timers into web development",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetapacademy/my-cv-v2-starter.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "web",
+    "developer"
+  ],
+  "author": "Marian Zburlea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codetapacademy/my-cv-v2-starter/issues"
+  },
+  "homepage": "https://github.com/codetapacademy/my-cv-v2-starter#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
