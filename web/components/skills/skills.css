@@ -1,8 +1,9 @@
-.skills h3 {
+.skills-title {
   color: var(--color-gray);
+  margin-left: 60px;
 }
 
-.preferences {
+.skills-preferences {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -12,21 +13,21 @@
   border-radius: 15px;
 }
 
-.heart,
-.trophy,
-.book {
+.skills-heart,
+.skills-trophy,
+.skills-book {
   display: flex;
   /* justify-content: center; */
 }
 
-.heart {
+.skills-heart {
   border-bottom: 2px solid var(--color-gallery);
 }
 
 .heart-svg {
   fill: var(--color-torch-red);
 }
-.trophy {
+.skills-trophy {
   border-bottom: 2px solid var(--color-gallery);
 }
 

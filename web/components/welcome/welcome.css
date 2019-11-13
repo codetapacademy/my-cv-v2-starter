@@ -1,16 +1,15 @@
-@import '../config/down-arrow.css';
-.welcome h1,
-h2 {
+@import "../config/down-arrow.css";
+.welcome-title {
   display: flex;
   justify-content: center;
   color: var(--color-cod-gray);
 }
-.welcome h3 {
+.welcome-title__h3 {
   margin-left: 50px;
   color: var(--color-gray);
 }
 
-.p-about {
+.welcome-p {
   display: flex;
   justify-content: center;
   margin: 0 40px;
@@ -22,12 +21,12 @@ h2 {
   box-shadow: 0 0 5px var(--color-dove-gray), 0 0 5px var(--color-alabaster);
 }
 
-.center-btn {
+.welcome-wrapper__button {
   display: flex;
   justify-content: center;
 }
 
-.download-button {
+.welcome-button {
   background-color: var(--color-torch-red);
   margin-top: 20px;
   margin-bottom: 40px;
