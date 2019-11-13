@@ -15,3 +15,78 @@
   padding: 7px;
 }
 
+.icon {
+  height: 76px;
+  border-radius: 50%;
+  display: inline-flex;
+  text-align: center;
+  list-style-type: none;
+  position: absolute;
+
+}
+
+.udemy {
+  background-color: #CCE4FF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+  position: relative;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.facebook { 
+  background-color: #CCF5FF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.github {
+  background-color: #F1DEFF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.skype {
+  background-color: #FFCCDB;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.linkedin {
+  background-color: #FADBD8;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.stackoverflow {
+  background-color: #DFDDF9;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.instagram {
+  background-color: #D4F6F1;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.twitter {
+  background-color: #F4E5D7;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.youtube {
+  background-color: #FCF3CF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
