@@ -2,7 +2,10 @@
 @import 'component/config/color.css';
 @import 'component/config/down-arrow.css';
 @import 'component/welcome/welcome.css';
-@import 'component/connect/connect.css'
+@import 'component/connect/connect.css';
+@import 'component/font/font.css';
+@import 'font.css';
+
 
 /* .down-arrow {
   display: flex;

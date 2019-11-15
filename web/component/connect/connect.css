@@ -1,12 +1,109 @@
 .section h4 {
-  margin-left: 50px;
+  margin: 40px;
   color: var(--color-gray);
-  display: flex;
+  height: 15px;
+  font-family: roboto;
+  line-height: 30px;
+  font-size: 22px;
 }
 
 .profile-photo {
-  margin: 30px 0 0 75px;
-  border: 1px solid #FFFFFF width="400";
-  padding: 10px;
-  width: 352px;
+  margin: 0 40px;
+  border: 1px solid #cccccc66;
+  width: 302px;
+  border-radius: 2%;
+  padding: 7px;
+}
+
+/*.icon {
+  height: 76px;
+  border-radius: 50%;
+  display: inline-flex;
+  text-align: center;
+  list-style-type: none;
+  position: absolute;
+
+}
+
+.udemy {
+  background-color: #CCE4FF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+  position: relative;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.facebook { 
+  background-color: #CCF5FF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.github {
+  background-color: #F1DEFF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.skype {
+  background-color: #FFCCDB;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.linkedin {
+  background-color: #FADBD8;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.stackoverflow {
+  background-color: #DFDDF9;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.instagram {
+  background-color: #D4F6F1;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.twitter {
+  background-color: #F4E5D7;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.youtube {
+  background-color: #FCF3CF;
+  padding: 20px 0;
+  width: 76px;
+  border-radius: 50%;
+}
+*/
+
+.icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  text-align: center;
+  list-style-type: none;
+  position: absolute;
+ 
+}
+
+..my-cv__icon--facebook2 {
+  background-color: sandybrown;
+  border-radius: 50%;
 }
