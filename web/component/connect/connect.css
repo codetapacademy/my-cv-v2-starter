@@ -15,7 +15,7 @@
   padding: 7px;
 }
 
-.icon {
+/*.icon {
   height: 76px;
   border-radius: 50%;
   display: inline-flex;
@@ -88,5 +88,22 @@
   background-color: #FCF3CF;
   padding: 20px 0;
   width: 76px;
+  border-radius: 50%;
+}
+*/
+
+.icons {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-flex;
+  text-align: center;
+  list-style-type: none;
+  position: absolute;
+ 
+}
+
+..my-cv__icon--facebook2 {
+  background-color: sandybrown;
   border-radius: 50%;
 }
