@@ -1,0 +1,51 @@
+@import "../config/down-arrow.css";
+.welcome-title {
+  display: flex;
+  justify-content: center;
+  color: var(--color-cod-gray);
+}
+.welcome-title__h3 {
+  margin-left: 50px;
+  color: var(--color-gray);
+}
+
+.welcome-p {
+  display: flex;
+  justify-content: center;
+  margin: 0 40px;
+  padding: 25px;
+  font-size: 1rem;
+  color: var(--color-gray);
+  background: var(--color-alabaster);
+  border-radius: 7px;
+  box-shadow: 0 0 5px var(--color-dove-gray), 0 0 5px var(--color-alabaster);
+}
+
+.welcome-wrapper__button {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-button {
+  background-color: var(--color-torch-red);
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: var(--color-white);
+  border: none;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background: var(--color-shamrock);
+  color: var(--color-dodger-blue);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.arrow-svg {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

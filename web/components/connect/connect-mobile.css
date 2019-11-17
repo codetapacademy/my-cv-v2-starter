@@ -1,0 +1,98 @@
+.connect-title {
+  margin-left: 60px;
+  margin-top: 50px;
+  color: var(--color-gray);
+}
+
+.connect-avatar {
+  display: flex;
+  justify-content: center;
+  min-width: 302px;
+  height: 302px;
+}
+
+.connect-avatar__imag {
+  height: 100%;
+  border: 1px solid var(--color-dove-gray);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.connect-svg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.connect-svg__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 320px;
+  padding: 10px;
+  margin: 25px;
+}
+
+.connect-svg__list img {
+  border-radius: 50%;
+  margin-top: 30px;
+  padding: 15px;
+  margin: 3px;
+}
+
+li:nth-child(1) {
+  border-radius: 50%;
+  background: var(--color-onahau);
+  margin: 3px;
+}
+li:nth-child(2) {
+  border-radius: 50%;
+  background: var(--color-granny-apple);
+  margin: 3px;
+}
+li:nth-child(3) {
+  border-radius: 50%;
+  background: var(--color-oasis);
+  margin: 3px;
+}
+li:nth-child(4) {
+  border-radius: 50%;
+  background: var(--color-onahau-light);
+  margin: 3px;
+}
+li:nth-child(5) {
+  border-radius: 50%;
+  background: var(--color-blue-chalk);
+  margin: 3px;
+}
+li:nth-child(6) {
+  border-radius: 50%;
+  background: var(--color-pastel-pink);
+  margin: 3px;
+}
+li:nth-child(7) {
+  border-radius: 50%;
+  background: var(--color-azalea);
+  margin: 3px;
+}
+li:nth-child(8) {
+  border-radius: 50%;
+  background: var(--color-moon-raker);
+  margin: 3px;
+}
+li:nth-child(9) {
+  border-radius: 50%;
+  background: var(--color-white-ice);
+  margin: 3px;
+}
+li:nth-child(10) {
+  border-radius: 50%;
+  background: var(--color-janna);
+  margin: 3px;
+}
+li:nth-child(11) {
+  border-radius: 50%;
+  background: var(--color-double-pearl-lusta);
+  margin: 3px;
+}
