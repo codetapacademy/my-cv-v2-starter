@@ -1,0 +1,95 @@
+@import "../config/up-arrow.css";
+
+.skills-container {
+  width: 300px;
+  height: 150px;
+  display: table;
+  box-sizing: border-box;
+  border: 2px solid var(--color-gallery);
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+.skills-row {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid var(--color-gallery);
+}
+
+.skills-row:last-child {
+  border-bottom: none;
+}
+
+.skills-column {
+  display: table-cell;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.heart-svg {
+  fill: var(--color-torch-red);
+}
+.trophy-svg {
+  fill: var(--color-shamrock);
+}
+.book-svg {
+  fill: var(--color-buttercup);
+}
+
+.arrow-up {
+  transform: translate(180deg);
+}
+
+.front-end div,
+.backend div,
+.others div {
+  display: inline-block;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 10px 10px;
+  padding: 10px 20px;
+  color: var(--color-white);
+}
+
+.front-end,
+.backend,
+.others {
+  width: 300px;
+  margin-left: 40px;
+}
+
+.front-end div:nth-child(1),
+.front-end div:nth-child(3),
+.front-end div:nth-child(5) {
+  background: var(--color-torch-red);
+}
+.front-end div:nth-child(2),
+.front-end div:nth-child(4) {
+  background: var(--color-shamrock);
+}
+
+.backend div:nth-child(1),
+.backend div:nth-child(4) {
+  background: var(--color-buttercup);
+}
+.backend div:nth-child(1),
+.backend div:nth-child(4) {
+  background: var(--color-buttercup);
+}
+
+.backend div:nth-child(2),
+.backend div:nth-child(3) {
+  background: var(--color-shamrock);
+}
+
+.others div:nth-child(1),
+.others div:nth-child(3),
+.others div:nth-child(4) {
+  background: var(--color-shamrock);
+}
+
+.others div:nth-child(2),
+.others div:nth-child(5) {
+  background: var(--color-buttercup);
+}

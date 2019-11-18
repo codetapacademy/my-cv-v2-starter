@@ -1,0 +1,11 @@
+@media (min-width: 1280px) {
+  .connect-content {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 1100px;
+  }
+  .connect-svg__list {
+    min-width: 600px;
+    height: max-content;
+  }
+}

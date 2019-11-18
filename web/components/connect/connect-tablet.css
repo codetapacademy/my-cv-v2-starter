@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .connect-content {
+    display: flex;
+    margin-left: 40px;
+    width: 50%;
+  }
+}

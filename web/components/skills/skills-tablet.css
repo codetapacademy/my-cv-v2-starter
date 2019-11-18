@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .skills-title {
+    margin-left: 50px;
+    color: var(--color-gray);
+  }
+  .skills-container {
+    margin-left: 40%;
+  }
+
+  .front-end,
+  .backend,
+  .others {
+    width: auto;
+    margin-left: 40px;
+  }
+}
