@@ -30,11 +30,13 @@ h2 {
 .download-button {
   background-color: var(--color-torch-red);
   margin-top: 20px;
+  margin-bottom: 40px;
   padding: 10px 20px;
   border-radius: 20px;
   color: var(--color-white);
   border: none;
   font-size: 0.7rem;
+  text-decoration: none;
 }
 
 .download-button:hover {
