@@ -1,0 +1,90 @@
+/* Reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  --color-shamrock: #2DD070;
+  --color-cod-gray: #1A1A1A;
+  --color-torch-red: #FD004D;
+  --color-gray: #808080;
+  --color-buttercup: #F29E1A;
+  --color-alabaster: #FAFAFA;
+  --color-white: #FFFFFF;
+
+}
+
+.fullname {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--color-cod-gray);
+}
+
+.careerlvl {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--color-cod-gray);
+}
+
+.about-me {
+  display: flex;
+  padding: 30px 85px 0;
+  color: var(--color-gray);
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.message__description {
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 20px 15px 49px 15px;
+  justify-content: center;
+  background-color: var(--color-alabaster);
+  color: var(--color-gray);
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 1px rgb(128, 128, 128, 0.5);
+  margin: 10px 70px 25px 70px;
+}
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-torch-red);
+  text-decoration: none;
+  color: var(--color-white);
+  width: 140px;
+  height: 40px;
+  margin: auto;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+.arrow {
+  background-color: var(--color-shamrock);
+  display: flex;
+  margin: 60px auto;
+  width: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+
+
