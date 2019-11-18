@@ -31,47 +31,54 @@ body {
   --color-double-pearl-lusta: #FCF3CF;
   --color-azalea: #FADBD8;
   --color-pastel-pink: #FFCCDB;
-
 }
 
 .fullname {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
-  font-size: 36px;
-  font-weight: normal;
+  text-align: center;
+  margin-top: 25px;
+  font-size:  36px;
+  font-weight: 500;
+  height: 40px;
   color: var(--color-cod-gray);
 }
 
 .careerlvl {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 500;
+  margin-top: 10px;
   color: var(--color-cod-gray);
 }
 
 .about-me,
 .connect-header {
   display: flex;
-  padding: 30px 85px 0;
+  padding: 0px 43px 0;
   color: var(--color-gray);
-  font-weight: normal;
+  font-weight: 500;
   font-size: 22px;
   margin-top: 50px;
 }
 
-.message__description {
-  display: flex;
-  font-size: 14px;
-  font-weight: normal;
-  padding: 20px 15px 49px 15px;
-  justify-content: center;
+.message__wrapper {
+  margin-top: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 6px rgb(0, 0, 0, 0.25);
   background-color: var(--color-alabaster);
+  border-radius: 6px;
+  margin: 10px 36px;
+  padding: 20px;
+}
+
+.message__description {
+  font-size: 14px;
+  font-weight: 500;
   color: var(--color-gray);
-  border-radius: 10px;
-  box-shadow: 0px 2px 4px 1px rgb(128, 128, 128, 0.5);
-  margin: 10px 70px 25px 70px;
+  line-height: 30px;
 }
 
 .download-button {
@@ -83,8 +90,10 @@ body {
   width: 140px;
   height: 40px;
   margin: auto;
-  padding: 10px;
+  margin-top: 50px;
+  padding: 12px;
   font-size: 12px;
+  font-weight: bold;
   border-radius: 25px;
 }
 
@@ -93,41 +102,45 @@ body {
   background-color: var(--color-shamrock);
   display: flex;
   margin: 60px auto;
+  margin-top: 50px;
   width: 40px;
   padding: 10px;
   border-radius: 50%;
 }
 
-.insta-pic {
+.picture-wrapper{
   float:left;
-  width: 352px;
+  border: 1px solid black;
+  margin: 20px 36px;
+  border-radius: 6px;
+}
+.insta-pic {
+  /* display flex is here because is taking out the extra padding witch should not be there */
+  display: flex;
+  width: 302px;
+  border-radius: 6%;
   padding: 10px;
-  margin: 30px 0 0 75px;
-  border: 1px dashed black;
-  border-radius: 2%;
 }
 
 .connect-icon {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: space-around;
   list-style-type: none;
   padding: 15px;
   margin: 25px;
-
 }
-
 
 .connect-icon img {
   padding: 15px;
   margin: 5px;
 }
 
-
 li:nth-child(1) {
   background-color: var(--color-oasis);
   border-radius: 50%;
   margin: 2px;
+
 }
 
 li:nth-child(2) {
@@ -171,7 +184,6 @@ li:nth-child(8) {
   border-radius: 50%;
   margin: 2px;
 }
-
 
 .connect-arrow {
   clear:both;
