@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
+@import "font.css";
+
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -35,6 +37,7 @@ collumn[height="30"] {
   height: 30px;
   font-size: 22px;
   margin: 0;
+  color: #808080;
 }
 
 .box-shadow {
@@ -48,6 +51,7 @@ collumn[height="30"] {
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
+  color: #808080;
 }
 
 .button__cv {
@@ -68,6 +72,7 @@ collumn[height="30"] {
   height: 40px;
   width: 40px;
   border: 0;
+  font-size: 18px;
 }
 
 .text-center {
