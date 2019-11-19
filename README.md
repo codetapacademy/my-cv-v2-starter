@@ -1,5 +1,6 @@
 # My CV v2 - starter
 
+Nice
 This is the 2nd attempt of Bogdan Negura to have fun with HTML and CSS while building an amazing CV.
 
 Welcome to version two of the project **My CV**. This is the starter version and it's aimed for people that are starting their 1st website or are at the very beginning of their web developer career.
@@ -32,10 +33,10 @@ You want to go to the [My CV v2 - starter](https://github.com/codetapacademy/my-
 To start with you want to switch to your personalised branch, like your first and last name, `marian-zburlea`.
 Example: `git checkout marian-zburlea`
 
-Once you have switched to your personalised branch you want to create your first branch out of it. 
+Once you have switched to your personalised branch you want to create your first branch out of it.
 
 In this project we have three sections: **welcome**, **connect** and **skills**.
-There should be three branches `marian-zburlea-welcome`, `marian-zburlea-connect` and `marian-zburlea-skills` created by the and of the project. 
+There should be three branches `marian-zburlea-welcome`, `marian-zburlea-connect` and `marian-zburlea-skills` created by the and of the project.
 
 To create your first branch you can write `git checkout -b marian-zburlea-welcome`. Start solving the first section before creating your second and third branch. Once you have at least one or more changes in your newly created branch, you can create a _pull request_ to the original project. Make sure to create the PR against your personalised branch and not against the _master_ branch. Consider asking for help from your mentor, mentor assistant or other more experienced students if you run into trouble.
 
@@ -52,6 +53,6 @@ To check your current path and make sure you are or you aren't in your `web` fol
 
 I hope you'll enjoy this project and have fun while you're at it. Stay tuned for more projects to come and the tutorial for this one by following https://codetap.academy and consider subscribing as well. The next projects from this series will be:
 
-* `My CV v2 - Junior` where we'll have fun using `pug-starter`
-* `My CV v2 - Mid` where we'll have fun using `React`
-* `My CV v2 - Senior` where we'll have fun using `React` and `NodeJS`
+- `My CV v2 - Junior` where we'll have fun using `pug-starter`
+- `My CV v2 - Mid` where we'll have fun using `React`
+- `My CV v2 - Senior` where we'll have fun using `React` and `NodeJS`
