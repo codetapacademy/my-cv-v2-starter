@@ -33,6 +33,8 @@ body {
   --color-azalea: #FADBD8;
   --color-pastel-pink: #FFCCDB;
   --color-buttercup: #F29E1A;
+  --color-dusty-gray: #999999;
+  --color-gallery: #F0F0F0;
 }
 
 .fullname {
@@ -144,50 +146,50 @@ body {
   margin: 5px;
 }
 
-li:nth-child(1) {
+li > [class^="circle-"]:nth-child(1) {
   background-color: var(--color-oasis);
   border-radius: 50%;
   margin: 2px;
 
 }
 
-li:nth-child(2) {
+li > [class^="circle-"]:nth-child(2) {
   background-color: var(--color-blue-chalk);
   border-radius: 50%;
   margin: 2px;
 }
 
-li:nth-child(3) {
+li > [class^="circle-"]:nth-child(3) {
   background-color: var(--color-onahau);
   border-radius: 50%;
   margin: 2px;
 }
 
-li:nth-child(4) {
+li > [class^="circle-"]:nth-child(4) {
   background-color: var(--color-azalea);
   border-radius: 50%;
   margin: 2px;
 }
 
-li:nth-child(5) {
+li > [class^="circle-"]:nth-child(5) {
   background-color: var(--color-janna);
   border-radius: 50%;
   margin: 2px;
 }
 
-li:nth-child(6) {
+li >[class^="circle-"]:nth-child(6) {
   background-color: var(--color-oasis);
   border-radius: 50%;
   margin: 2px;
 }
 
-li:nth-child(7) {
+li > [class^="circle-"]:nth-child(7) {
   background-color: var(--color-onahauu);
   border-radius: 50%;
   margin: 2px;
 }
 
-li:nth-child(8) {
+li > [class^="circle-"]:nth-child(8) {
   background-color: var(--color-pastel-pink);
   border-radius: 50%;
   margin: 2px;
@@ -199,4 +201,50 @@ li:nth-child(8) {
   transform: rotateX(180deg);
   margin-bottom: 50px;
 }
+
+table, td {
+  border: 2px solid var(--color-gallery);
+  border-radius: 20px;
+  /* border-collapse: collapse; */
+}
+
+table,tr, td:nth-child(even) {
+  border-left: none;
+}
+
+table,tr, td:nth-child(odd) {
+  border-right: none;
+}
+
+.table-wrapper {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--color-dusty-gray);
+  width: 300px;
+  height: 150px;
+  margin: 36px;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.my-cv__heart {
+  color: var(--color-torch-red);
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.my-cv__trophy {
+  color: var(--color-shamrock);
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.my-cv__book {
+  color: var(--color-buttercup);
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+
 
