@@ -11,7 +11,7 @@ grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
 }
-grid > collumn {
+grid > column {
   grid-column-start: 1;
   grid-column-end: -1;
 }
@@ -29,7 +29,7 @@ grid > collumn {
   font-size: 24px;
   text-align: center;
 }
-collumn[height="30"] {
+column[height="30"] {
   height: 30px;
 }
 
