@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -30,6 +30,7 @@ grid > c {
 }
 
 .third-title {
+  color: #808080;
   height: 30px;
   font-size: 22px;
   margin: 0;
@@ -50,4 +51,30 @@ c[height="30"] {
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
+}
+
+.download__wrapper {
+  background-color: #FE004E;
+  border-radius: 20px;
+  height: 40px;
+  width: 140px;
+  margin: auto;
+}
+
+.download_button {
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 0 24px;
+  line-height: 40px;
+}
+
+.button__disc {
+  background-color: #2dd070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: auto;
 }
