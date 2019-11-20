@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'my-cv';
+  src:
+    url('fonts/my-cv.ttf?bmy7pc') format('truetype'),
+    url('fonts/my-cv.woff?bmy7pc') format('woff'),
+    url('fonts/my-cv.svg?bmy7pc#my-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-cv__"], [class*=" my-cv__"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-cv' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-cv__codetap .path1:before {
+  content: "\e900";
+  color: rgb(68, 68, 68);
+}
+.my-cv__codetap .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv__codetap .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv__codetap .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv__codewars:before {
+  content: "\e904";
+}
+.my-cv__arrow-down:before {
+  content: "\e905";
+}
+.my-cv__book:before {
+  content: "\e906";
+}
+.my-cv__codetap1 .path1:before {
+  content: "\e907";
+  color: rgb(68, 68, 68);
+}
+.my-cv__codetap1 .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv__codetap1 .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv__codetap1 .path4:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv__facebook:before {
+  content: "\e90b";
+}
+.my-cv__github:before {
+  content: "\e90c";
+}
+.my-cv__instagram:before {
+  content: "\e90d";
+}
+.my-cv__linkedin:before {
+  content: "\e90e";
+}
+.my-cv__skype:before {
+  content: "\e90f";
+}
+.my-cv__stackoverflow:before {
+  content: "\e910";
+}
+.my-cv__trophy:before {
+  content: "\e911";
+}
+.my-cv__twitter:before {
+  content: "\e912";
+}
+.my-cv__udemy:before {
+  content: "\e913";
+}
+.my-cv__youtube:before {
+  content: "\e914";
+}
+.my-cv__heart:before {
+  content: "\e9da";
+}
