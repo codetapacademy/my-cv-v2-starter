@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'my-cv';
+  src:
+    url('fonts/my-cv.ttf?pbrivm') format('truetype'),
+    url('fonts/my-cv.woff?pbrivm') format('woff'),
+    url('fonts/my-cv.svg?pbrivm#my-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-cv-"], [class*=" my-cv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-cv' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-cv-arrow-down:before {
+  content: "\e900";
+}
+.my-cv-book:before {
+  content: "\e901";
+}
+.my-cv-codetap .path1:before {
+  content: "\e902";
+  color: rgb(68, 68, 68);
+}
+.my-cv-codetap .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv-codetap .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv-codetap .path4:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.my-cv-codewars:before {
+  content: "\e906";
+}
+.my-cv-facebook:before {
+  content: "\e907";
+}
+.my-cv-github:before {
+  content: "\e908";
+}
+.my-cv-instagram:before {
+  content: "\e909";
+}
+.my-cv-linkedin:before {
+  content: "\e90a";
+}
+.my-cv-skype:before {
+  content: "\e90b";
+}
+.my-cv-stackoverflow:before {
+  content: "\e90c";
+}
+.my-cv-trophy:before {
+  content: "\e90d";
+}
+.my-cv-twitter:before {
+  content: "\e90e";
+}
+.my-cv-udemy:before {
+  content: "\e90f";
+}
+.my-cv-youtube:before {
+  content: "\e910";
+}
