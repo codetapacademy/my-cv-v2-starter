@@ -2,6 +2,10 @@
 
 @import "font.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -77,4 +81,16 @@ column[height="30"] {
 
 .text-center {
   text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.image-wrapper {
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px solid #808080;
 }
