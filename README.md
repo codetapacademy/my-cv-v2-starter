@@ -2,12 +2,39 @@
 
 Welcome to version two of the project **My CV**. This is the starter version and it's aimed for people that are starting their 1st website or are at the very beginning of their web developer career.
 
+## Table of contents
+
+1. [What do you get out of it?](#what-do-you-get-out-of-it)
+1. [Requirement](#requirement)
+1. [How to start?](#how-to-start)
+1. [Tips](#tips)
+1. [Good luck](#good-luck)
+
+## What do you get out of it
+
+This is your first PROfessional website where you'll:
+1. use Visual Studio Code as your editor
+1. use simple icons by creating custom fonts
+1. read a design and create pixel perfect interface
+1. read instructions, understand and follow requirements
+1. create a SPA (single page application)
+1. build multiple sections like: about me, let's connect and skills
+1. implement a responsive layout
+1. meet the user with a light or dark theme
+1. create lists, buttons, containers and more
+
+[Back to **Table of contents**](#table-of-contents)
+
+## Requirement
+
 While building this website you want to use only HTML and CSS. No other libraries are required or suggested.
 As visual guidance you can open the _my-cv-v2-starter.pdf_ or _my-cv-v2-starter.xd_ file from the _requirement_ folder. You can download and use the free version of [**Adobe Acrobat Reader**](https://get.adobe.com/uk/reader/) to read the _pdf_ file or the free version of [**Adobe XD**](https://www.adobe.com/uk/products/xd.html) to open the _xd_ file.
 
 You are also provided with an image which can be found in `requirement/image` and multiple svg files which can be found in `requirement/svg`. You should use the provided svg files. You can use the provided image or replace it with your own as long as it is a square shape (the width and height are the same).
 
 You want to leave alone all the provided files and folder structure and not make any changes with the exception of the `web` folder. All your work should be present in the `web` folder. So if you want to create any files and folder, you want to do it only inside the `web` folder.
+
+[Back to **Table of contents**](#table-of-contents)
 
 ## How to start
 
@@ -37,6 +64,8 @@ There should be three branches `marian-zburlea-welcome`, `marian-zburlea-connect
 
 To create your first branch you can write `git checkout -b marian-zburlea-welcome`. Start solving the first section before creating your second and third branch. Once you have at least one or more changes in your newly created branch, you can create a _pull request_ to the original project. Make sure to create the PR against your personalised branch and not against the _master_ branch. Consider asking for help from your mentor, mentor assistant or other more experienced students if you run into trouble.
 
+[Back to **Table of contents**](#table-of-contents)
+
 ## Tips
 
 If you have `NodeJS` installed consider installing one of the projects `live-server` or `lite-server`. For a beginner they do the same thing so flip a coin if you're unsure.
@@ -53,3 +82,5 @@ I hope you'll enjoy this project and have fun while you're at it. Stay tuned for
 * `My CV v2 - Junior` where we'll have fun using `pug-starter`
 * `My CV v2 - Mid` where we'll have fun using `React`
 * `My CV v2 - Senior` where we'll have fun using `React` and `NodeJS`
+
+[Back to **Table of contents**](#table-of-contents)
