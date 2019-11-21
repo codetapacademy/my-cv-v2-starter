@@ -45,6 +45,18 @@ c[height="30"] {
   height: 30px;
 }
 
+c[span="1"] {
+  grid-column-end: span 1;
+}
+
+.social-icon {
+  width: 100%;
+  padding-top: 100%;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  display: block;
+}
+
 .box-shadow {
   background-color: #fafafa;
   padding: 20px;
