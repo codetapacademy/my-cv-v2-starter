@@ -15,9 +15,14 @@ grid {
   grid-gap: 10px;
 }
 
+grid > c[span="row"] {
+  /* grid-column-start :1; */
+  /* grid-column-end: -1; */
+  grid-column: 1 / -1;
+}
+
 grid > c {
-  grid-column-start :1;
-  grid-column-end: -1;
+  overflow: hidden;
 }
 
 .first-title {
@@ -49,12 +54,19 @@ c[span="1"] {
   grid-column-end: span 1;
 }
 
-.social-icon {
+a[class^="social-icon__"] {
   width: 100%;
   padding-top: 100%;
-  background-color: lightsteelblue;
   border-radius: 50%;
   display: block;
+}
+
+.social-icon__onahau {
+  background-color: #CCE4FF;
+}
+
+.social-icon__granny-apple {
+  background-color: #D4F5E2;
 }
 
 .box-shadow {
