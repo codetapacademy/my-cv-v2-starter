@@ -20,6 +20,18 @@ grid > column {
   grid-column-end: -1;
 }
 
+column[span="1"] {
+  grid-column-end: 1;
+}
+
+.disc-link {
+  width: 100%;
+  padding-top: 100%;
+  background-color: lightgreen;
+  border-radius: 50%;
+  display: block;
+}
+
 .maine-title {
   height: 40px;
   margin: 0;
