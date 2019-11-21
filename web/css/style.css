@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 @import 'font.css';
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -87,3 +91,15 @@ c[height="30"] {
   text-align: center;
 }
 
+.picture {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px groove #808080;
+}
+
+.image-wrapper {
+  border-radius:6px;
+  padding: 8px;
+  border: 1px groove #808080;
+
+}
