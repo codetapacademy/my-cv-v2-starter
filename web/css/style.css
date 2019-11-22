@@ -177,7 +177,6 @@ a[class^="social-icon__"] > [class^="my-cv-"]::before {
 
 .image-wrapper {
   border-radius:6px;
-  padding: 8px;
-  border: 1px groove #808080;
-
+  padding: 8px 8px 4px;
+  border: 1px solid #808080;
 }
