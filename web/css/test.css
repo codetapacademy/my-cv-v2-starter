@@ -1,0 +1,19 @@
+[class^="test"] {
+  padding: 1rem;
+}
+
+.test-1 {
+  background-color: #cc0000;
+}
+
+.test-2 {
+  background-color: #036;
+}
+
+.test-3 {
+  background-color: #0f0;
+}
+
+.test-4 {
+  background-color: #f0f;
+}
