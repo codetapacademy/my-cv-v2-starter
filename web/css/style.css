@@ -15,21 +15,31 @@ grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+grid > column[span="row"] {
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  grid-column: 1 / -1;
+}
 grid > column {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  overflow: hidden;
 }
 
 column[span="1"] {
-  grid-column-end: 1;
+  grid-column-end: span 1;
 }
 
-.disc-link {
+a[class^="disc-link__"] {
   width: 100%;
   padding-top: 100%;
-  background-color: lightgreen;
   border-radius: 50%;
   display: block;
+}
+
+.disc-link__onahau {
+  background-color: #cce4ff;
+}
+.disc-link__granny-apple {
+  background-color: #d4f5e2;
 }
 
 .maine-title {
