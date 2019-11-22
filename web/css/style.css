@@ -79,12 +79,48 @@ a[class^="social-icon__"] > [class^="my-cv-"]::before {
   font-size: 8vw;
 }
 
-.social-icon__onahau {
+.social-icon__onahau-dark {
   background-color: #CCE4FF;
 }
 
 .social-icon__granny-apple {
   background-color: #D4F5E2;
+}
+
+.social-icon__oasis {
+  background-color: #FDEBCF;
+}
+
+.social-icon__onahau-light {
+  background-color: #CCF5FF;
+}
+
+.social-icon__blue-chalk {
+  background-color: #F1DEFF;
+}
+
+.social-icon__pastel-pink {
+  background-color: #FFCCDB;
+}
+
+.social-icon__azalea {
+  background-color: #FADBD8;
+}
+
+.social-icon__moon-raker {
+  background-color: #DFDDF9;
+}
+
+.social-icon__white-ice {
+  background-color: #D4F6F1;
+}
+
+.social-icon__janna {
+  background-color: #F4E5D7;
+}
+
+.social-icon__double-pearl-lusta {
+  background-color: #FCF3CF;
 }
 
 .box-shadow {
