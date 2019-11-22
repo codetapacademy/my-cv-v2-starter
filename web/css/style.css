@@ -56,6 +56,32 @@ grid > c {
   font-size: 20px;
 }
 
+.skills-button__torch-red {
+  background-color: #fd004d;
+}
+
+.skills-button__shamrock {
+  background-color: #2dd070;
+}
+
+.skills-button__buttercup {
+  background-color: #f29e1a;
+}
+
+.skills-button__torch-red,
+.skills-button__shamrock, 
+.skills-button__buttercup {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
 c[height="30"] {
   height: 30px;
 }
