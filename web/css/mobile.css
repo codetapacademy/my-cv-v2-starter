@@ -116,6 +116,12 @@ grid > c {
   margin-bottom: 10px;
 }
 
+.borders-space-color {
+  background-color: #fff;
+  border-radius: 6px;
+
+}
+
 .skills-button__torch-red {
   background-color: #fd004d;
 }
