@@ -88,6 +88,7 @@ grid > c {
   padding-left: 0;
   border-radius: 15px;
   overflow: hidden;
+  margin: 20px;
 }
 
 .skills-item:not(:last-child) {
@@ -96,13 +97,43 @@ grid > c {
 
 .skills-item:hover {
   background-color: #fafafa;
+}
 
+.skills-item > span[class^="my-cv-heart"] {
+  color: #FE004E;
+}
+
+.skills-item > span[class^="my-cv-trophy"] {
+  color: #2dd070;
+}
+
+.skills-item > span[class^="my-cv-book"] {
+  color: #f29e1a;
+}
+
+.skills-item > span[class^="my-cv-"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-item {
   height: 52px;
   line-height: 32px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.item-count {
+  padding-right: 20px;
+}
+
+.item-description {
+  padding: 0 10px;
+  flex-grow: 1;
 }
 
 .skills-list {
