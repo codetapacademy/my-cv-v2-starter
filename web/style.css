@@ -2,27 +2,40 @@
 
 body {
   font-family: Roboto, sans-serif;
-}
-
-.main-header-fullname {
-  height: 40px;
-  font-size: 36px;
-  text-align: center;
-}
-
-.second-header {
-  height: 30px;
-  font-size: 24px;
-  text-align: center;
-}
-
-.about-me-header {
-  height: 30px;
-  font-size: 22px;
+  margin: 0 36px;
 }
 
 grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
+}
+
+grid > colum {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.main-header-fullname {
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.second-header {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.about-me-header {
+  height: 30px;
+  font-size: 22px;
+  margin: 0;
+}
+
+colum[height="30"] {
+  height: 30px;
 }
