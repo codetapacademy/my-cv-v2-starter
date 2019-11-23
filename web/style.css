@@ -52,3 +52,27 @@ colum[height="30"] {
   font-weight: 500;
   line-height: 30px;
 }
+
+.download-button {
+  background-color: #FE004E;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.button-circle {
+  background-color: #2DD070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+}
+
+.move-into-center {
+  text-align: center;
+}
