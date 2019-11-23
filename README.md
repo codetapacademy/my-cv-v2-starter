@@ -12,7 +12,7 @@ Welcome to version two of the project **My CV**. This is the starter version and
 
 ## What do you get out of it
 
-This is your first PROfessional website where you'll:
+This is your first PROfessional website where you'll master how to:
 1. use Visual Studio Code as your editor
 1. use simple icons by creating custom fonts
 1. read a design and create pixel perfect interface
