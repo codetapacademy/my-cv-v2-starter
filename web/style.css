@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+@import 'css/font.css';
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 36px;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+grid > colum {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.main-header-fullname {
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.second-header {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.about-me-header {
+  height: 30px;
+  font-size: 22px;
+  margin: 0;
+  color: #808080;
+  font-weight: 500;
+}
+
+colum[height="30"] {
+  height: 30px;
+}
+
+.paragraph-wrapper {
+  background-color: #FAFAFA;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.text-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;  
+}
+
+.download-button {
+  background-color: #FE004E;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.button-circle {
+  background-color: #2DD070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 20px;
+}
+
+.move-into-center {
+  text-align: center;
+}
