@@ -54,8 +54,45 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
 .disc-link__onahau {
   background-color: #cce4ff;
 }
+
 .disc-link__granny-apple {
   background-color: #d4f5e2;
+}
+
+.disc-link__onahau-2 {
+  background-color: #ccf5ff;
+}
+
+.disc-link__oasis {
+  background-color: #fdebcf;
+}
+
+.disc-link__blue-chalk {
+  background-color: #f1deff;
+}
+
+.disc-link__pastel-pink {
+  background-color: #ffccdb;
+}
+
+.disc-link__azalea {
+  background-color: #fadbd8;
+}
+
+.disc-link__moon-raker {
+  background-color: #dfddf9;
+}
+
+.disc-link__white-ice {
+  background-color: #d4f6f1;
+}
+
+.disc-link__janna {
+  background-color: #f4e5d7;
+}
+
+.disc-link__double-pearl-lusta {
+  background-color: #fcf3cf;
 }
 
 .maine-title {
