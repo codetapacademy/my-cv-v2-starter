@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(0, 0%, 0%);
+  }
+  .first-title,
+  .second-title {
+    color: hsl(0, 0%, 90%);
+  }
+  .skills-details {
+    background-color: hsl(0, 0%, 0%);
+    border: 2px solid hsl(0, 0%, 6%);
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  .skills-item:hover {
+    background-color: hsl(0, 0%, 2%);
+  }
+  .skills-item:not(:last-child) {
+    border-bottom: 2px solid hsl(0, 0%, 6%);
+  }
+}
