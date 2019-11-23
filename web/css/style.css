@@ -136,8 +136,13 @@ grid > c {
   flex-grow: 1;
 }
 
+.skills-list-last,
 .skills-list {
-  padding: 20px 0;
+  padding-top: 20px;
+}
+
+.skills-list {
+  padding-bottom: 20px;
 }
 
 c[height="30"] {
@@ -264,7 +269,7 @@ a[class^="social-icon__"] > [class^="my-cv-"]::before {
 .picture {
   width: 100%;
   border-radius: 5px;
-  border: 1px groove #808080;
+  border: 1px solid #808080;
 }
 
 .image-wrapper {
