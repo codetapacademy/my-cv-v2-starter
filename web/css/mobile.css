@@ -20,7 +20,7 @@ grid > c[span="row"] {
 }
 
 grid > c {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .first-title {

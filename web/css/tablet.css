@@ -21,5 +21,10 @@
   .my-cv-codetap .path4:before {
     font-size: 4vw;
   }
+
+  body {
+    font-family: Roboto;
+    margin: 0 80px;
+  }
 }
 
