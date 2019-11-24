@@ -112,11 +112,19 @@ column[height="30"] {
   height: 30px;
 }
 
-.section-title {
+.section-title,
+.section-subtitle {
   height: 30px;
-  font-size: 22px;
   margin: 0;
   color: #808080;
+}
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-subtitle {
+  font-size: 20px;
 }
 
 .box-shadow {
