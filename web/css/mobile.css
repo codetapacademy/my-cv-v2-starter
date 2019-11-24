@@ -237,6 +237,7 @@ a[class^="social-icon__"] > [class^="my-cv-"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: hsl(0, 0%, 0%);
 }
 
 a[class^="social-icon__"] > [class^="my-cv-"]::before {
