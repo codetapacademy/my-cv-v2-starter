@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?stwzkf') format('truetype'),
-    url('fonts/my-cv.woff?stwzkf') format('woff'),
-    url('fonts/my-cv.svg?stwzkf#my-cv') format('svg');
+    url('fonts/my-cv.ttf?bmbbon') format('truetype'),
+    url('fonts/my-cv.woff?bmbbon') format('woff'),
+    url('fonts/my-cv.svg?bmbbon#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.my-cv-heart:before {
+  content: "\e9da";
+}
 .my-cv-arrow-down:before {
   content: "\e900";
 }

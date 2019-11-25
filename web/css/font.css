@@ -97,3 +97,6 @@
 .my-cv-youtube:before {
   content: "\e910";
 }
+.my-cv-heart:before {
+  content: "\e9da";
+}
