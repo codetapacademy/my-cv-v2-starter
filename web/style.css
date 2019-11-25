@@ -33,7 +33,7 @@ grid > colum {
   font-weight: 500;
 }
 
-.about-me-header {
+.common-header {
   height: 30px;
   font-size: 22px;
   margin: 0;
@@ -81,4 +81,17 @@ colum[height="30"] {
 
 .move-into-center {
   text-align: center;
+}
+
+.insta-avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #505050;
+}
+
+.image-wrapper{
+  border: 1px solid #707070;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
 }
