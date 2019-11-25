@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 @import "/web/css/test.css";
 @import "font.css";
+@import "update.css";
 
 * {
   box-sizing: border-box;
@@ -204,8 +205,12 @@ column[height="30"] {
   flex-grow: 1;
 }
 
+.skills-series-last,
 .skills-series {
-  padding: 20px 0;
+  padding-top: 20px;
+}
+.skills-series {
+  padding-bottom: 20px;
 }
 
 .box-shadow {
