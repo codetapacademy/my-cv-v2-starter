@@ -8,7 +8,7 @@ body {
 }
 grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
 grid > column[span="row"] {
@@ -212,6 +212,7 @@ column[height="30"] {
   background-color: #fafafa;
   padding: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  color: #808080;
 }
 
 .button__cv {
@@ -249,4 +250,23 @@ column[height="30"] {
   border-radius: 6px;
   padding: 8px;
   border: 1px solid #808080;
+  margin-bottom: 10px;
+}
+
+/* Update font */
+.my-cv-arrow-up:before {
+  content: "\e900";
+  display: inline-block;
+  transform: rotateZ(180deg);
+}
+
+.my-cv-codetap .path1:before {
+  color: #d52027;
+}
+.my-cv-codetap .path1:before,
+.my-cv-codetap .path2:before,
+.my-cv-codetap .path3:before,
+.my-cv-codetap .path4:before {
+  font-size: 8vw;
+  font-style: normal;
 }
