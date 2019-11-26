@@ -17,6 +17,18 @@ grid > colum {
   grid-column-end: -1;
 }
 
+colum[span="1"] {
+  grid-column-end: span 1;
+}
+
+.circle-link {
+  width: 100%;
+  padding-top: 100%;
+  background-color: black;
+  border-radius: 50%;
+  display: block;
+}
+
 .main-header-fullname {
   height: 40px;
   font-size: 36px;
