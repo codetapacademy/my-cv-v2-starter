@@ -5,6 +5,8 @@
 body {
   font-family: Roboto;
   margin: 0 36px;
+  /* background-color: hsl(0, 0%, 100%); */
+  background-color: hsl(221, 22%, 83%);
 }
 grid {
   display: grid;
@@ -22,6 +24,23 @@ grid > column {
 
 column[span="1"] {
   grid-column-end: span 1;
+}
+
+.maine-title,
+.second-title {
+  margin: 0;
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+}
+
+.maine-title {
+  height: 40px;
+  font-size: 36px;
+}
+
+.second-title {
+  height: 30px;
+  font-size: 24px;
 }
 
 a[class^="disc-link__"] {
@@ -91,19 +110,6 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
   background-color: #fcf3cf;
 }
 
-.maine-title {
-  height: 40px;
-  margin: 0;
-  font-size: 36px;
-  text-align: center;
-}
-
-.second-title {
-  height: 30px;
-  margin: 0;
-  font-size: 24px;
-  text-align: center;
-}
 column[height="30"] {
   height: 30px;
 }
@@ -112,7 +118,7 @@ column[height="30"] {
 .section-subtitle {
   height: 30px;
   margin: 0;
-  color: #808080;
+  color: hsl(0, 0%, 50%);
 }
 
 .section-title {
@@ -147,7 +153,8 @@ column[height="30"] {
 }
 
 .skills-legend {
-  border: 2px solid #f0f0f0;
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 94%);
   list-style-type: none;
   padding-left: 0;
   border-radius: 15px;
@@ -156,11 +163,11 @@ column[height="30"] {
 }
 
 .skills-legend_item:not(:last-child) {
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid hsl(0, 0%, 94%);
 }
 
 .skills-legend_item:hover {
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .skills-legend_item > span[class^="my-cv-heart"] {
@@ -209,10 +216,12 @@ column[height="30"] {
 }
 
 .box-shadow {
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 90%);
+  line-height: 2;
   padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.25);
   color: #808080;
+  border-radius: 6px;
 }
 
 .button__cv {

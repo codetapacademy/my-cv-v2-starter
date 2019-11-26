@@ -11,18 +11,17 @@
   grid[columns-tablet="4"] {
     grid-template-columns: repeat(4, 1fr);
   }
-}
+  /* Update Font */
+  a[class^="disc-link__"] [class^="my-cv-"]:before,
+  .my-cv-codetap .path1:before,
+  .my-cv-codetap .path2:before,
+  .my-cv-codetap .path3:before,
+  .my-cv-codetap .path4:before {
+    font-size: 4vw;
+  }
 
-/* Update Font */
-a[class^="disc-link__"] [class^="my-cv-"]:before,
-.my-cv-codetap .path1:before,
-.my-cv-codetap .path2:before,
-.my-cv-codetap .path3:before,
-.my-cv-codetap .path4:before {
-  font-size: 4vw;
-}
-
-body {
-  font-family: Roboto;
-  margin: 0 80px;
+  body {
+    font-family: Roboto;
+    margin: 0 80px;
+  }
 }
