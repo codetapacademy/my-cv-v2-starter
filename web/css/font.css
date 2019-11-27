@@ -45,6 +45,7 @@
 }
 .my-cv__codewars:before {
   content: "\e904";
+  font-weight: bolder;
 }
 .my-cv__arrow-down:before {
   content: "\e905";

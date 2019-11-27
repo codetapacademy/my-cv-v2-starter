@@ -29,6 +29,22 @@ a[class^="circle-link"] {
   padding-top: 100%;
   border-radius: 50%;
   display: block;
+  position: relative;
+}
+
+a[class^="circle-link"] > [class^="my-cv__"] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="circle-link"] > [class^="my-cv__"]::before {
+  font-size: 8vw;
 }
 
 .circle-link__onahau {
