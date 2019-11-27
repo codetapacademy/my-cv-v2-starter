@@ -12,9 +12,83 @@ grid {
   grid-gap: 10px;
 }
 
+grid > colum[span="row"] {
+  grid-column: 1 / -1;
+}
+
 grid > colum {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  overflow: hidden;
+}
+
+colum[span="1"] {
+  grid-column-end: span 1;
+}
+
+a[class^="circle-link"] {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="circle-link"] > [class^="my-cv__"] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="circle-link"] > [class^="my-cv__"]::before {
+  font-size: 8vw;
+}
+
+.circle-link__onahau {
+background-color: #CCE4FF;
+}
+
+.circle-link__granny-apple {
+background-color: #D4F5E2;
+}
+
+.circle-link__oasis {
+background-color: #FDEBCF;
+}
+
+.circle-link__onahau2 {
+background-color: #CCF5FF;
+}
+
+.circle-link__blue-chalk {
+background-color: #F1DEFF;
+}
+
+.circle-link__pastel-pink {
+background-color: #FFCCDB;
+}
+
+.circle-link__azalea {
+background-color: #FADBD8;
+}
+
+.circle-link__moon-raker {
+background-color: #DFDDF9;
+}
+
+.circle-link__white-ice {
+background-color: #D4F6F1;
+}
+
+.circle-link__janna {
+background-color: #F4E5D7;
+}
+
+.circle-link__double-pearl-lusta {
+background-color: #FCF3CF;
 }
 
 .main-header-fullname {
@@ -33,7 +107,7 @@ grid > colum {
   font-weight: 500;
 }
 
-.about-me-header {
+.common-header {
   height: 30px;
   font-size: 22px;
   margin: 0;
@@ -81,4 +155,17 @@ colum[height="30"] {
 
 .move-into-center {
   text-align: center;
+}
+
+.insta-avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #505050;
+}
+
+.image-wrapper{
+  border: 1px solid #707070;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
 }
