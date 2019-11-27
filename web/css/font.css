@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?500on4') format('truetype'),
-    url('fonts/my-cv.woff?500on4') format('woff'),
-    url('fonts/my-cv.svg?500on4#my-cv') format('svg');
+    url('fonts/my-cv.ttf?xpwvy5') format('truetype'),
+    url('fonts/my-cv.woff?xpwvy5') format('woff'),
+    url('fonts/my-cv.svg?xpwvy5#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.my-cv-heart:before {
+  content: "\e9da";
+}
 .my-cv-codewars:before {
   content: "\e906";
 }
@@ -34,28 +37,20 @@
   content: "\e901";
 }
 .my-cv-codetap .path1:before {
-  font-style: normal;
-  font-size: 8vw;
   content: "\e902";
   color: rgb(68, 68, 68);
 }
 .my-cv-codetap .path2:before {
-  font-style: normal;
-  font-size: 8vw;
   content: "\e903";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path3:before {
-  font-style: normal;
-  font-size: 8vw;
   content: "\e904";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path4:before {
-  font-style: normal;
-  font-size: 8vw;
   content: "\e905";
   margin-left: -1em;
   color: rgb(255, 255, 255);

@@ -1,0 +1,37 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(221, 22%, 17%);
+  }
+  .first-title,
+  .second-title {
+    color: hsl(0, 0%, 90%);
+  }
+
+  .third-title,
+  .skill-element {
+    color: hsl(0, 0%, 100%);
+  }
+  .box-shadow {
+    background-color:hsl(223, 22%, 25%);
+  }
+  .text-description {
+    color: hsl(0, 0%, 100%);
+  }
+  .picture {
+    border: 1px solid hsl(0, 0%, 100%);
+  }
+  .image-wrapper {
+    border: 1px solid hsl(0, 0%, 100%);
+  }
+  .skills-details {
+    background-color: hsl(221, 22%, 17%);
+    border: 2px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+  }
+  .skills-item:hover {
+    background-color:hsl(0, 0%, 10%);
+  }
+  .skills-item:not(:last-child) {
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+  }
+}

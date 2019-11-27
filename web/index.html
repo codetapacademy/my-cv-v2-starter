@@ -6,13 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- <div class="test-1">
-      <div class="test-2">
-        <div class="test-3">
-          <div class="test-4"></div>
-        </div>
-      </div>  
-    </div> -->
     <grid>
       <c span="row" height="30"></c>
       <c span="row">
@@ -33,7 +26,7 @@
       <c span="row" height="30"></c>
       <c span="row">
         <div class="download__wrapper">
-          <a href="" class="download_button">Download my CV</a>
+          <a href="asset/cv-bianca.docx" class="download_button">Download my CV</a>
         </div>
       </c>
       <c span="row" height="30"></c>
@@ -47,70 +40,76 @@
         <h3 class="third-title">Let's connect</h3>
       </c>
       <c span="row"></c>
-      <c span="row">
+      <c span="row" span-tablet="1+4">
+      <div class="borders-space-color">
         <div class="image-wrapper">
           <img class="picture" src="image/profile.jpg">
         </div>
+      </div>
       </c>
-      <c span="1">
-        <a class="social-icon__onahau-dark">
-          <span class="my-cv-udemy"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__granny-apple">
-          <span class="my-cv-codewars"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__oasis">
-          <span class="my-cv-codetap">
-            <span class="path1"></span>
-            <span class="path2"></span>
-            <span class="path3"></span>
-            <span class="path4"></span>
-          </span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__onahau-light">
-          <span class="my-cv-facebook"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__blue-chalk">
-          <span class="my-cv-github"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__pastel-pink">
-          <span class="my-cv-skype"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__azalea">
-          <span class="my-cv-linkedin"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__moon-raker">
-          <span class="my-cv-book"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__white-ice">
-          <span class="my-cv-instagram"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__janna">
-          <span class="my-cv-twitter"></span>
-        </a>
-      </c>
-      <c span="1">
-        <a class="social-icon__double-pearl-lusta">
-          <span class="my-cv-youtube"></span>
-        </a>
+      <c span="row" span-tablet="4" span-desktop="8">
+        <grid columns-tablet="4" columns-desktop="8">
+          <c span="1">
+            <a class="social-icon__onahau-dark" href="https://www.udemy.com">
+              <span class="my-cv-udemy"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__granny-apple" href="https://www.codewars.com">
+              <span class="my-cv-codewars"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__oasis" href="https://codetap.academy">
+              <span class="my-cv-codetap">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+                <span class="path4"></span>
+              </span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__onahau-light" href="https://www.facebook.com/profile.php?id=100008232734116">
+              <span class="my-cv-facebook"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__blue-chalk" href="https://github.com/biancalina">
+              <span class="my-cv-github"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__pastel-pink" href="https://www.skype.com">
+              <span class="my-cv-skype"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__azalea" href="https://www.linkedin.com">
+              <span class="my-cv-linkedin"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__moon-raker" href="https://www.google.com">
+              <span class="my-cv-book"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__white-ice" href="https://www.instagram.com/biancaa1909">
+              <span class="my-cv-instagram"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__janna" href="https://www.twitter.com">
+              <span class="my-cv-twitter"></span>
+            </a>
+          </c>
+          <c span="1">
+            <a class="social-icon__double-pearl-lusta" href="https://www.youtube.com">
+              <span class="my-cv-youtube"></span>
+            </a>
+          </c>
+        </grid>
       </c>
       <c span="row" height="30"></c>
       <c span="row" class="text-centered">
@@ -119,6 +118,68 @@
         </button>
       </c>
       <c span="row" height="30"></c>
+      <c span="row">
+        <h3 class="third-title">Skills</h3>
+        <ul class="skills-details">
+          <li class="skills-item">
+            <span class="my-cv-heart"></span>
+            <span class="item-description">
+              I prefer to work with
+            </span>
+            <span class="item-count">1</span>
+          </li>
+          <li class="skills-item">
+            <span class="my-cv-trophy"></span>
+              <span class="item-description">
+                I am good at it
+              </span>
+            <span class="item-count">2</span>
+          </li>
+          <li class="skills-item">
+            <span class="my-cv-book"></span>
+            <span class="item-description">
+              I want to get better
+            </span>
+            <span class="item-count">3</span>
+          </li>
+        </ul>
+      </c>
+      <c span="row">
+        <h4 class="skill-element">Front End</h4>
+        <div class="skills-list">
+          <button class="skills-button__torch-red">HTML5</button>
+          <button class="skills-button__shamrock">JavaScript</button>
+          <button class="skills-button__torch-red">CSS3</button>
+          <button class="skills-button__shamrock">Git</button>
+          <button class="skills-button__torch-red">React</button>
+        </div>
+      </c>
+      <c span="row">
+        <h4 class="skill-element">Backend</h4>
+        <div class="skills-list">
+          <button class="skills-button__buttercup">NodeJs</button>
+          <button class="skills-button__shamrock">FireBase</button>
+          <button class="skills-button__shamrock">CLI</button>
+          <button class="skills-button__buttercup">Bash</button>
+        </div>
+      </c>
+      <c span="row">
+        <h4 class="skill-element">Others</h4>
+        <div class="skills-list-last">
+          <button class="skills-button__shamrock">Word</button>
+          <button class="skills-button__buttercup">Jira</button>
+          <button class="skills-button__shamrock">Excel</button>
+          <button class="skills-button__shamrock">Agile</button>
+          <button class="skills-button__shamrock">XD</button>
+        </div>
+      </c>
+      <c span="row" height="30"></c>
+      <c span="row" class="text-centered">
+        <button class="button__disc">
+          <span class="my-cv-arrow-up"></span>
+        </button>
+      </c>
+      <c span="row" height="30"></c>
     </grid>
   </body>
-  </html>
+</html>
