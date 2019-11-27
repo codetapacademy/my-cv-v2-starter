@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?bmy7pc') format('truetype'),
-    url('fonts/my-cv.woff?bmy7pc') format('woff'),
-    url('fonts/my-cv.svg?bmy7pc#my-cv') format('svg');
+    url('fonts/my-cv.ttf?rp7i2w') format('truetype'),
+    url('fonts/my-cv.woff?rp7i2w') format('woff'),
+    url('fonts/my-cv.svg?rp7i2w#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,27 +24,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.my-cv__codetap .path1:before {
+.my-cv__codewars:before {
   content: "\e900";
-  color: rgb(68, 68, 68);
+}
+.my-cv__codetap .path1:before {
+  font-size: 8vw;
+  font-weight:normal;
+  content: "\e901";
+  color: #D52027;
 }
 .my-cv__codetap .path2:before {
-  content: "\e901";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.my-cv__codetap .path3:before {
+  font-size: 8vw;
+  font-weight:normal;
   content: "\e902";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
-.my-cv__codetap .path4:before {
+.my-cv__codetap .path3:before {
+  font-size: 8vw;
+  font-weight:normal;
   content: "\e903";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
-.my-cv__codewars:before {
+.my-cv__codetap .path4:before {
+  font-size: 8vw;
+  font-weight:normal;
   content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
 }
 .my-cv__arrow-down:before {
   content: "\e905";
@@ -73,6 +81,7 @@
 }
 .my-cv__facebook:before {
   content: "\e90b";
+  color: #3b5998;
 }
 .my-cv__github:before {
   content: "\e90c";
@@ -82,9 +91,11 @@
 }
 .my-cv__linkedin:before {
   content: "\e90e";
+  color: #2867B2;
 }
 .my-cv__skype:before {
   content: "\e90f";
+  color: #00aff0;
 }
 .my-cv__stackoverflow:before {
   content: "\e910";
@@ -94,12 +105,15 @@
 }
 .my-cv__twitter:before {
   content: "\e912";
+  color: #1DA1F2;
+
 }
 .my-cv__udemy:before {
   content: "\e913";
 }
 .my-cv__youtube:before {
   content: "\e914";
+  color: #FF0000;
 }
 .my-cv__heart:before {
   content: "\e9da";
