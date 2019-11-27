@@ -6,13 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <!-- <div class="test-1">
-      <div class="test-2">
-        <div class="test-3">
-          <div class="test-4"></div>
-        </div>
-      </div>
-    </div> -->
     <grid>
       <column span="row" height="30"></column>
       <column span="row">
@@ -49,72 +42,77 @@
         <h3 class="section-title">Let's connect</h3>
       </column>
       <column span="row"></column>
-      <column span="row">
+      <column span="row" span-tablet="1+4">
         <div class="image-wrapper">
           <img class="avatar" src="/web/image/avatar_2.jpg" alt="" />
         </div>
       </column>
-      <column span="1">
-        <a class="disc-link__onahau">
-          <i class="my-cv-udemy"></i>
-        </a>
+      <column span="row" span-tablet="4" span-desktop="8">
+        <grid columns-tablet="4" columns-desktop="8">
+          <column span="1">
+            <a class="disc-link__onahau">
+              <i class="my-cv-udemy"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__granny-apple">
+              <i class="my-cv-codewars"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__oasis">
+              <i class="my-cv-codetap">
+                <i class="path1"></i>
+                <i class="path2"></i>
+                <i class="path3"></i>
+                <i class="path4"></i>
+              </i>
+            </a>
+          </column>
+          <column span="row"></column>
+          <column span="1">
+            <a class="disc-link__onahau-2">
+              <i class="my-cv-facebook"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__blue-chalk">
+              <i class="my-cv-github"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__pastel-pink">
+              <i class="my-cv-skype"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__azalea">
+              <i class="my-cv-linkedin"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__moon-raker">
+              <i class="my-cv-stackoverflow"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__white-ice">
+              <i class="my-cv-instagram"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__janna">
+              <i class="my-cv-twitter"></i>
+            </a>
+          </column>
+          <column span="1">
+            <a class="disc-link__double-pearl-lusta">
+              <i class="my-cv-youtube"></i>
+            </a>
+          </column>
+        </grid>
       </column>
-      <column span="1">
-        <a class="disc-link__granny-apple">
-          <i class="my-cv-codewars"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__oasis">
-          <i class="my-cv-codetap">
-            <i class="path1"></i>
-            <i class="path2"></i>
-            <i class="path3"></i>
-            <i class="path4"></i>
-          </i>
-        </a>
-      </column>
-      <column span="row"></column>
-      <column span="1">
-        <a class="disc-link__onahau-2">
-          <i class="my-cv-facebook"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__blue-chalk">
-          <i class="my-cv-github"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__pastel-pink">
-          <i class="my-cv-skype"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__azalea">
-          <i class="my-cv-linkedin"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__moon-raker">
-          <i class="my-cv-stackoverflow"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__white-ice">
-          <i class="my-cv-instagram"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__janna">
-          <i class="my-cv-twitter"></i>
-        </a>
-      </column>
-      <column span="1">
-        <a class="disc-link__double-pearl-lusta">
-          <i class="my-cv-youtube"></i>
-        </a>
-      </column>
+
       <column span="1">
         <a class="disc-link"></a>
       </column>
@@ -172,7 +170,7 @@
       </column>
       <column span="row">
         <h4 class="section-subtitle">Others</h4>
-        <div class="skills-series">
+        <div class="skills-series-last">
           <button class="skills-button-green">Word</button>
           <button class="skills-button-orange">Jira</button>
           <button class="skills-button-green">Excel</button>

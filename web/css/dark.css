@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(221, 22%, 17%);
+  }
+  .maine-title,
+  .second-title {
+    color: hsl(0, 0%, 90%);
+  }
+
+  .section-title,
+  .section-subtitle {
+    color: hsl(0, 0%, 50%);
+  }
+
+  .box-shadow {
+    background-color: #31394d;
+    box-shadow: 0 2px 6px hsla(0, 0%, 8%, 0.5);
+    color: #fdfdfd;
+  }
+
+  .skills-legend {
+    border: 2px solid hsl(0, 0%, 6%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .skills-legend_item:hover {
+    background-color: hsl(0, 0%, 2%);
+  }
+
+  .skills-legend_item:not(:last-child) {
+    border-bottom: 2px solid hsl(0, 0%, 6%);
+  }
+}
