@@ -178,3 +178,29 @@ colum[height="30"] {
   padding: 8px;
   display: flex;
 }
+
+.subheader-button__buttercup { 
+  background-color: #F29E1A;
+}
+
+.subheader-button__shamrock {
+  background-color: #2DD070;
+}
+
+.subheader-button__torch-red{
+  background-color: #FD004D;
+}
+
+.subheader-button__shamrock,
+.subheader-button__buttercup,
+.subheader-button__torch-red {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
