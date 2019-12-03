@@ -13,10 +13,6 @@ grid > colum[span="row"] {
   grid-column: 1 / -1;
 }
 
-grid > colum {
-  overflow: hidden;
-}
-
 colum[span="1"] {
   grid-column-end: span 1;
 }

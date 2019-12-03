@@ -16,6 +16,7 @@
   grid[column-tablet="4"] {
     grid-template-columns: repeat(4, 1fr);
   }
+  
   a[class^="circle-link"] > [class^="my-cv__"]::before,
   .my-cv__codetap .path1:before,
   .my-cv__codetap .path2:before,
