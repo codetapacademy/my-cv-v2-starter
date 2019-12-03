@@ -107,12 +107,20 @@ background-color: #FCF3CF;
   font-weight: 500;
 }
 
-.common-header {
+.common-header, 
+.common-subheader {
   height: 30px;
-  font-size: 22px;
   margin: 0;
   color: #808080;
   font-weight: 500;
+}
+
+.common-header {
+  font-size: 22px;
+}
+
+.common-subheader {
+  font-size: 20px;
 }
 
 colum[height="30"] {
@@ -129,7 +137,8 @@ colum[height="30"] {
   margin: 0;
   font-size: 14px;
   font-weight: 500;
-  line-height: 30px;  
+  line-height: 30px;
+  color:#808080;  
 }
 
 .download-button {
@@ -168,4 +177,88 @@ colum[height="30"] {
   border-radius: 6px;
   padding: 8px;
   display: flex;
+}
+
+.subheader-button__buttercup { 
+  background-color: #F29E1A;
+}
+
+.subheader-button__shamrock {
+  background-color: #2DD070;
+}
+
+.subheader-button__torch-red{
+  background-color: #FD004D;
+}
+
+.subheader-button__shamrock,
+.subheader-button__buttercup,
+.subheader-button__torch-red {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.subheader-list {
+  padding: 20px 0;
+}
+
+.skills-info {
+  border: 2px solid #f0f0f0;
+  padding-left: 0;
+  list-style-type: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-info-item:not(:last-child) {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skills-info-item:hover {
+  background-color: #FAFAFA;
+}
+
+.skills-info-item > span[class^="my-cv__heart"] {
+  color: #FE004E
+}
+
+.skills-info-item > span[class^="my-cv__trophy"] {
+  color: #2DD070;
+}
+
+.skills-info-item > span[class^="my-cv__book"] {
+  color: #F29E1A;
+}
+
+.skills-info-item > span[class^="my-cv__"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-info-item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.info-count {
+  padding-right: 20px;
+}
+
+.info-description {
+  padding: 0 10px;
+  flex-grow: 1;
 }

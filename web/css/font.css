@@ -54,9 +54,15 @@
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
+.my-cv__arrow-up:before,
 .my-cv__arrow-down:before {
-  content: "\e905";
+    content: "\e905";
+  }
+.my-cv__arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
 }
+
 .my-cv__book:before {
   content: "\e906";
 }
