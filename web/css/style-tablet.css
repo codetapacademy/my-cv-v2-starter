@@ -1,5 +1,22 @@
 @media (min-width: 768px) {
   grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  grid > colum[span-tablet$="+4"],
+  grid > colum[span-tablet="4"] {
+    grid-column-end: span 4;
+    grid-column-start: auto;
+  }
+
+  grid[column-tablet="4"] {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  a[class^="circle-link"] > [class^="my-cv__"]::before,
+  .my-cv__codetap .path1:before,
+  .my-cv__codetap .path2:before,
+  .my-cv__codetap .path3:before,
+  .my-cv__codetap .path4:before {
+    font-size: 4vw;
   }
 }
