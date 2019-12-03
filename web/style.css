@@ -215,6 +215,7 @@ colum[height="30"] {
   list-style-type: none;
   border-radius: 15px;
   overflow: hidden;
+  margin: 20px 0;
 }
 
 .skills-info-item:not(:last-child) {
@@ -224,8 +225,40 @@ colum[height="30"] {
 .skills-info-item:hover {
   background-color: #FAFAFA;
 }
+
+.skills-info-item > span[class^="my-cv__heart"] {
+  color: #FE004E
+}
+
+.skills-info-item > span[class^="my-cv__trophy"] {
+  color: #2DD070;
+}
+
+.skills-info-item > span[class^="my-cv__book"] {
+  color: #F29E1A;
+}
+
+.skills-info-item > span[class^="my-cv__"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 .skills-info-item {
   height: 52px;
   line-height: 32px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.info-count {
+  padding-right: 20px;
+}
+
+.info-description {
+  padding: 0 10px;
+  flex-grow: 1;
 }
