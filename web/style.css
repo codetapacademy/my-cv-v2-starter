@@ -205,8 +205,13 @@ colum[height="30"] {
   margin-bottom: 8px;
 }
 
+.subheader-last-list,
 .subheader-list {
-  padding: 20px 0;
+  padding-top: 20px;
+}
+
+.subheader-list {
+  padding-bottom: 20px;
 }
 
 .skills-info {
