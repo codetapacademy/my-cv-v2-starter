@@ -1,0 +1,266 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 36px;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+grid > colum[span="row"] {
+  grid-column: 1 / -1;
+}
+
+grid > colum {
+  overflow: hidden;
+}
+
+colum[span="1"] {
+  grid-column-end: span 1;
+}
+
+a[class^="circle-link"] {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="circle-link"] > [class^="my-cv__"] {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="circle-link"] > [class^="my-cv__"]::before {
+  font-size: 8vw;
+}
+
+.circle-link__onahau {
+background-color: #CCE4FF;
+}
+
+.circle-link__granny-apple {
+background-color: #D4F5E2;
+}
+
+.circle-link__oasis {
+background-color: #FDEBCF;
+}
+
+.circle-link__onahau2 {
+background-color: #CCF5FF;
+}
+
+.circle-link__blue-chalk {
+background-color: #F1DEFF;
+}
+
+.circle-link__pastel-pink {
+background-color: #FFCCDB;
+}
+
+.circle-link__azalea {
+background-color: #FADBD8;
+}
+
+.circle-link__moon-raker {
+background-color: #DFDDF9;
+}
+
+.circle-link__white-ice {
+background-color: #D4F6F1;
+}
+
+.circle-link__janna {
+background-color: #F4E5D7;
+}
+
+.circle-link__double-pearl-lusta {
+background-color: #FCF3CF;
+}
+
+.main-header-fullname {
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.second-header {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+
+.common-header, 
+.common-subheader {
+  height: 30px;
+  margin: 0;
+  color: #808080;
+  font-weight: 500;
+}
+
+.common-header {
+  font-size: 22px;
+}
+
+.common-subheader {
+  font-size: 20px;
+}
+
+colum[height="30"] {
+  height: 30px;
+}
+
+.paragraph-wrapper {
+  background-color: #FAFAFA;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.text-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color:#808080;  
+}
+
+.download-button {
+  background-color: #FE004E;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+}
+
+.button-circle {
+  background-color: #2DD070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 20px;
+}
+
+.move-into-center {
+  text-align: center;
+}
+
+.insta-avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #505050;
+}
+
+.image-wrapper{
+  border: 1px solid #707070;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+}
+
+.subheader-button__buttercup { 
+  background-color: #F29E1A;
+}
+
+.subheader-button__shamrock {
+  background-color: #2DD070;
+}
+
+.subheader-button__torch-red{
+  background-color: #FD004D;
+}
+
+.subheader-button__shamrock,
+.subheader-button__buttercup,
+.subheader-button__torch-red {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.subheader-last-list,
+.subheader-list {
+  padding-top: 20px;
+}
+
+.subheader-list {
+  padding-bottom: 20px;
+}
+
+.skills-info {
+  border: 2px solid #f0f0f0;
+  padding-left: 0;
+  list-style-type: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-info-item:not(:last-child) {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skills-info-item:hover {
+  background-color: #FAFAFA;
+}
+
+.skills-info-item > span[class^="my-cv__heart"] {
+  color: #FE004E
+}
+
+.skills-info-item > span[class^="my-cv__trophy"] {
+  color: #2DD070;
+}
+
+.skills-info-item > span[class^="my-cv__book"] {
+  color: #F29E1A;
+}
+
+.skills-info-item > span[class^="my-cv__"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-info-item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.info-count {
+  padding-right: 20px;
+}
+
+.info-description {
+  padding: 0 10px;
+  flex-grow: 1;
+}
