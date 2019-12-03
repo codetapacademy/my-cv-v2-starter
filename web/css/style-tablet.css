@@ -1,4 +1,8 @@
 @media (min-width: 768px) {
+  body {
+    margin: 0 80px;
+  }
+  
   grid {
     grid-template-columns: repeat(8, 1fr);
   }
