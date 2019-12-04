@@ -84,20 +84,22 @@ background-color: #F4E5D7;
 background-color: #FCF3CF;
 }
 
-.main-header-fullname {
-  height: 40px;
-  font-size: 36px;
+
+.main-header-fullname,
+.second-header {
   text-align: center;
   margin: 0;
   font-weight: 500;
 }
 
+.main-header-fullname {
+  height: 40px;
+  font-size: 36px;
+}
+
 .second-header {
   height: 30px;
   font-size: 24px;
-  text-align: center;
-  margin: 0;
-  font-weight: 500;
 }
 
 .common-header, 
