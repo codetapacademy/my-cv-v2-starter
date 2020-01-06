@@ -84,3 +84,6 @@ I hope you'll enjoy this project and have fun while you're at it. Stay tuned for
 * `My CV v2 - Senior` where we'll have fun using `React` and `NodeJS`
 
 [Back to **Table of contents**](#table-of-contents)
+
+
+Note: Any suggestions so far?
