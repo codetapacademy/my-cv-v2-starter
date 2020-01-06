@@ -86,4 +86,4 @@ I hope you'll enjoy this project and have fun while you're at it. Stay tuned for
 [Back to **Table of contents**](#table-of-contents)
 
 
-Note: Any suggestions so far?
+Note: Any suggestions so far? If yes, let us know on https://codetap.academy by joining the chat.
