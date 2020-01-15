@@ -2,10 +2,6 @@
 
 @import 'font.css';
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -18,8 +14,27 @@ grid {
 }
 
 grid > c {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  overflow: hidden;
+}
+
+grid > c {
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  overflow: hidden;
+}
+
+c[span='1'] {
+  grid-column-end: span 1;
+}
+
+.social-disk-link {
+  width: 100%;
+  padding-top: 100%;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  display: block;
 }
 
 .name-title {
@@ -84,4 +99,16 @@ c[height='30'] {
 
 .text-centered {
   text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.avatar-wrapper {
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px solid #808080;
 }
