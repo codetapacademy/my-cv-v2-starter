@@ -75,7 +75,7 @@ Make sure that you're inside your `web` folder and you have at least `index.html
 
 To check your current path and make sure you are or you aren't in your `web` folder, you can **p**ing your **w**working **d**irectory by typing in your command line: `pwd`
 
-## Good luck
+## Good luck !!
 
 I hope you'll enjoy this project and have fun while you're at it. Stay tuned for more projects to come and the tutorial for this one by following https://codetap.academy and consider subscribing as well. The next projects from this series will be:
 
