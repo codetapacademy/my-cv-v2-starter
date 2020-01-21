@@ -107,11 +107,19 @@ a[class^='social-disk-link__'] > [class^='my-cv']::before {
   text-align: center;
 }
 
-.section-title {
+.section-title,
+.section-subtitle {
   margin: 0;
   height: 30px;
-  font-size: 22px;
   color: #808080;
+}
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-subtitle {
+  font-size: 20px;
 }
 
 c[height='30'] {
