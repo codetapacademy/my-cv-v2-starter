@@ -11,13 +11,21 @@
   grid[columns-tablet='4'] {
     grid-template-columns: repeat(4, 1fr);
   }
-}
 
-/* Update of font */
-a[class^='social-disk-link__'] [class^='my-cv']::before,
-.my-cv-codetap .path1:before,
-.my-cv-codetap .path2:before,
-.my-cv-codetap .path3:before,
-.my-cv-codetap .path4:before {
-  font-size: 4vw;
+  /* Update of font */
+  a[class^='social-disk-link__'] [class^='my-cv']::before,
+  .my-cv-codetap .path1:before,
+  .my-cv-codetap .path2:before,
+  .my-cv-codetap .path3:before,
+  .my-cv-codetap .path4:before {
+    font-size: 4vw;
+  }
+
+  body {
+    margin: 0 80px;
+  }
+
+  .name-title {
+    margin-bottom: 0px;
+  }
 }

@@ -16,7 +16,7 @@ grid > c[span='row'] {
 }
 
 grid > c {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 c[span='1'] {
@@ -91,7 +91,7 @@ a[class^='social-disk-link__'] > [class^='my-cv']::before {
 }
 
 .name-title {
-  margin: 0;
+  margin-bottom: 45px;
   height: 40px;
   font-size: 36px;
   text-align: center;
@@ -282,4 +282,10 @@ c[height='30'] {
   padding: 8px 8px 4px;
   border: 1px solid #808080;
   margin-top: 10px;
+}
+
+@media (min-width: 405px) {
+  .name-title {
+    margin-bottom: 0px;
+  }
 }
