@@ -1,0 +1,24 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    /* background: red !important; */
+    background-color: hsl(0, 0%, 0%);
+  }
+  .name-title,
+  .role-title {
+    color: hsl(0, 0%, 90%);
+  }
+
+  .know-how-story {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 6%);
+  }
+
+  .know-how-story_item:hover {
+    background-color: hsl(0, 0%, 8%);
+  }
+
+  .know-how-story_item:not(:last-child) {
+    border-bottom: 2px solid hsl(0, 0%, 6%);
+  }
+}

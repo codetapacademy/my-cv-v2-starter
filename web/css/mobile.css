@@ -1,6 +1,7 @@
 body {
   font-family: Roboto;
   margin: 0 36px;
+  background-color: #fff;
 }
 
 grid {
@@ -95,6 +96,7 @@ a[class^='social-disk-link__'] > [class^='my-cv']::before {
   height: 40px;
   font-size: 36px;
   text-align: center;
+  color: hsl(0, 0%, 10%);
 }
 
 .role-title {
@@ -102,6 +104,7 @@ a[class^='social-disk-link__'] > [class^='my-cv']::before {
   height: 30px;
   font-size: 24px;
   text-align: center;
+  color: hsl(0, 0%, 10%);
 }
 
 .section-title,
@@ -166,7 +169,9 @@ a[class^='social-disk-link__'] > [class^='my-cv']::before {
 }
 
 .know-how-story {
-  border: 2px solid #f0f0f0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 94%);
   list-style-type: none;
   padding-left: 0;
   border-radius: 15px;
