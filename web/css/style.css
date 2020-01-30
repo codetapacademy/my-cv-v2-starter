@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+
+body {
+    font-family: Roboto;
+}
+grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-gap:10px;
+}
+.main-title {
+    height:40px;
+    font-size:36px;
+    text-align:center;
+}
+
+.second-title{
+    height:30px;
+    font-size:36px;
+    text-align:center;
+}
+
+.section-title{
+    height:30px;
+    font-size: 22px;
+}
