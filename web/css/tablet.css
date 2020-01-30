@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  grid > c[span-tablet$='+4'],
+  grid > c[span-tablet$='4'] {
+    grid-column-end: span 4;
+    grid-column-start: auto;
+  }
+
+  grid[columns-tablet='4'] {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Update of font */
+  a[class^='social-disk-link__'] [class^='my-cv']::before,
+  .my-cv-codetap .path1:before,
+  .my-cv-codetap .path2:before,
+  .my-cv-codetap .path3:before,
+  .my-cv-codetap .path4:before {
+    font-size: 4vw;
+  }
+
+  body {
+    margin: 0 80px;
+  }
+
+  .name-title {
+    margin-bottom: 0px;
+  }
+}
