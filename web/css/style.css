@@ -83,3 +83,15 @@ c[height="30"] {
 .my-cv-arrow-down {
     font-size:18px;
 }
+
+.avatar {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image-wrapper {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #808080;
+    margin: 0;
+}
