@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
-
+@import 'font.css';
 body {
     font-family: Roboto;
     margin: 0 36px;
@@ -32,6 +32,7 @@ c[height="30"] {
     height: 30px;
 }
 .section-title{
+    color: #808080;
     margin: 0;
     height:30px;
     font-size: 22px;
@@ -46,6 +47,7 @@ c[height="30"] {
 }
 
 .text-description {
+    color: #808080;
     margin: 0;
     font-size:14px;
     font-weight: 500;
@@ -76,4 +78,8 @@ c[height="30"] {
 
 .text-centered {
     text-align: center;
+}
+
+.my-cv-arrow-down {
+    font-size:18px;
 }
