@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?hhncnt') format('truetype'),
-    url('fonts/my-cv.woff?hhncnt') format('woff'),
-    url('fonts/my-cv.svg?hhncnt#my-cv') format('svg');
+    url('fonts/my-cv.ttf?jh72t2') format('truetype'),
+    url('fonts/my-cv.woff?jh72t2') format('woff'),
+    url('fonts/my-cv.svg?jh72t2#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 [class^="my-cv-"], [class*=" my-cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'my-cv' !important;
-  /* speak: none; */
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -103,3 +103,5 @@
 .my-cv-airplane:before {
   content: "\e9af";
 }
+
+
