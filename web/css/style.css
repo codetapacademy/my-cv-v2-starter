@@ -109,11 +109,16 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
 c[height="30"] {
     height: 30px;
 }
-.section-title{
+.section-title, .section-subtitle{ 
     color: #808080;
     margin: 0;
     height:30px;
+}
+.section-title {
     font-size: 22px;
+}
+.section-subtitle{
+    font-size: 20px;
 }
 
 .box-shadow {
@@ -160,6 +165,10 @@ c[height="30"] {
 
 .my-cv-arrow-down {
     font-size:18px;
+}
+.rotate-180 {
+    display: block;
+    transform: rotate(180deg);
 }
 
 .avatar {
