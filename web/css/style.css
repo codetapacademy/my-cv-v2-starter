@@ -92,8 +92,6 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
     background-color:#FCF3CF;
 }
 
-
-
 .main-title {
     height:40px;
     font-size:36px;
@@ -170,7 +168,7 @@ c[height="30"] {
 }
 
 .image-wrapper {
-    padding: 8px;
+    padding: 8px 8px 4px 8px;
     border-radius: 6px;
     border: 1px solid #808080;
     margin: 0;
