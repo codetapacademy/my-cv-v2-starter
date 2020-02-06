@@ -207,3 +207,28 @@ button[class^="skills-button__"] {
     background: #F29E1A;
 }
 
+.skill-list {
+    padding: 20px 0;
+}
+
+.skills-legend {
+    border: 2px solid #d0d0d0;
+    border-radius: 15px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.skills-legend-item:not(:last-child) {
+    border-bottom: 2px solid #d0d0d0;
+}
+.skills-legend-item {
+    height: 32px;
+    line-height:32px;
+    padding:10px
+}
+
+.skills-legend-item:hover {
+    background-color: #fafafa;
+}
