@@ -182,3 +182,28 @@ c[height="30"] {
     border: 1px solid #808080;
     margin: 0;
 }
+
+button[class^="skills-button__"] {
+    border:none;
+    height:40px;
+    border-radius: 20px;
+    padding: 0 24px 0 24px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.skills-button__torch-red {
+    background: #FD004D;
+}
+
+.skills-button__shamrock {
+    background: #2DD070;
+}
+
+.skills-button__buttercup {
+    background: #F29E1A;
+}
+
