@@ -218,6 +218,7 @@ button[class^="skills-button__"] {
     list-style: none;
     padding-left: 0;
     overflow: hidden;
+    margin: 20px 0;
 }
 
 .skills-legend-item:not(:last-child) {
@@ -226,9 +227,29 @@ button[class^="skills-button__"] {
 .skills-legend-item {
     height: 32px;
     line-height:32px;
-    padding:10px
+    padding:10px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-legend-item > span[class^="my-cv-"]
+{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills-legend-item:hover {
     background-color: #fafafa;
+}
+
+.legend-description {
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+.legend-count {
+    padding-right: 20px;
 }
