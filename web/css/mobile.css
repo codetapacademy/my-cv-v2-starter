@@ -1,10 +1,11 @@
 body {
     font-family: Roboto;
     margin: 0 36px;
+    background-color: hsl(0, 0%, 100%);
 }
 grid {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap:10px;
 }
 
@@ -14,9 +15,9 @@ grid > c[span="row"] {
     grid-column-end: -1;
 }
 
-grid > c {
+/* grid > c {
     overflow: hidden;
-}
+} */
 c[span="1"] {
     grid-column-end: span 1;
 }
@@ -90,18 +91,21 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
     background-color:#FCF3CF;
 }
 
+.second-title,
+.main-title {
+    text-align:center;
+    margin: 0;
+    color: #1a1a1a;
+}
+
 .main-title {
     height:40px;
     font-size:36px;
-    text-align:center;
-    margin: 0;
 }
 
 .second-title{
     height:30px;
     font-size:24px;
-    text-align:center;
-    margin: 0;
 }
 
 c[height="30"] {
@@ -177,8 +181,8 @@ c[height="30"] {
 .image-wrapper {
     padding: 8px 8px 4px 8px;
     border-radius: 6px;
-    border: 1px solid #808080;
-    margin: 0;
+    border: 1px solid hsl(0, 0%, 50%);
+    margin-bottom: 10px;
 }
 
 button[class^="skills-button__"] {
@@ -186,7 +190,7 @@ button[class^="skills-button__"] {
     height:40px;
     border-radius: 20px;
     padding: 0 24px 0 24px;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-size: 12px;
     font-weight: bold;
     margin-right: 8px;
@@ -194,15 +198,15 @@ button[class^="skills-button__"] {
 }
 
 .skills-button__torch-red {
-    background: #FD004D;
+    background: hsl(342, 100%, 50%);
 }
 
 .skills-button__shamrock {
-    background: #2DD070;
+    background: hsl(145, 64%, 50%);
 }
 
 .skills-button__buttercup {
-    background: #F29E1A;
+    background: hsl(37, 89%, 53%);
 }
 
 .skill-list-last,
@@ -214,7 +218,9 @@ button[class^="skills-button__"] {
 }
 
 .skills-legend {
-    border: 2px solid #d0d0d0;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 82%);
+    color: black;
     border-radius: 15px;
     text-decoration: none;
     list-style: none;
@@ -224,7 +230,7 @@ button[class^="skills-button__"] {
 }
 
 .skills-legend-item:not(:last-child) {
-    border-bottom: 2px solid #d0d0d0;
+    border-bottom: 2px solid hsl(0, 0%, 82%);
 }
 .skills-legend-item {
     height: 32px;

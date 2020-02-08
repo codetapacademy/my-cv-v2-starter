@@ -1,7 +1,28 @@
 @media (min-width: 768px){
     grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(8, 1fr);
     }
-    
+    grid > c[span-tablet$="+4"],
+    grid > c[span-tablet="4"] {
+        grid-column-end: span 4;
+        grid-column-start:auto;
+    }
+    grid[colums-tablet="4"] {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .my-cv-codetap .path1:before,
+    .my-cv-codetap .path2:before,
+    .my-cv-codetap .path3:before,
+    .my-cv-codetap .path4:before {
+    font-size: 5vw;
+    }
+    a[class^="disc-link__"] > [class^="my-cv-"]::before {
+        font-size: 5vw;
+    }
+
+    body {
+        margin: 0 80px;
+    }
 }
 
