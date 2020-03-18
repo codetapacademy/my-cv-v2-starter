@@ -24,11 +24,19 @@ body {
   margin: 0;
 }
 
-.section-title {
+.section-title,
+.section-subtitle {
   height: 30px;
-  font-size: 22px;
   margin: 0;
   color: #808080;
+}
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-subtitle {
+  font-size: 22px;
 }
 
 grid {
@@ -157,4 +165,75 @@ a[class^="bDisplay__"] > [class^="my-cv-"] {
 }
 .bDisplay__doublePearlLusta {
   background-color: #FCF3CF;
+}
+
+.skills__torch-red {
+  background-color: #FD004D;
+}
+.skills__shamrock {
+  background-color: #2DD070;
+}
+.skills__buttercup {
+  background-color: #F29E1A;
+}
+
+.skills__torch-red,
+.skills__shamrock,
+.skills__buttercup {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.skills-list {
+  margin: 20px 0;
+}
+
+.skills-legend {
+  border: 2px solid #808080;
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.skills-legend_item:not(:last-child) {
+  border-bottom: 2px solid #808080;
+}
+
+.skills-legend_item:hover {
+  background-color:#fafafa;
+}
+
+.skills-legend_item > span[class^="my-cv-"] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  /* font-size: 6vw; */
+}
+
+.skills-legend_item {
+  /* height: 52px; */
+  /* line-height: 52px; */
+  padding: 10px;
+  display: flex;
+}
+
+.legend-count {
+  padding-right: 20px;
+}
+
+.legend-description {
+  padding: 0 10px;
+  flex-grow: 1;
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
 }

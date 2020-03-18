@@ -25,14 +25,17 @@
 }
 
 .my-cv-arrow-down:before {
-  content: "\e900";
-  font-size: 1rem;
+  display: block;
+  transform: rotate(180deg);
 }
-.my-cv-arrow-up:before {
+.my-cv-arrow-up:before,
+.my-cv-arrow-down:before {
   content: "\e901";
+  font-size: 1rem;
 }
 .my-cv-book:before {
   content: "\e902";
+  color: #F29E1A;
 }
 .my-cv-codetap .path1:before {
   font-style: normal;
@@ -72,6 +75,7 @@
 }
 .my-cv-heart:before {
   content: "\e90b";
+  color: #FD004D;
 }
 .my-cv-info:before {
   content: "\e90c";
@@ -90,6 +94,7 @@
 }
 .my-cv-trophy:before {
   content: "\e911";
+  color: #2DD070;
 }
 .my-cv-twitter:before {
   content: "\e912";
