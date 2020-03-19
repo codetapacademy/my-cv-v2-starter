@@ -1,11 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My CV v2 - starter</title>
+    <title>Antonio Radosav - myCv starter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport", content="width-device-width, initial scale = 1">
   </head>
   <body>
-    <!-- Change this file -->
-    <h1>Hi! How are you today?</h1>
-    <p>I am the file <code>index.html</code> and you want to change me!</p>
+
+    
+    <grid class="about">
+      <c span="row" height="30"></c>
+      <c span="row">
+        <h1 class="main-title">Antonio Radosav</h1>
+      </c>
+      <c span="row">
+        <h2 class="second-title">Jnior Web Developer</h2>
+      </c>
+      <c span="row" height="30"></c>
+      <c span="row">
+        <h3 class="section-title">About me</h3>
+      </c>
+      <c span="row">
+        <div class="box">
+          <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum laudantium molestiae esse, modi aut reiciendis, nobis hic ipsam ut accusantium iure nemo sint sequi mollitia. Dicta dolor quas voluptatem tempora.</p>
+        </div>
+      </c>
+      <c span="row" height="30"></c>
+      <c span="row" class="tCentered">
+        <button class="button-atention">Download my CV</button>
+      </c>
+      <c span="row" height="30"></c>
+      <c span="row" class="tCentered">
+        <button class="circle"><i class="my-cv-arrow-down"></i></button>
+      </c>
+    </grid>
+    
+    
+    <grid class="connect">
+      <c span="row" height="30"></c>
+      <c span="row">
+        <h3 class="section-title">Let's connect</h3>
+      </c>
+      <c span="row"></c>
+      <c span="row" span-tablet="">
+        <div class="image-wrapper">
+          <img class="avatar" src="image/antonio.jpeg" alt="Antonio Radosav">
+        </div>
+      </c>
+      <c span="row">
+        <grid>
+          <c span="1">
+            <a class="button-display__onahau">
+              <i class="my-cv-udemy"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__grannyApple">
+              <i class="my-cv-codewars"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__oasis">
+              <i class="my-cv-codetap">
+                <i class="path1"></i>
+                <i class="path2"></i>
+                <i class="path3"></i>
+                <i class="path4"></i>
+              </i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__onahau">
+              <i class="my-cv-facebook"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__blueChalk">
+              <i class="my-cv-github"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__pastelPink">
+              <i class="my-cv-skype"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__azalea">
+              <i class="my-cv-linkedin"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__moonRaker">
+              <i class="my-cv-stackoverflow"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__whiteIce">
+              <i class="my-cv-instagram"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__janna">
+              <i class="my-cv-twitter"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="button-display__doublePearlLusta">
+              <i class="my-cv-youtube"></i>
+            </a>
+          </c>
+        </grid>
+      </c>
+      <c span="row" height="30"></c>
+      <c span="row" class="text-centered">
+        <button class="circle"><i class="my-cv-arrow-down"></i></button>
+      </c>
+    </grid>
+
+
+    <grid class="skills">
+      <c span="row" height="30"></c>
+      <c span="row">
+        <h3 class="section-title">Skills</h3>
+        <ul class="skills-legend">
+          <li class="skills-legend_item">
+            <span class="my-cv-heart"></span>
+            <span class="legend-description">
+              I prefer to work with
+            </span>
+            <span class="legend-count">1</span>
+          </li>
+          <li class="skills-legend_item">
+            <span class="my-cv-trophy"></span>
+            <span class="legend-description">
+              I am good on it
+            </span>
+            <span class="legend-count">2</span>
+          </li>
+          <li class="skills-legend_item">
+            <span class="my-cv-book"></span>
+            <span class="legend-description">
+              I want to get better
+            </span>
+            <span class="legend-count">3</span>
+          </li>
+        </ul>
+      </c>
+      <c span="row">
+        <h4 class="section-subtitle">Front End</h4>
+          <div class="skills-list">
+            <button class="skills__torch-red">HTML5</button>
+            <button class="skills__shamrock">JavaScript</button>
+            <button class="skills__torch-red">CSS3</button>
+            <button class="skills__shamrock">Git</button>
+            <button class="skills__torch-red">React</button>
+          </div>
+      </c>
+      <c span="row">
+        <h4 class="section-subtitle">Back End</h4>
+          <div class="skills-list">
+            <button class="skills__buttercup">NodeJS</button>
+            <button class="skills__shamrock">FireBase</button>
+            <button class="skills__shamrock">CLI</button>
+            <button class="skills__buttercup">Bash</button>
+          </div>
+      </c>
+      <c span="row">
+        <h4 class="section-subtitle">Others</h4>
+          <div class="skills-list">
+            <button class="skills__shamrock">Word</button>
+            <button class="skills__buttercup">Jira</button>
+            <button class="skills__shamrock">Excel</button>
+            <button class="skills__shamrock">Agile</button>
+            <button class="skills__buttercup">XD</button>
+          </div>
+      </c>
+      <c span="row" height="30"></c>
+      <c span="row" class="tCentered">
+        <button class="circle"><i class="my-cv-arrow-up"></i></button>
+      </c>
+      <c span="row" height="30"></c>
+    </grid>
+
   </body>
 </html>
