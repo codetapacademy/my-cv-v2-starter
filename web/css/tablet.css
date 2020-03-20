@@ -1,9 +1,18 @@
 @media (min-width: 768px) {
   
   grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 10px;
   }
   
+  grid > c[span-tablet$="4"],
+  grid > c[span-tablet$="+4"] {
+    grid-column-end: span 4 ;
+    grid-column-start: auto;
+  }
+
+  grid[columns-tablet="4"] {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
 }
