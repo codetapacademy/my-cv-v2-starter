@@ -15,4 +15,12 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
+  body {
+    margin: 0 80px;
+  }
+
+  a[class^="button-display__"] > [class^="my-cv-"] {
+    font-size: 4vw;
+  }
+
 }
