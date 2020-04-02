@@ -5,20 +5,24 @@
   body {
     font-family: Roboto;
     margin: 0 36px;
+    background-color: #fff;
+  }
+
+  .main-title,
+  .second-title {
+    text-align: center;
+    margin: 0;
+    color: #1A1A1A;
   }
 
   .main-title {
     height: 40px;
     font-size: 36px;
-    text-align: center;
-    margin: 0;
   }
 
   .second-title {
     height: 30px;
     font-size: 24px;
-    text-align: center;
-    margin: 0;
   }
 
   .section-title,
@@ -187,6 +191,7 @@
   }
 
   .skills-legend {
+    background-color: #fff;
     border: 2px solid #808080;
     list-style-type: none;
     padding-left: 0;

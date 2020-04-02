@@ -1,0 +1,24 @@
+@media (prefers-color-scheme: dark){
+  
+  body {
+    background: hsl(0, 0%, 0%);
+  }
+
+  .main-title,
+  .second-title {
+    color: hsl(0, 0%, 90%);
+  } 
+
+  .box {
+    /* background-color: hsl(0, 0%, 2%); */
+  }
+
+  .skills-legend {
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+  }
+
+  .skills-legend_item:hover {
+    background-color:hsl(0, 0%, 50%);
+  }
+}
