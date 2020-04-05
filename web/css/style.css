@@ -43,10 +43,38 @@ grid {
 
 }
 
-grid > c {
-    grid-column-start: 1;
-    grid-column-end: -1;
+grid > c[span="row"] {
+    /* grid-column-start: 1;
+    grid-column-end: -1; */
+    
+    grid-column: 1/-1; 
+}
 
+grid > c {
+     overflow: hidden;
+
+}
+.disk-link {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    display: block;
+    background-color: lightsteelblue;
+}
+
+.disk-link.onahau {
+    background-color: #cce4ff;
+}
+
+.disk-link.granny-apple {
+    background-color: #d4f5e2;
+}
+
+
+
+c[span="1"] {
+
+    grid-column-end: span 1;
 }
 
 .box-shadow {
@@ -102,3 +130,4 @@ grid > c {
     padding: 8px;
     border: 1px solid #808080;
 }
+
