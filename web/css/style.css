@@ -2,3 +2,24 @@
 body {
   font-family:Roboto;
 }
+
+grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+  .main-title {
+    height: 40px;
+    font-size: 36px;
+    text-align:center;
+  }
+  .second-title {
+    text-align:center;
+    font-size: 24px;
+    text-align:center;
+  }
+  .sub-title {
+    height: 30px;
+    font-size: 22px;
+  }
+
