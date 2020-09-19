@@ -1,25 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
 body {
   font-family:Roboto;
+  margin: 0 36;
 }
 
-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
+  grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  grid > c {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
   .main-title {
     height: 40px;
+    margin:0;
     font-size: 36px;
     text-align:center;
   }
+
   .second-title {
     text-align:center;
+    margin: 0;
     font-size: 24px;
     text-align:center;
   }
+
   .sub-title {
-    height: 30px;
+    height: 15px;
     font-size: 22px;
   }
+
+c[height="30"] {
+  height: 30px;
+}
+
+
 
