@@ -12,7 +12,6 @@
 [class^="my-cv-"], [class*=" my-cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'my-cv-v2' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

@@ -22,6 +22,18 @@ body {
     grid-column-end: -1;
   }
 
+  c[span="1"] {
+    grid-column-end: span 1;
+  }
+
+.disk-link {
+  width: 65%;
+  padding-top: 65%;
+  background-color: aquamarine;
+  border-radius: 50%;
+  display: block;
+}
+
   .main-title {
     height: 40px;
     margin:0;
