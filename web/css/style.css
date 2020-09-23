@@ -17,9 +17,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
   }
-  grid > c {
-    grid-column-start: 1;
-    grid-column-end: -1;
+  grid > c[span="row"] {
+    grid-column: 1 / -1;
   }
 
   c[span="1"] {
@@ -27,8 +26,8 @@ body {
   }
 
 .disk-link {
-  width: 65%;
-  padding-top: 65%;
+  width: 60%;
+  padding-top: 60%;
   background-color: aquamarine;
   border-radius: 50%;
   display: block;
