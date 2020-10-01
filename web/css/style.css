@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
-
+@import 'test.css';
 @import 'font.css';
 
 * {
@@ -31,6 +31,22 @@ a[class^="disc-link__"] {
   padding-top: 60%;
   border-radius: 50%;
   display: block;
+  position: relative;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"]::before {
+  font-size: 6vw;
 }
 
 .disc-link__morning-glory {
