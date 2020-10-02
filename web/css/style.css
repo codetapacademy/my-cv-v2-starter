@@ -49,12 +49,48 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
   font-size: 6vw;
 }
 
-.disc-link__morning-glory {
-  background-color:#9CE2CE;
+.disc-link__onahau-dark {
+  background-color:#CCE4FF;
 }
 
-.disc-link__dull-lavender {
-  background-color:#9CADE2;
+.disc-link__granny-apple {
+  background-color:#D4F5E2;
+}
+
+.disc-link__oasis {
+  background-color:#FDEBCF;
+}
+
+.disc-link__onahau-light {
+  background-color:#CCF5FF;
+}
+
+.disc-link__blue-chalk {
+  background-color:#F1DEFF;
+}
+
+.disc-link__pastel-pink {
+  background-color:#FFCCDB;
+}
+
+.disc-link__azalea {
+  background-color:#FADBD8;
+}
+
+.disc-link__moon-raker {
+  background-color:#DFDDF9;
+}
+
+.disc-link__white-ice {
+  background-color:#D4F6F1;
+}
+
+.disc-link__janna {
+  background-color:#F4E5D7;
+}
+
+.disc-link__double-pearl-lusta {
+  background-color:#FCF3CF;
 }
 
 .main-title {
