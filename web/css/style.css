@@ -131,6 +131,31 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
   font-size: 20px;
 }
 
+.skills-button__torch-red {
+  background-color: #FD004D;
+} 
+
+.skills-button__shamrock {
+  background-color: #2dd070;
+} 
+
+.skills-button__buttercup {
+  background-color: #F29E1A;
+} 
+
+.skills-button__torch-red,
+.skills-button__shamrock,
+.skills-button__buttercup {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
 c[height="30"] {
   height: 30px;
 }
