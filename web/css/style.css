@@ -156,6 +156,32 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
   margin-bottom: 8px;
 }
 
+.skills-legend {
+  border: 2px solid #F0F0F0;
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.skills-legend_item:not(:last-child) {
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.skills-legend_item:hover {
+background-color: #FAFAFA;
+}
+
+.skills-legend_item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+}
+
+.skills-list {
+  padding: 20px 0;
+}
+
 c[height="30"] {
   height: 30px;
 }
