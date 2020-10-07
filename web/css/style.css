@@ -110,17 +110,25 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
 }
 
 .sub-title {
-  height: 15px;
+  height: 30px;
   margin: 0;
   font-size: 22px;
   color: grey;
 }
 
-.section-title {
-  height: 15px;
+.section-title,
+.section-subtitle {
+  height: 30px;
   margin: 0;
-  font-size: 22px;
   color: grey;
+}
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-subtitle {
+  font-size: 20px;
 }
 
 c[height="30"] {

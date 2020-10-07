@@ -23,12 +23,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.my-cv-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
+}
+
+.my-cv-arrow-up:before,
 .my-cv-arrow-down:before {
   content: "\e900";
 }
-.my-cv-arrow-up:before {
+/* .my-cv-arrow-up:before {
   content: "\e901";
-}
+} */
 .my-cv-book:before {
   content: "\e902";
 }
@@ -50,7 +56,7 @@
   font-style: normal;
   font-size: 8vw;
   content: "\e905";
-  margin-left: -1em; 
+  margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path4:before {
