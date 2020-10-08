@@ -39,30 +39,22 @@
   content: "\e902";
 }
 .my-cv-codetap .path1:before {
-  font-style: normal;
-  font-size: 8vw;
-  content: "\e903";
-  /* color: rgb(68, 68, 68); */
-  color: #d52027;
+  content: "\e902";
+  color: rgb(68, 68, 68);
+
 }
 .my-cv-codetap .path2:before {
-  font-style: normal;
-  font-size: 8vw;
-  content: "\e904";
+  content: "\e903";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path3:before {
-  font-style: normal;
-  font-size: 8vw;
-  content: "\e905";
+  content: "\e904";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .my-cv-codetap .path4:before {
-  font-style: normal;
-  font-size: 8vw;
-  content: "\e906";
+  content: "\e905";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }

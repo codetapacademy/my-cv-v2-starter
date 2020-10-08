@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');
 @import 'test.css';
 @import 'font.css';
+@import 'update.css'
 
 * {
   box-sizing: border-box;
@@ -170,24 +171,24 @@ a[class^="disc-link__"] > [class^="my-cv-"]::before {
 }
 
 .skills-legend_item:hover {
-background-color: #FAFAFA;
+  background-color: #FAFAFA;
 }
 
 .skills-legend_item > span[class^="my-cv-heart"]
 {
-color: #FD004D;
+  color: #FD004D;
 }
 
 
 .skills-legend_item > span[class^="my-cv-trophy"]
 {
-color: #2dd070;
+  color: #2dd070;
 }
 
 
 .skills-legend_item > span[class^="my-cv-book"]
 {
-color: #F29E1A ;
+  color: #F29E1A ;
 }
 
 .skills-legend_item > span[class^="my-cv-"]{
@@ -215,8 +216,13 @@ color: #F29E1A ;
   flex-grow: 1;
 }
 
+.skills-list-last,
 .skills-list {
-  padding: 20px 0;
+  padding-top: 20px;
+}
+
+.skills-list {
+  padding-top: 20px;
 }
 
 c[height="30"] {

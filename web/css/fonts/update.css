@@ -1,0 +1,12 @@
+.my-cv-codetap .path1:before {
+  content: "\e902";
+  color: #d52027
+  
+}
+  .my-cv-codetap.path1:before,
+  .my-cv-codetap .path2:before,
+  .my-cv-codetap .path3:before,
+  .my-cv-codetap .path4:before {
+    font-size: 6vw;
+    font-style: normal;
+}
