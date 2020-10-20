@@ -13,12 +13,16 @@
   }
 
   /* Font UPDATE */
-
   a[class^="disc-link__"] [class^="my-cv-"]:before,
   .my-cv-codetap .path1:before,
   .my-cv-codetap .path2:before,
   .my-cv-codetap .path3:before,
   .my-cv-codetap .path4:before {
-    font-size: 4vw;
+    font-size: 3vw;
 }
+
+body {
+  margin: 140px;
+}
+
 }
