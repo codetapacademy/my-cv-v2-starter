@@ -10,7 +10,7 @@ body {
 grid {
   display: grid;
   grid-template-columns: 50px 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
 
@@ -23,8 +23,8 @@ c[span="1"] {
 }
 
 a[class^="disc-link__"] {
-  width: 60%;
-  padding-top: 60%;
+  width: 50%;
+  padding-top: 50%;
   border-radius: 50%;
   display: block;
   position: relative;
@@ -42,7 +42,7 @@ a[class^="disc-link__"] > [class^="my-cv-"] {
 }
 
 a[class^="disc-link__"] > [class^="my-cv-"]::before {
-  font-size: 3vw;
+  font-size: 6vw;
 }
 
 .disc-link__onahau-dark {
@@ -274,4 +274,13 @@ c[height="30"] {
   border-radius: 6px;
   padding: 8px 8px 4px;
   border: 1px solid rgb(122, 122, 122);
+  margin-bottom: 10px;
+}
+
+/* Font UPDATE */
+  .my-cv-codetap .path1:before,
+  .my-cv-codetap .path2:before,
+  .my-cv-codetap .path3:before,
+  .my-cv-codetap .path4:before {
+    font-size: 6vw;
 }
