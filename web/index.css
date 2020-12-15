@@ -29,9 +29,6 @@ section#welcome h2{
   font-weight: 500;
 }
 section#welcome p{
-  text-align:left;
-  color:#808080;
-  font-size:22px;
   margin-top:47px;
   margin-bottom:9.7px;
 }
@@ -60,6 +57,78 @@ div#about-me-description{
 
 
 
+/*Connect */
+
+section>p{
+  text-align:left;
+  color:#808080;
+  font-size:22px;
+  
+}
+
+div#social-icons{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+div#profile-image{
+  width:302px;
+  height:302px;
+  background-color: #FFFFFF;
+  padding:5px;
+  border:1px solid #EEE;
+  border-radius: 5px;
+}
+div#profile-image img{
+  max-width:100%;
+  height: auto;
+  border-radius: 5px;
+}
+div#social-icons div{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height:68px;
+  border-radius:50%;
+  margin:20px 10px 20px 0px;
+}
+div#social-icons #div-icon-1{
+  background-color:#CCE4FF;
+}
+div#social-icons #div-icon-2{
+  background-color:#D4F5E2;
+}
+div#social-icons #div-icon-3{
+  background-color:#FDEBCF;
+}
+div#social-icons #div-icon-4{
+  background-color:#CCF5FF;
+}
+div#social-icons #div-icon-5{
+  background-color:#F1DEFF;
+}
+div#social-icons #div-icon-6{
+  background-color:#FFCCDB;
+}
+div#social-icons #div-icon-7{
+  background-color:#FADBD8;
+}
+div#social-icons #div-icon-8{
+  background-color:#DFDDF9;
+}
+div#social-icons #div-icon-9{
+  background-color:#D4F6F1;
+}
+div#social-icons #div-icon-10{
+  background-color:#F4E5D7;
+}
+div#social-icons #div-icon-11{
+  background-color:#FCF3CF;
+}
+
+
+
 
 
 
@@ -84,7 +153,7 @@ div#about-me-description{
 .green-arrow{
   background-color:#2DD070;
   border-radius:50%;
-  margin:auto;
+  margin:50px auto 0px auto;
   color:#FFFFFF;
   width: 40px;
   height:40px;
@@ -92,4 +161,13 @@ div#about-me-description{
   justify-content: center;
   align-items: center;
 
+}
+
+
+
+/*Responsive*/
+@media only screen and (min-width: 768px) {
+  #responsive-connect{
+    display: flex;;
+  }
 }
