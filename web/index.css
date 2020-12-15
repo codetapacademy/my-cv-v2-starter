@@ -37,7 +37,7 @@ section#welcome p{
 }
 div#about-me-description{
   width:100%;
-  text-overflow:hidden;
+  overflow-y:hidden;
   height:177.19px;
   text-align: left;
   background-color: #FAFAFA;
