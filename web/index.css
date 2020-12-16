@@ -76,6 +76,11 @@ section>p{
   
 }
 
+section#connect p{
+  margin-top:48px;
+  margin-bottom:20px;
+}
+
 div#social-icons{
   display:flex;
   flex-wrap: wrap;
@@ -181,23 +186,61 @@ div#social-icons #div-icon-11{
 }
 #skill-list ul{
   border:2px solid #F0F0F0;
-  border-radius: 5px;
+  border-radius: 20px;
   border-collapse: collapse;
   width: 299px;
   height:150px;
   color:#999999;
   list-style-type:none;
+  margin:auto;
   
 }
 #skill-list ul li{
-  border:2px solid #F0F0F0;
+  border-bottom:2px solid #F0F0F0;
   display:flex;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
-  margin:auto;
+  height:33.33%;
+  padding:10px;
+}
+#skill-list ul li img{
+  margin-left:10px;
+}
+#skill-list ul li:last-child{
+  background-color: #FAFAFA;
+  border-bottom: none;
 }
 
-
+section#frontend p,section#backend p,section#others p{
+  margin:20px 0px;
+}
+.flex-skills{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.flex-skills div{
+  color:#FFFFFF;
+  font-size:12;
+  font-weight: bold;
+  border-radius:25px;
+  padding:12px 25px;
+  display: inline-block;
+  margin:20px 20px 20px 0px;
+}
+.red-skill{
+  background-color: #FD004D;
+}
+.green-skill{
+  background-color: #2DD070;
+}
+.orange-skill{
+  background-color: #F29E1A;
+}
+section#skills div.green-arrow{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 /*Responsive*/
 @media only screen and (min-width: 768px) {
