@@ -1,10 +1,12 @@
 body{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
   font-family: 'Roboto', sans-serif;
   color:#1A1A1A;
   font-weight: 500;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
 main#content{
@@ -40,7 +42,7 @@ section#welcome p {
 
 div#about-me-description{
   width:100%;
-  text-overflow:hidden;
+  overflow-y:hidden;
   height:177.19px;
   text-align: left;
   background-color: #FAFAFA;
@@ -61,6 +63,83 @@ div#about-me-description{
 #welcome div.red-button a{
   text-decoration:none;
   color:#FFFFFF
+}
+
+
+
+/*Connect */
+
+section>p{
+  text-align:left;
+  color:#808080;
+  font-size:22px;
+  
+}
+
+section#connect p{
+  margin-top:48px;
+  margin-bottom:20px;
+}
+
+div#social-icons{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+div#profile-image{
+  width:302px;
+  height:302px;
+  background-color: #FFFFFF;
+  padding:5px;
+  border:1px solid #EEE;
+  border-radius: 5px;
+}
+div#profile-image img{
+  max-width:100%;
+  height: auto;
+  border-radius: 5px;
+}
+div#social-icons div{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height:68px;
+  border-radius:50%;
+  margin:20px 10px 20px 0px;
+}
+div#social-icons #div-icon-1{
+  background-color:#CCE4FF;
+}
+div#social-icons #div-icon-2{
+  background-color:#D4F5E2;
+}
+div#social-icons #div-icon-3{
+  background-color:#FDEBCF;
+}
+div#social-icons #div-icon-4{
+  background-color:#CCF5FF;
+}
+div#social-icons #div-icon-5{
+  background-color:#F1DEFF;
+}
+div#social-icons #div-icon-6{
+  background-color:#FFCCDB;
+}
+div#social-icons #div-icon-7{
+  background-color:#FADBD8;
+}
+div#social-icons #div-icon-8{
+  background-color:#DFDDF9;
+}
+div#social-icons #div-icon-9{
+  background-color:#D4F6F1;
+}
+div#social-icons #div-icon-10{
+  background-color:#F4E5D7;
+}
+div#social-icons #div-icon-11{
+  background-color:#FCF3CF;
 }
 
 
@@ -89,7 +168,7 @@ div#about-me-description{
 .green-arrow{
   background-color:#2DD070;
   border-radius:50%;
-  margin:auto;
+  margin:50px auto 0px auto;
   color:#FFFFFF;
   width: 40px;
   height:40px;
@@ -97,4 +176,75 @@ div#about-me-description{
   justify-content: center;
   align-items: center;
 
+}
+
+/*Skills*/
+
+#skill-list p{
+  margin-top:48px;
+  margin-bottom:20px;
+}
+#skill-list ul{
+  border:2px solid #F0F0F0;
+  border-radius: 20px;
+  border-collapse: collapse;
+  width: 299px;
+  height:150px;
+  color:#999999;
+  list-style-type:none;
+  margin:auto;
+  
+}
+#skill-list ul li{
+  border-bottom:2px solid #F0F0F0;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  height:33.33%;
+  padding:10px;
+}
+#skill-list ul li img{
+  margin-left:10px;
+}
+#skill-list ul li:last-child{
+  background-color: #FAFAFA;
+  border-bottom: none;
+}
+
+section#frontend p,section#backend p,section#others p{
+  margin:20px 0px;
+}
+.flex-skills{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.flex-skills div{
+  color:#FFFFFF;
+  font-size:12;
+  font-weight: bold;
+  border-radius:25px;
+  padding:12px 25px;
+  display: inline-block;
+  margin:20px 20px 20px 0px;
+}
+.red-skill{
+  background-color: #FD004D;
+}
+.green-skill{
+  background-color: #2DD070;
+}
+.orange-skill{
+  background-color: #F29E1A;
+}
+section#skills div.green-arrow{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*Responsive*/
+@media only screen and (min-width: 768px) {
+  #responsive-connect{
+    display: flex;;
+  }
 }
