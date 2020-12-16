@@ -1,10 +1,12 @@
 body{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
   font-family: 'Roboto', sans-serif;
   color:#1A1A1A;
   font-weight:500;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
 main#content{
@@ -161,6 +163,30 @@ div#social-icons #div-icon-11{
   justify-content: center;
   align-items: center;
 
+}
+
+/*Skills*/
+
+#skill-list p{
+  margin-top:48px;
+  margin-bottom:20px;
+}
+#skill-list ul{
+  border:2px solid #F0F0F0;
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 299px;
+  height:150px;
+  color:#999999;
+  list-style-type:none;
+  
+}
+#skill-list ul li{
+  border:2px solid #F0F0F0;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  margin:auto;
 }
 
 
