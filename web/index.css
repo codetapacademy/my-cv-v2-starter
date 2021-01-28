@@ -202,6 +202,7 @@ div#social-icons #div-icon-11{
   align-items: center;
   height:33.33%;
   padding:10px;
+  
 }
 #skill-list ul li img{
   margin-left:10px;
@@ -242,9 +243,36 @@ section#skills div.green-arrow{
   margin-bottom: 50px;
 }
 
+
+#skill-list ul li p{
+  position: absolute;
+  margin-left:68px;
+  margin-top:16px;
+}
+
+
+
+
+
+
+
 /*Responsive*/
 @media only screen and (min-width: 768px) {
   #responsive-connect{
-    display: flex;;
+    display: flex;
+    align-items: flex-start;
+  }
+  div#profile-image {
+    flex-shrink: 0;
+    width:296px;
+  }
+  #responsive-connect #social-icons div{
+    margin:0px 15px 20px 15px;
+
+  }
+}
+@media only screen and (min-width: 1366px){
+  div#profile-image {
+    width: 352px;
   }
 }
