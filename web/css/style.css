@@ -1,3 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
       h1 {font-family: Roboto;}
+.main-title{
+      height: 40px;
+      font-size: 36px;
+      text-align: center;
+}
+
+.second-title{
+      height: 30px;
+      font-size: 24px;
+      text-align: center;
+}
+
+.section-title{
+      height: 30px;
+      font-size: 22px;
+}
