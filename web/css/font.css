@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'my-cv';
+  src:
+    url('fonts/my-cv.ttf?nvl32f') format('truetype'),
+    url('fonts/my-cv.woff?nvl32f') format('woff'),
+    url('fonts/my-cv.svg?nvl32f#my-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-cv-"], [class*=" my-cv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-cv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-cv-arrow-down:before {
+  content: "\e900";
+}
+.my-cv-arrow-up:before {
+  content: "\e901";
+}
+.my-cv-book:before {
+  content: "\e902";
+}
+.my-cv-codetap:before {
+  content: "\e903";
+}
+.my-cv-codewars:before {
+  content: "\e904";
+}
+.my-cv-commits:before {
+  content: "\e905";
+}
+.my-cv-cross:before {
+  content: "\e906";
+}
+.my-cv-download:before {
+  content: "\e907";
+}
+.my-cv-earth:before {
+  content: "\e908";
+}
+.my-cv-facebook:before {
+  content: "\e909";
+}
+.my-cv-forks:before {
+  content: "\e90a";
+}
+.my-cv-github:before {
+  content: "\e90b";
+}
+.my-cv-heart:before {
+  content: "\e90c";
+}
+.my-cv-info:before {
+  content: "\e90d";
+}
+.my-cv-instagram:before {
+  content: "\e90e";
+}
+.my-cv-link:before {
+  content: "\e90f";
+}
+.my-cv-linkedin:before {
+  content: "\e910";
+}
+.my-cv-menu:before {
+  content: "\e911";
+}
+.my-cv-rotate:before {
+  content: "\e912";
+}
+.my-cv-skype:before {
+  content: "\e913";
+}
+.my-cv-stackoverflow:before {
+  content: "\e914";
+}
+.my-cv-stars:before {
+  content: "\e915";
+}
+.my-cv-trophy:before {
+  content: "\e916";
+}
+.my-cv-twitter:before {
+  content: "\e917";
+}
+.my-cv-udemy:before {
+  content: "\e918";
+}
+.my-cv-user:before {
+  content: "\e919";
+}
+.my-cv-youtube:before {
+  content: "\e91a";
+}
