@@ -1,19 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-      h1 {font-family: Roboto;}
+      body {
+            font-family: Roboto;
+            margin: 0 36px;
+      }
+
+      grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+      }
+      grid > c {
+            grid-column-start: 1;
+            grid-column-end: -1;
+      }
+
 .main-title{
+      margin:0px;
       height: 40px;
       font-size: 36px;
       text-align: center;
 }
 
 .second-title{
+      margin:0px;
       height: 30px;
       font-size: 24px;
       text-align: center;
 }
 
 .section-title{
+      margin:0px;
       height: 30px;
       font-size: 22px;
+}
+c[height="30"]{
+      height: 30px;
 }
