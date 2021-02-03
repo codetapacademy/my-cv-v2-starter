@@ -101,6 +101,13 @@ a[class^="disc-link__"] > [class^="my-cv-"] {
 	font-size: 22px;
 	color: #808080;
 }
+
+.section-subtitle{
+	margin:0px;
+	height: 30px;
+	font-size: 20px;
+	color: #808080;
+}
 c[height="30"]{
 	height: 30px;
 }
