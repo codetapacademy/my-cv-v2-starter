@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?nvl32f') format('truetype'),
-    url('fonts/my-cv.woff?nvl32f') format('woff'),
-    url('fonts/my-cv.svg?nvl32f#my-cv') format('svg');
+    url('fonts/my-cv.ttf?m6zh0g') format('truetype'),
+    url('fonts/my-cv.woff?m6zh0g') format('woff'),
+    url('fonts/my-cv.svg?m6zh0g#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,20 +28,16 @@
   content: "\e901";
 }
 .my-cv-arrow-up:before {
-  content: "\e920";
+  content: "\e902";
 }
 .my-cv-book:before {
-  content: "\e902";
+  content: "\e903";
 }
 .my-cv-codetap:before {
   content: "\e904";
-  color: #d52027;
-  font-size: 12vw;
 }
 .my-cv-codewars:before {
   content: "\e900";
-  color: #9b2d23;
-  font-size: 15vw;
 }
 .my-cv-commits:before {
   content: "\e905";
@@ -56,7 +52,6 @@
   content: "\e908";
 }
 .my-cv-facebook:before {
-  color: #3b5998;
   content: "\e909";
 }
 .my-cv-forks:before {
@@ -72,14 +67,12 @@
   content: "\e90d";
 }
 .my-cv-instagram:before {
-  color: #DD2A7B;
   content: "\e90e";
 }
 .my-cv-link:before {
   content: "\e90f";
 }
 .my-cv-linkedin:before {
-  color: #0077B5;
   content: "\e910";
 }
 .my-cv-menu:before {
@@ -89,11 +82,9 @@
   content: "\e912";
 }
 .my-cv-skype:before {
-  color: #00AFF0;
   content: "\e913";
 }
 .my-cv-stackoverflow:before {
-  color: #ef8236;
   content: "\e914";
 }
 .my-cv-stars:before {
@@ -103,17 +94,14 @@
   content: "\e916";
 }
 .my-cv-twitter:before {
-  color: #00ACEE;
   content: "\e917";
 }
 .my-cv-udemy:before {
-  color: #ea5153;
   content: "\e918";
 }
 .my-cv-user:before {
   content: "\e919";
 }
 .my-cv-youtube:before {
-  color: #E62117;
   content: "\e91a";
 }
