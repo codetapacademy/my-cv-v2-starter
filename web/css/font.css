@@ -28,10 +28,13 @@
   content: "\e901";
 }
 .my-cv-arrow-up:before {
-  content: "\e920";
+  content: "\e901";
+  display: block;
+  transform: rotate(180deg);
 }
 .my-cv-book:before {
-  content: "\e902";
+  content: "\e903";
+  color: #F29E1A;
 }
 .my-cv-codetap:before {
   content: "\e904";
@@ -67,6 +70,7 @@
 }
 .my-cv-heart:before {
   content: "\e90c";
+  color: #FD004D;
 }
 .my-cv-info:before {
   content: "\e90d";
@@ -101,6 +105,7 @@
 }
 .my-cv-trophy:before {
   content: "\e916";
+  color: #2DD070;
 }
 .my-cv-twitter:before {
   color: #00ACEE;

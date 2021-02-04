@@ -95,19 +95,21 @@ a[class^="disc-link__"] > [class^="my-cv-"] {
 	text-align: center;
 }
 
-.section-title{
-	margin:0px;
-	height: 30px;
-	font-size: 22px;
-	color: #808080;
-}
-
+.section-title,
 .section-subtitle{
 	margin:0px;
 	height: 30px;
-	font-size: 20px;
 	color: #808080;
 }
+
+.section-title{
+	font-size: 22px;
+}
+
+.section-subtitle{
+	font-size: 20px;
+}
+
 c[height="30"]{
 	height: 30px;
 }
@@ -161,5 +163,75 @@ c[height="30"]{
 	padding: 8px 8px 4px;
 	border: 1px solid #808080;
 
+}
+
+.skills-button__ferrari-rosu {
+	background-color: #FD004D;
+}
+.skills-button__lamborghini-verde {
+	background-color: #2DD070;
+}
+.skills-button__portocala-mecanica {
+	background-color: #F29E1A;
+}
+
+.skills-button__ferrari-rosu,
+.skills-button__lamborghini-verde,
+.skills-button__portocala-mecanica {
+	height: 40px;
+	padding: 0 24px;
+	border-radius: 20px;
+	border: 0px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+.skills-list {
+	padding: 20px 0;;
+}
+
+.skills-legend {
+	border: 2px solid #F0F0F0;
+	list-style-type: none;
+	padding-left: 0;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.skills-legend_item:not(:last-child) {
+	border-bottom: 2px solid #F0F0F0;
+}
+
+.skills-legend_item:hover {
+	background-color: #FAFAFA;
+}
+
+.skills-legend_item > span[class^="my-cv-"]{
+	display: inline-flex;
+	width: 30px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills-legend_item {
+	height: 52px;
+	line-height: 32px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.legend-count{
+	padding-right: 20px;
+}
+
+.legend-description {
+	padding: 0 10px;
+	flex-grow: 1;
 }
 
