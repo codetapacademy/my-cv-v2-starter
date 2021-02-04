@@ -33,7 +33,7 @@ a[class^="disc-link__"] {
       position: relative;
 }
 
-a[class^="disc-link__"] > [class^="my-cv-"]{
+a[class^="disc-link__"] > [class^="my-cv-"] {
       position: absolute;
       top: 0;
       width: 100%;
@@ -47,81 +47,81 @@ a[class^="disc-link__"] > [class^="my-cv-"]{
 a[class^="disc-link__"] > [class^="my-cv-"] {
      font-size: 8vw;
       }
-.disc-link__onahau{
+.disc-link__onahau {
 	background-color: #CCE4FF;
 }
-.disc-link__granny-apple{
+.disc-link__granny-apple {
 	background-color: #D4F5E2;
 }
-.disc-link__oasis{
+.disc-link__oasis {
 	background-color: #FDEBCF;
 }
-.disc-link__nu-conteaza{
+.disc-link__nu-conteaza {
 	background-color: #CCF5FF;
 }
-.disc-link__lloyds-bank{
+.disc-link__lloyds-bank {
 	background-color: #F1DEFF;
 }
-.disc-link__mai-vedem{
+.disc-link__mai-vedem {
 	background-color: #FFCCDB;
 }
-.disc-link__tesla-model-y{
+.disc-link__tesla-model-y {
 	background-color: #FADBD8;
 }
-.disc-link__grey-anatomy{
+.disc-link__grey-anatomy {
 	background-color: #DFDDF9;
 }
-.disc-link__beef-rendang{
+.disc-link__beef-rendang {
 	background-color: #D4F6F1;
 }
-.disc-link__sous-vide{
+.disc-link__sous-vide {
 	background-color: #F4E5D7;
 }
-.disc-link__team-sport{
+.disc-link__team-sport {
 	background-color: #FCF3CF;
 }
 
-.main-title{
-	margin:0px;
+.main-title {
+	margin: 0px;
 	height: 40px;
 	font-size: 36px;
 	text-align: center;
 }
 
-.second-title{
-	margin:0px;
+.second-title {
+	margin: 0px;
 	height: 30px;
 	font-size: 24px;
 	text-align: center;
 }
 
 .section-title,
-.section-subtitle{
-	margin:0px;
+.section-subtitle {
+	margin: 0px;
 	height: 30px;
 	color: #808080;
 }
 
-.section-title{
+.section-title {
 	font-size: 22px;
 }
 
-.section-subtitle{
+.section-subtitle {
 	font-size: 20px;
 }
 
-c[height="30"]{
+c[height="30"] {
 	height: 30px;
 }
 
-.box-shadow{
+.box-shadow {
 	background-color: #FAFAFA;
 	padding: 20px;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-.text-description{
-	margin:0px;
+.text-description {
+	margin: 0px;
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 30px;
@@ -152,7 +152,7 @@ c[height="30"]{
 	text-align: center;
 }
 
-.avatar{
+.avatar {
 	width: 100%;
 	border-radius: 5px;
 	border: 1px solid #808080;
@@ -190,7 +190,7 @@ c[height="30"]{
 }
 
 .skills-list {
-	padding: 20px 0;;
+	padding: 20px 0;
 }
 
 .skills-legend {
@@ -210,7 +210,7 @@ c[height="30"]{
 	background-color: #FAFAFA;
 }
 
-.skills-legend_item > span[class^="my-cv-"]{
+.skills-legend_item > span[class^="my-cv-"] {
 	display: inline-flex;
 	width: 30px;
 	height: 30px;
@@ -226,7 +226,7 @@ c[height="30"]{
 	align-items: center;
 }
 
-.legend-count{
+.legend-count {
 	padding-right: 20px;
 }
 
