@@ -1,0 +1,21 @@
+@media (min-width: 1024px){
+  grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  grid[ columns-desktop="8"] {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  grid > c[span-desktop="8"] {
+    grid-column-end: span 8;
+  }
+
+  a[class^="disc-link__"] > [class^="my-cv-"] {
+    font-size: 2.5vw;
+  }
+
+  body {
+    margin: 0 140px;
+  }
+}
