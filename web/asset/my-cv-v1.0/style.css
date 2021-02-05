@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?g8qurx') format('truetype'),
-    url('fonts/my-cv.woff?g8qurx') format('woff'),
-    url('fonts/my-cv.svg?g8qurx#my-cv') format('svg');
+    url('fonts/my-cv.ttf?2664wi') format('truetype'),
+    url('fonts/my-cv.woff?2664wi') format('woff'),
+    url('fonts/my-cv.svg?2664wi#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.my-cv-codewars:before {
+  content: "\e903";
+}
 .my-cv-arrow-down:before {
   content: "\e900";
 }
@@ -32,9 +35,6 @@
 }
 .my-cv-codetap:before {
   content: "\e902";
-}
-.my-cv-codewars:before {
-  content: "\e903";
 }
 .my-cv-facebook:before {
   content: "\e904";

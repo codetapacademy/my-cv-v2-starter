@@ -33,13 +33,16 @@
 }
 
 .my-cv-codetap:before {
+  font-style: normal;
+  font-size: 8vw;
   content: "\e902";
-  color: rgb(68, 68, 68)
-  font-style: 8vw;
+  color: #d52027;
+  
 }
 
 .my-cv-codewars:before {
   content: "\e903";
+  
 }
 
 .my-cv-facebook:before {
