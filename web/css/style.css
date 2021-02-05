@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:400,500,700&display=swap');
+
+@import 'font.css';
+
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -33,6 +36,7 @@ text-align: center;
 height: 30px;
 margin: 0;
 font-size:22px;
+color: #808080;
 }
 
 c[height="30"]{
@@ -50,11 +54,30 @@ c[height="30"]{
   font-size: 14px;
   font-weight: 500;
   line-height: 30px;
+  color: #808080;
 }
 
 .button__attention{
   background-color: #FE004E;
   color: white ;
   height: 40px;
-  padding: ;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button-disc__info {
+  background-color: #2DD070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 18px;
+}
+
+.text-centered {
+  text-align: center;
 }
