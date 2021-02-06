@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'my-cv';
   src:
-    url('fonts/my-cv.ttf?2664wi') format('truetype'),
-    url('fonts/my-cv.woff?2664wi') format('woff'),
-    url('fonts/my-cv.svg?2664wi#my-cv') format('svg');
+    url('fonts/my-cv.ttf?wpa5t7') format('truetype'),
+    url('fonts/my-cv.woff?wpa5t7') format('woff'),
+    url('fonts/my-cv.svg?wpa5t7#my-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -65,4 +65,7 @@
 }
 .my-cv-youtube:before {
   content: "\e90d";
+}
+.my-cv-heart:before {
+  content: "\e9da";
 }
