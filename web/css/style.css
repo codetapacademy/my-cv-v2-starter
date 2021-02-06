@@ -1,6 +1,17 @@
+.constant-ratio {
+  width: 100%;
+  padding-top: 20%;
+  background-color: lightsteelblue;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 @import 'font.css';
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: Roboto;
@@ -13,7 +24,7 @@ grid {
   grid-gap: 10px;
 }
 
-grid > c{
+grid > c {
   grid-column-start: 1;
   grid-column-end: -1;
 }
@@ -39,7 +50,7 @@ font-size:22px;
 color: #808080;
 }
 
-c[height="30"]{
+c[height="30"] {
   height: 30px;
 }
 
@@ -57,7 +68,7 @@ c[height="30"]{
   color: #808080;
 }
 
-.button__attention{
+.button__attention {
   background-color: #FE004E;
   color: white ;
   height: 40px;
@@ -80,4 +91,17 @@ c[height="30"]{
 
 .text-centered {
   text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080; 
+}
+
+.image-wrapper {
+  margin-top: 20px;
+  border-radius: 6px;
+  padding: 8px; 
+  border: 1px solid #808080; 
 }
