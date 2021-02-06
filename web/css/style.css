@@ -109,6 +109,12 @@ c[height="30"] {
 .image-wrapper {
   margin-top: 20px;
   border-radius: 6px;
+  /* background-size: 100% 80%; */
+  background-size: 125% 100%;
+  background-position: center center;
   padding: 8px; 
+  background-image: url(/image/avatar-sebastian.jpg);
+  padding-top: 100%;
   border: 1px solid #808080; 
 }
+
