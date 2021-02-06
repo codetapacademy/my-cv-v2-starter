@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@import 'test.css';
 @import 'font.css';
 
 * {
@@ -17,9 +17,14 @@ grid {
   grid-gap: 10px;
 }
 
+grid > c[span="row"] {
+ /* grid-column-start: 1;
+  grid-column-end: -1; */
+  grid-column: 1 / -1;
+}
+
 grid > c {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  overflow: hidden;
 }
 
 c[span="1"] {
@@ -27,12 +32,62 @@ c[span="1"] {
 }
 
 
-.disc-link {
-  width:100%;
+a[class^="disc-link__"] {
+  width: 100%;
   padding-top: 100%;
-  background-color: lightsteelblue;
   border-radius: 50%;
   display: block; 
+  position: relative;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"]{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"]::before{
+  font-size: 8vw;
+ 
+}
+
+.disc-link__onahau-dark {
+  background-color: #CCE4FF;
+}
+.disc-link__granny-apple {
+  background-color: #D4F5E2;
+}
+.disc-link__oasis {
+  background-color: #FDEBCF;
+}
+.disc-link__onahau-light {
+  background-color: #CCF5FF;
+}
+.disc-link__blue-chalk {
+  background-color: #F1DEFF;
+}
+.disc-link__pastel-pink {
+  background-color: #FFCCDB;
+}
+.disc-link__azalea {
+  background-color: #FADBD8;
+}
+.disc-link__moon-raker {
+  background-color: #DFDDF9;
+}
+.disc-link__white-ice {
+  background-color: #D4F6F1;
+}
+.disc-link__janna {
+  background-color: #F4E5D7;
+}
+.disc-link__double-pearl-lusta {
+  background-color: #FCF3CF;
 }
 
 .main-title {
@@ -106,7 +161,7 @@ c[height="30"] {
 
 .image-wrapper {
   border-radius: 6px;
-  padding: 8px;
+  padding: 8px 8px 4px;
   border: 1px solid #808080;
 }
 
