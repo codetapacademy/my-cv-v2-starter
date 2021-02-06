@@ -1,8 +1,3 @@
-.constant-ratio {
-  width: 100%;
-  padding-top: 20%;
-  background-color: lightsteelblue;
-}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
@@ -27,6 +22,18 @@ grid {
 grid > c {
   grid-column-start: 1;
   grid-column-end: -1;
+}
+
+c[span="1"] {
+  grid-column-end: span 1;
+}
+
+.disk-link {
+  width: 100%;
+  padding-top: 100%;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  display: block;
 }
 
 .main-title {
