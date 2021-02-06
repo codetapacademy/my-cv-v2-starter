@@ -127,6 +127,19 @@ a[class^="disc-link"]>[class^='my-cv']::before{
 
 .skills-button__torch-red{
   background-color: #FD004D;
+  }
+
+.skills-button__shamrock{
+  background-color: #2DD070;
+  }
+
+.skills-button__buttercup{
+  background-color: #f29e1a;
+  }
+
+.skills-button__torch-red,
+.skills-button__shamrock,
+.skills-button__buttercup{
   height: 40px;
   padding: 0 24px;
   border-radius: 20px;
