@@ -1,6 +1,8 @@
 body {
   font-family: Roboto;
   margin: 0 36px;
+  background-color: hsl(0, 0%, 100%);
+  background: hsl(0, 0, 100%);
 }
 
 grid{
@@ -41,198 +43,204 @@ a[class^="disc-link__"] > [class^="my-cv-"] {
 }
 
 a[class^="disc-link__"] > [class^="my-cv-"] {
- font-size: 8vw;
-  }
+  font-size: 8vw;
+}
 .disc-link__onahau {
-background-color: #CCE4FF;
+  background-color: #CCE4FF;
 }
 .disc-link__granny-apple {
-background-color: #D4F5E2;
+  background-color: #D4F5E2;
 }
 .disc-link__oasis {
-background-color: #FDEBCF;
+  background-color: #FDEBCF;
 }
 .disc-link__nu-conteaza {
-background-color: #CCF5FF;
+  background-color: #CCF5FF;
 }
 .disc-link__lloyds-bank {
-background-color: #F1DEFF;
+  background-color: #F1DEFF;
 }
 .disc-link__mai-vedem {
-background-color: #FFCCDB;
+  background-color: #FFCCDB;
 }
 .disc-link__tesla-model-y {
-background-color: #FADBD8;
+  background-color: #FADBD8;
 }
 .disc-link__grey-anatomy {
-background-color: #DFDDF9;
+  background-color: #DFDDF9;
 }
 .disc-link__beef-rendang {
-background-color: #D4F6F1;
+  background-color: #D4F6F1;
 }
 .disc-link__sous-vide {
-background-color: #F4E5D7;
+  background-color: #F4E5D7;
 }
 .disc-link__team-sport {
-background-color: #FCF3CF;
+  background-color: #FCF3CF;
+}
+
+.main-title,
+.second-title {
+  margin: 0px;
+  text-align: center;
+  color: hsl(0, 0%, 10%)
 }
 
 .main-title {
-margin: 0px;
-height: 40px;
-font-size: 36px;
-text-align: center;
+  font-size: 36px;
+  height: 40px;
 }
 
 .second-title {
-margin: 0px;
-height: 30px;
-font-size: 24px;
-text-align: center;
+  font-size: 24px;
+  height: 30px;
 }
 
 .section-title,
 .section-subtitle {
-margin: 0px;
-height: 30px;
-color: #808080;
+  margin: 0px;
+  height: 30px;
+  color: #808080;
 }
 
 .section-title {
-font-size: 22px;
+  font-size: 22px;
 }
 
 .section-subtitle {
-font-size: 20px;
+  font-size: 20px;
 }
 
 c[height="30"] {
-height: 30px;
+  height: 30px;
 }
 
 .box-shadow {
-background-color: #FAFAFA;
-padding: 20px;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  background-color: #FAFAFA;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .text-description {
-margin: 0px;
-font-size: 14px;
-font-weight: 500;
-line-height: 30px;
-color: #808080;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
 }
 
 .button__attention {
-background-color: #FE004E;
-color: white;
-height: 40px;
-padding: 0 24px;
-border-radius: 20px;
-border: 0px;
-font-size: 12px;
-font-weight: bold;
+  background-color: #FE004E;
+  color: white;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .button-disc__info {
-background-color: #2DD070;
-color: white;
-border-radius: 50%;
-height: 40px;
-width: 40px;
-border: 0;
-font-size: 18px;
+  background-color: #2DD070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 18px;
 }
 .text-centered {
-text-align: center;
+  text-align: center;
 }
 
 .avatar {
-width: 100%;
-border-radius: 5px;
-border: 1px solid #808080;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080;
 }
 
 .image-wrapper {
-border-radius: 6px;
-padding: 8px 8px 4px;
-border: 1px solid #808080;
-margin-bottom: 10px;
+  border-radius: 6px;
+  padding: 8px 8px 4px;
+  border: 1px solid #808080;
+  margin-bottom: 10px;
 
 }
 
 .skills-button__ferrari-rosu {
-background-color: #FD004D;
+  background-color: #FD004D;
 }
 .skills-button__lamborghini-verde {
-background-color: #2DD070;
+  background-color: #2DD070;
 }
 .skills-button__portocala-mecanica {
-background-color: #F29E1A;
+  background-color: #F29E1A;
 }
 
 .skills-button__ferrari-rosu,
 .skills-button__lamborghini-verde,
 .skills-button__portocala-mecanica {
-height: 40px;
-padding: 0 24px;
-border-radius: 20px;
-border: 0px;
-color: white;
-font-size: 12px;
-font-weight: bold;
-margin-right: 8px;
-margin-bottom: 8px;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 
 .skills-list-last,
 .skill-list {
-padding-top: 20px;
+  padding-top: 20px;
 }
 .skills-list {
-padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .skills-legend {
-border: 2px solid #F0F0F0;
-list-style-type: none;
-padding-left: 0;
-border-radius: 15px;
-overflow: hidden;
-margin: 20px 0;
+  background-color: hsl(0, 0%, 100%);
+  color:hsl(0, 0, 0%);
+  border: 2px solid hsl(0, 0%, 94%);
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+
 }
 
 .skills-legend_item:not(:last-child) {
-border-bottom: 2px solid #F0F0F0;
+  border-bottom: 2px solid hsl(0, 0%, 94%);
 }
 
 .skills-legend_item:hover {
-background-color: #FAFAFA;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .skills-legend_item > span[class^="my-cv-"] {
-display: inline-flex;
-width: 30px;
-height: 30px;
-justify-content: center;
-align-items: center;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-legend_item {
-height: 52px;
-line-height: 32px;
-padding: 10px;
-display: flex;
-align-items: center;
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .legend-count {
-padding-right: 20px;
+  padding-right: 20px;
 }
 
 .legend-description {
-padding: 0 10px;
-flex-grow: 1;
+  padding: 0 10px;
+  flex-grow: 1;
 }
 
