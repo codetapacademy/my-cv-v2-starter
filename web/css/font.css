@@ -48,6 +48,9 @@
 
 .my-cv-codetap:before {
   content: "\e902";
+  font-size: 8vw;
+  font-style: normal;
+  color: #d52027;
 }
 
 .my-cv-facebook:before {

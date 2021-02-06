@@ -204,8 +204,13 @@ a[class^="disc-link"]>[class^='my-cv']::before{
   flex-grow: 1;
 }
 
+.skills-list-last,
 .skills-list{
-  padding: 20px 0;
+  padding-top: 20px;
+}
+
+.skills-list{
+  padding-bottom: 20px;
 }
 
 c[height="30"]{
