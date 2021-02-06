@@ -101,41 +101,41 @@ a[class^="disc-link"]>[class^='my-cv']::before{
     margin: 0;
     font-size: 36px;
     text-align: center;
-  }
+}
 
 .second-title{
     height: 30px;
     margin: 0;
     font-size: 24px;
     text-align: center;
-  }
+}
 
 .section-title,
 .section-subtitle{
     height: 30px;
     margin: 0;
     color: #808080;
-  }
+}
 
 .section-title{
     font-size: 22px;
-  }
+}
 
 .section-subtitle{
     font-size: 20px;
-  }
+}
 
 .skills-button__torch-red{
   background-color: #FD004D;
-  }
+}
 
 .skills-button__shamrock{
   background-color: #2DD070;
-  }
+}
 
 .skills-button__buttercup{
   background-color: #f29e1a;
-  }
+}
 
 .skills-button__torch-red,
 .skills-button__shamrock,
