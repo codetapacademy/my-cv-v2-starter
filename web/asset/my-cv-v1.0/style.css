@@ -27,45 +27,70 @@
 .my-cv-codewars:before {
   content: "\e903";
 }
+
+.my-cv-arrow-up:before,
 .my-cv-arrow-down:before {
   content: "\e900";
 }
+
+.my-cv-arrow-down:before {
+  content: "\e900";
+}
+
+.my-cv-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
+}
+
 .my-cv-book:before {
   content: "\e901";
 }
+
 .my-cv-codetap:before {
   content: "\e902";
 }
+
 .my-cv-facebook:before {
   content: "\e904";
 }
+
 .my-cv-github:before {
   content: "\e905";
 }
+
 .my-cv-instagram:before {
   content: "\e906";
 }
+
 .my-cv-linkedin:before {
   content: "\e907";
 }
+
 .my-cv-skype:before {
   content: "\e908";
 }
+
 .my-cv-stackoverflow:before {
   content: "\e909";
 }
+
 .my-cv-trophy:before {
   content: "\e90a";
 }
+
 .my-cv-twitter:before {
   content: "\e90b";
 }
+
 .my-cv-udemy:before {
   content: "\e90c";
 }
+
 .my-cv-youtube:before {
   content: "\e90d";
 }
+
 .my-cv-heart:before {
   content: "\e9da";
 }
+
