@@ -39,12 +39,12 @@
 .my-cv-codetap:before {
   content: "\e904";
   color: #d52027;
-  font-size: 12vw;
-}
+/*   font-size: 12vw;
+ */}
 .my-cv-codewars:before {
   content: "\e900";
   color: #9b2d23;
-  font-size: 15vw;
+ /* font-size: 15vw;*/
 }
 .my-cv-commits:before {
   content: "\e905";
