@@ -28,8 +28,18 @@
   content: "\e903";
 }
 
+.my-cv-arrow-up:before,
 .my-cv-arrow-down:before {
   content: "\e900";
+}
+
+.my-cv-arrow-down:before {
+  content: "\e900";
+}
+
+.my-cv-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
 }
 
 .my-cv-book:before {
@@ -83,3 +93,4 @@
 .my-cv-heart:before {
   content: "\e9da";
 }
+
