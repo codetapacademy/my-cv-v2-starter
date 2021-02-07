@@ -97,7 +97,6 @@ a[class^="disc-link"]>[class^='my-cv']::before{
     margin: 0;
     font-size: 36px;
     text-align: center;
-    display: contents;
 }
 
 .second-title{
