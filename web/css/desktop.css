@@ -2,19 +2,10 @@
   grid{
     grid-template-columns: repeat(12, 1fr);
   }
-  grid>c[span-tablet$="+4"],
-  grid>c[span-tablet$="4"]{
-    grid-column-end: span 4;
-    grid-column-start: auto;
-  }
+  
   grid[columns-desktop="8"]{
     grid-template-columns: repeat(8, 1fr)
   }
 
-  /* Update of font */
-  a.[class^="disk-link__"] [class^="my-cv-"]:before,
-  .my-cv-codetap:before {
-  font-size: 4vw;}
-  
  
 }
