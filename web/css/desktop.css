@@ -7,5 +7,7 @@
     grid-template-columns: repeat(8, 1fr)
   }
 
- 
+  grid[columns-desktop="8"]{
+    grid-template-columns: repeat(8, 1fr)
+  }
 }

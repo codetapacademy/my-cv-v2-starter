@@ -19,4 +19,8 @@
   body{
     margin: 0 36px;
   }
+
+  mobile-main-title{
+    font-size: 27px;
+  }
 }
