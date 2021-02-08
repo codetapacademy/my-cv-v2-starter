@@ -5,6 +5,7 @@
 body{
     font-family: Roboto;
     margin: 0 36px;
+    background-color: hsl(0, 0%, 100%);
   }
 
 grid{
@@ -18,7 +19,7 @@ grid>c[span="row"]{
 }
 
 grid>c{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 c[span="1"]{
@@ -92,18 +93,22 @@ a[class^="disc-link"]>[class^='my-cv']::before{
   background-color: #FCF3CF;
 }
 
+.main-title,
+.second-title{
+  margin: 0;
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+}
+
 .main-title{
     line-height: 40px;
-    margin: 0;
     font-size: 36px;
-    text-align: center;
+ 
 }
 
 .second-title{
     height: 30px;
-    margin: 0;
     font-size: 24px;
-    text-align: center;
 }
 
 .section-title,
@@ -148,7 +153,9 @@ a[class^="disc-link"]>[class^='my-cv']::before{
 }
 
 .skills-legend{
-  border: 2px solid #f0f0f0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 94%);
   list-style-type: none;
   padding-left: 0;
   border-radius: 15px;
@@ -157,7 +164,7 @@ a[class^="disc-link"]>[class^='my-cv']::before{
 }
 
 .skills-legend_item:not(:last-child){
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid hsl(0, 0%, 98%);
 }
 
 .skills-legend_item:hover{
