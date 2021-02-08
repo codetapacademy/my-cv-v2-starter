@@ -264,6 +264,8 @@ c[height="30"]{
   padding: 7.5px 7.5px 4px;
   border: 1px solid #808080;
   margin-bottom: 10px;
+  background-size: contain;
+  background-size: cover;
 }
 
 /* Update of font */
