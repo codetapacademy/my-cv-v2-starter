@@ -93,7 +93,7 @@ a[class^="disc-link"]>[class^='my-cv']::before{
 }
 
 .main-title{
-    height: 40px;
+    line-height: 40px;
     margin: 0;
     font-size: 36px;
     text-align: center;
