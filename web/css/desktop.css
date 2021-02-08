@@ -1,19 +1,368 @@
-@media{
-  grid{
-    grid-template-columns: repeat(12, 1fr);
-  }
-  grid>c[span-tablet$="+4"],
-  grid>c[span-tablet$="4"]{
-    grid-column-end: span 4;
-    grid-column-start: auto;
-  }
-  grid[columns-tablet="4"]{
-    grid-template-columns: repeat(4, 1fr)
-  }
-
-  /* Update of font */
-  a.[class^="disk-link__"] [class^="my-cv-"]:before,
-  .my-cv-codetap:before {
-  font-size: 4vw;}
-
+*{
+  box-sizing: border-box;
 }
+
+body{
+    font-family: Roboto;
+    margin: 0 36px;
+  }
+
+grid{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+grid>c[span="row"]{
+  grid-column: 1 / -1;
+}
+
+grid>c{
+  overflow: hidden;
+}
+
+c[span="1"]{
+  grid-column-end: span 1;
+}
+
+a[class^="disc-link"]{
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="disc-link"]>[class^='my-cv']{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="disc-link"]>i[class^='my-cv']::before{
+  font-size: 4vw;
+}
+
+.disc-link.onahau-dark{
+  background-color: #cce4ff;
+}
+
+.disc-link.granny-apple{
+  background-color: #d4f5e2;
+}
+
+.disc-link.oasis{
+  background-color: #fdebcf;
+}
+
+.disc-link.onahau-light{
+  background-color: #84A1D2;
+}
+
+.disc-link.blue-chalk{
+  background-color: #F1DEFF;
+}
+
+.disc-link.pastel-pink{
+  background-color: #FFCCDB;
+}
+
+.disc-link.azalea{
+  background-color: #FADBD8;
+}
+
+.disc-link.moon-raker{
+  background-color: #DFDDF9;
+}
+
+.disc-link.white-ice{
+  background-color: #FBCDA2;
+}
+
+.disc-link.janna{
+  background-color: #F4E5D7;
+}
+
+.disc-link.double-pearl-lusta{
+  background-color: #FCF3CF;
+}
+
+.main-title{
+    height: 40px;
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+.second-title{
+    height: 30px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-title,
+.section-subtitle{
+    height: 30px;
+    margin: 0;
+    color: #808080;
+}
+
+.section-title{
+    font-size: 22px;
+}
+
+.section-subtitle{
+    font-size: 20px;
+}
+
+.skills-button__torch-red{
+  background-color: #FD004D;
+}
+
+.skills-button__shamrock{
+  background-color: #2DD070;
+}
+
+.skills-button__buttercup{
+  background-color: #f29e1a;
+}
+
+.skills-button__torch-red,
+.skills-button__shamrock,
+.skills-button__buttercup{
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.skills-legend{
+  border: 2px solid #f0f0f0;
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-legend_item:not(:last-child){
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skills-legend_item:hover{
+  background-color: #FAFAFA;
+}
+
+.skills-legend_item>span[class^="my-cv-heart"]{
+  color: #FD004D;
+}
+.skills-legend_item>span[class^="my-cv-trophy"]{
+  color: #2DD070;
+}
+.skills-legend_item>span[class^="my-cv-book"]{
+  color: #f29e1a;
+}
+
+.skills-legend_item>span[class^="my-cv-"]{
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-legend_item{
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-count{
+  padding: 0;
+  padding-right: 20px;
+}
+
+.legend-description{
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+.skills-list-last,
+.skills-list{
+  padding-top: 20px;
+}
+
+.skills-list{
+  padding-bottom: 20px;
+}
+
+c[height="30"]{
+  height: 30px;
+}
+
+.box-shadow{
+  background-color: #FAFAFA;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.text-description{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+}
+
+.button__attention{
+  background-color: #fe004e;
+  color: white;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button-disc__info{
+  background-color: #2dd070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 18px;
+}
+
+.text-centered{
+  text-align: center;
+}
+
+.avatar{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  margin: 0;
+}
+
+.image-wrapper{
+  border-radius: 6px;
+  padding: 7.5px 7.5px 4px;
+  border: 1px solid #808080;
+  margin-bottom: 10px;
+}
+
+/* Update of font */
+@font-face {
+  font-family: 'my-cv';
+  src:
+    url('fonts/my-cv.ttf?wpa5t7') format('truetype'),
+    url('fonts/my-cv.woff?wpa5t7') format('woff'),
+    url('fonts/my-cv.svg?wpa5t7#my-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-cv-"], [class*=" my-cv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-cv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-cv-codewars:before {
+  content: "\e903";
+}
+
+.my-cv-arrow-up:before,
+.my-cv-arrow-down:before {
+  content: "\e900";
+}
+
+.my-cv-arrow-down:before {
+  content: "\e900";
+}
+
+.my-cv-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
+}
+
+.my-cv-book:before {
+  content: "\e901";
+}
+
+.my-cv-codetap:before {
+  content: "\e902";
+  font-size: 8vw;
+  font-style: normal;
+  color: #d52027;
+}
+
+.my-cv-facebook:before {
+  content: "\e904";
+}
+
+.my-cv-github:before {
+  content: "\e905";
+}
+
+.my-cv-instagram:before {
+  content: "\e906";
+}
+
+.my-cv-linkedin:before {
+  content: "\e907";
+}
+
+.my-cv-skype:before {
+  content: "\e908";
+}
+
+.my-cv-stackoverflow:before {
+  content: "\e909";
+}
+
+.my-cv-trophy:before {
+  content: "\e90a";
+}
+
+.my-cv-twitter:before {
+  content: "\e90b";
+}
+
+.my-cv-udemy:before {
+  content: "\e90c";
+}
+
+.my-cv-youtube:before {
+  content: "\e90d";
+}
+
+.my-cv-heart:before {
+  content: "\e9da";
+}
+
