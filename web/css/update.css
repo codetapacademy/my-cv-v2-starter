@@ -168,7 +168,7 @@ a[class^="disc-link"]>[class^='my-cv']::before{
 }
 
 .skills-legend_item:hover{
-  background-color: #FAFAFA;
+  background-color: hsl(0, 0%, 94%);
 }
 
 .skills-legend_item>span[class^="my-cv-heart"]{
