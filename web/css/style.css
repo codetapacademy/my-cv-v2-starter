@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import 'test.css';
 @import 'font.css';
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: Roboto;
@@ -13,9 +19,86 @@ grid {
   grid-gap: 10px;
 }
 
-grid > c{
-  grid-column-start: 1;
-  grid-column-end: -1;
+grid > c[span="row"] {
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  grid-column: 1 / -1;
+  overflow: hidden;
+}
+grid > c {
+  overflow: hidden;
+}
+
+c[span="1"] {
+  grid-column-end: span 1;
+}
+
+a[class^="disk-link__"] {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="disk-link__"] > [class^="my-cv-"] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="disk-link__"] > [class^="my-cv-"] {
+  font-size: 8vw;
+}
+
+
+.disk-link__onahau-dark {
+  background-color: #CCE4FF;
+}
+
+.disk-link__granny-apple {
+  background-color: #D4F5E2;
+}
+
+.disk-link__oasis {
+  background-color: #FDEBCF;
+}
+
+.disk-link__onahau-light {
+  background-color:#CCF5FF;
+}
+
+.disk-link__blue-chalk {
+  background-color:#F1DEFF;
+}
+
+.disk-link__pastel-pink {
+  background-color:#FFCCDB;
+}
+
+.disk-link__azalea {
+  background-color:#FADBD8;
+}
+
+.disk-link__moon-aker {
+  background-color:#DFDDF9;
+}
+
+.disk-link__white-ice {
+  background-color:#D4F6F1;
+}
+
+.disk-link__janna {
+  background-color:#F4E5D7;
+}
+
+.disk-link__double-pearl-lusta {
+  background-color:#FCF3CF;
 }
 
 .main-title {
@@ -32,14 +115,103 @@ font-size: 24px;
 text-align: center;
 }
 
-.selection-title {
+.section-title, 
+.section-subtitle {
 height: 30px;
 margin: 0;
-font-size:22px;
 color: #808080;
 }
 
-c[height="30"]{
+.section-title {
+font-size: 22px;
+}
+
+.section-subtitle {
+font-size:20px;
+}
+
+.skills-button__torch-red,
+.skills-button__shamrock,
+.skills-button__buttercup {
+  background-color: #FD004D;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.skills-legend{
+  border: 2px solid #F0F0F0;
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-legend__item:not(:last-child) {
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.skills-legend__item:hover {
+  background-color: #FAFAFA;
+}
+
+.skills-legend__item > span[class^="my-cv-"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-legend__item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-count {
+  padding: 20px;
+}
+
+.legend-description{
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+.my-cv-heart{
+  color:#FD004D ;
+}
+
+.my-cv-book{
+  color:#2DD070
+}
+
+.my-cv-trophy{
+color: #F29E1A;
+}
+
+.skills-list {
+  padding: 20px 0;
+}
+
+.skills-button__buttercup {
+  background-color: #F29E1A;
+}
+
+.skills-button__shamrock {
+  background-color:#2DD070;
+}
+
+c[height="30"] {
   height: 30px;
 }
 
@@ -57,7 +229,7 @@ c[height="30"]{
   color: #808080;
 }
 
-.button__attention{
+.button__attention {
   background-color: #FE004E;
   color: white ;
   height: 40px;
@@ -81,3 +253,22 @@ c[height="30"]{
 .text-centered {
   text-align: center;
 }
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080; 
+}
+
+.image-wrapper {
+  margin-top: 20px;
+  border-radius: 6px;
+  /* background-size: 100% 80%; */
+  background-size: 125% 100%;
+  background-position: center center;
+  padding: 8px; 
+  background-image: url(/image/avatar-sebastian.jpg);
+  padding-top: 100%;
+  border: 1px solid #808080; 
+}
+
