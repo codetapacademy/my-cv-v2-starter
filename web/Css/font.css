@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'my-cv';
+  src:
+    url('fonts/my-cv.ttf?k9mecd') format('truetype'),
+    url('fonts/my-cv.woff?k9mecd') format('woff'),
+    url('fonts/my-cv.svg?k9mecd#my-cv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-Cv-"],
+[class*=" my-Cv-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-cv' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-Cv-arrow-up:before {
+  display: block;
+  transform: rotate(180deg);
+}
+
+.my-Cv-arrow-up:before,
+.my-Cv-arrow-down:before {
+  content: "\e900";
+}
+
+
+.my-Cv-book:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e902";
+
+}
+
+.my-Cv-codetap:before {
+  font-style: normal;
+  font-size: 15vw;
+  color: #d52027;
+  content: "\e903";
+}
+
+.my-Cv-codewars:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e904";
+}
+
+.my-Cv-commits:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e905";
+}
+
+.my-Cv-cross:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e906";
+}
+
+.my-Cv-download:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e907";
+}
+
+.my-Cv-earth:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e908";
+}
+
+.my-Cv-facebook:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e909";
+}
+
+.my-Cv-forks:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e90a";
+}
+
+.my-Cv-github:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e90b";
+}
+
+.my-Cv-heart:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e90c";
+}
+
+.my-Cv-info:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e90d";
+}
+
+.my-Cv-instagram:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e90e";
+}
+
+.my-Cv-link:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e90f";
+}
+
+.my-Cv-linkedin:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e910";
+}
+
+.my-Cv-menu:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e911";
+}
+
+.my-Cv-rotate:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e912";
+}
+
+.my-Cv-skype:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e913";
+}
+
+.my-Cv-stackoverflow:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e914";
+}
+
+.my-Cv-stars:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e915";
+}
+
+.my-Cv-trophy:before {
+  content: "\e916";
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+}
+
+.my-Cv-twitter:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e917";
+}
+
+.my-Cv-udemy:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e918";
+}
+
+.my-Cv-user:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e919";
+}
+
+.my-Cv-youtube:before {
+  font-style: normal;
+  font-size: 8vw;
+  color: rgb(68, 68, 68);
+  content: "\e91a";
+}
