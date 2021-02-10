@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 @import 'font.css';
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
   /* margin-top: 0;
@@ -16,7 +21,7 @@ grid {
   grid-gap: 10px;
 }
 
-grid > c{
+grid > c {
   grid-column-start: 1;
   grid-column-end: -1;
 }
@@ -84,4 +89,18 @@ c[height="30"] {
 
 .text-centered {
   text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+  /* border: 1px solid #808080; */
+}
+
+.image-wrapper {
+  border-radius: 6px;
+  border-color: #FFFFFF;
+  padding: 8px;
+  padding-bottom: 5px;
+  border: 1px solid #808080;
 }
