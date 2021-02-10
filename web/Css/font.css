@@ -38,8 +38,8 @@
 
 .my-Cv-book:before {
   font-style: normal;
-  font-size: 8vw;
-  color: rgb(68, 68, 68);
+  font-size: 5vw;
+  color: #f29e10;
   content: "\e902";
 
 }
@@ -109,9 +109,9 @@
 
 .my-Cv-heart:before {
   font-style: normal;
-  font-size: 8vw;
-  color: rgb(68, 68, 68);
+  font-size: 5vw;
   content: "\e90c";
+  color: red;
 }
 
 .my-Cv-info:before {
@@ -181,7 +181,7 @@
   content: "\e916";
   font-style: normal;
   font-size: 8vw;
-  color: rgb(68, 68, 68);
+  color: green;
 }
 
 .my-Cv-twitter:before {

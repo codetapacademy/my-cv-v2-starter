@@ -178,6 +178,31 @@ c[height="30"] {
     font-weight: bold;
 }
 
+.skills-button_torch-red {
+    background-color: #fd004d;
+}
+
+.skills-button_schamrock {
+    background-color: #2dda70;
+}
+
+.skills-button_buttercup {
+    background-color: #f29e1a;
+}
+
+.skills-button_torch-red,
+.skills-button_schamrock,
+.skills-button_buttercup {
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
 .button__disc__info {
     background-color: #2dd070;
     color: white;
@@ -205,4 +230,60 @@ c[height="30"] {
 
 
 
+}
+
+.skills-legend-item:not(:last-child) {
+    border: 2px solid #f0f0f0;
+}
+
+.skills-legend-item:hover {
+    background-color: #fafafa;
+}
+
+.skills-legend-item>span[class^="my-Cv-heart"] {
+    color: red;
+}
+
+.skills-legend-item>span[class^="my-Cv-trophy"] {
+    color: green;
+
+}
+
+.skills-legend-item>span[class^="my-Cv-book"] {
+    color: #f29e10;
+}
+
+.skills-legend-item>span[class^="my-Cv-"] {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-legend-item {
+    border: 2px solid #f0f0f0;
+    height: 52px;
+    line-height: 32px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-legend {
+    border-bottom: 2px solid #f0f0f0;
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.legend-count {
+    padding-right: 20;
+}
+
+.legend-description {
+    padding: 0 10px;
+    flex-grow: 1;
 }
