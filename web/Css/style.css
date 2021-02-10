@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import 'test.css';
+@import 'font.css';
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto;
+    margin: 0 36px;
+}
+
+grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+c[span="1"] {
+    grid-column-end: span 1;
+}
+
+a[class^="disk-link__"] {
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+
+}
+
+a[class^="disk-link__"]>[class^="my-Cv-"] {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a[class^="disk-link__"]>[class^="my-Cv-"]::before {
+    font-size: 10vw;
+}
+
+.disk-link__onahau-dark {
+    background-color: #CCE4FF;
+
+}
+
+.disk-link__granny-apple {
+    background-color: #d4f5e2;
+    font-size: 20vw;
+    width: 100%;
+    height: 100%;
+
+}
+
+.disk-link__oasis {
+    background-color: #fdebcf;
+
+}
+
+.disk-link__onahau-light {
+    background-color: #CCE5FF;
+
+}
+
+.disk-link__blue-chalk {
+    background-color: #f1deff;
+
+}
+
+.disk-link__pastel-pink {
+    background-color: #f1deff;
+
+}
+
+.disk-link__azalea {
+    background-color: #fadbd8;
+
+}
+
+.disk-link__moon-raker {
+    background-color: #dfddf9;
+
+}
+
+.disk-link__white-ice {
+    background-color: #d4f6f1;
+
+}
+
+
+.disk-link__janna {
+    background-color: #f4e5d7;
+
+}
+
+.disk-link__double-pearl-lusta {
+    background-color: #fcf3cf;
+
+}
+
+
+grid>c[span="row"] {
+    /* grid-column-start: 1;
+    grid-column-end: -1;*/
+    grid-column: 1 / -1;
+
+}
+
+grid>c {
+    overflow: hidden;
+}
+
+
+.main-title {
+    height: 40px;
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.second-title {
+    line-height: 40px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-title,
+.section-subtitle {
+    height: 30px;
+    margin: 0;
+    font-size: 22px;
+    color: #808080;
+}
+
+.section-subtitle {
+    height: 30px;
+    margin: 0;
+    font-size: 20px;
+    color: #808080;
+}
+
+c[height="30"] {
+    height: 30px;
+}
+
+.box-shadow {
+    background-color: #FAFAFA;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.text-description {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #808080;
+}
+
+.button__attention {
+    background-color: #fe004e;
+    color: white;
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.skills-button_torch-red {
+    background-color: #fd004d;
+}
+
+.skills-button_schamrock {
+    background-color: #2dda70;
+}
+
+.skills-button_buttercup {
+    background-color: #f29e1a;
+}
+
+.skills-button_torch-red,
+.skills-button_schamrock,
+.skills-button_buttercup {
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.button__disc__info {
+    background-color: #2dd070;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+    font-size: 18px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #808080
+}
+
+.image-wrapper {
+    border-radius: 6px;
+    padding: 8px 8px 4px;
+    border: 1px solid #808080;
+
+
+
+}
+
+.skills-legend-item:not(:last-child) {
+    border: 2px solid #f0f0f0;
+}
+
+.skills-legend-item:hover {
+    background-color: #fafafa;
+}
+
+.skills-legend-item>span[class^="my-Cv-heart"] {
+    color: red;
+}
+
+.skills-legend-item>span[class^="my-Cv-trophy"] {
+    color: green;
+
+}
+
+.skills-legend-item>span[class^="my-Cv-book"] {
+    color: #f29e10;
+}
+
+.skills-legend-item>span[class^="my-Cv-"] {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-legend-item {
+    border: 2px solid #f0f0f0;
+    height: 52px;
+    line-height: 32px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-legend {
+    border-bottom: 2px solid #f0f0f0;
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.legend-count {
+    padding-right: 20;
+}
+
+.legend-description {
+    padding: 0 10px;
+    flex-grow: 1;
+}
