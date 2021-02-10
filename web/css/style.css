@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 @import 'font.css';
 
 * {
@@ -22,8 +21,13 @@ grid {
 }
 
 grid > c {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  overflow: hidden;
+}
+
+grid > c[span="row"] {
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  grid-column: 1 / -1;
 }
 
 .main-title {
@@ -49,6 +53,10 @@ grid > c {
 
 c[height="30"] {
   height: 30px;
+}
+
+c[span="1"] {
+  grid-column-end: span 1;
 }
 
 .box-shadow {
@@ -87,6 +95,13 @@ c[height="30"] {
   font-size: 18px;
 }
 
+i[class="my-cv-arrow-down"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .text-centered {
   text-align: center;
 }
@@ -94,13 +109,43 @@ c[height="30"] {
 .avatar {
   width: 100%;
   border-radius: 5px;
-  /* border: 1px solid #808080; */
 }
 
 .image-wrapper {
   border-radius: 6px;
   border-color: #FFFFFF;
   padding: 8px;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   border: 1px solid #808080;
+}
+
+a[class^="disc-link__"] {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+a[class^="disc-link__"] > [class^="my-cv-"]::before{
+  font-size: 8vw;
+}
+
+.disc-link__onahau {
+  background-color: #CCE4FF;
+}
+
+.disc-link__granny-apple {
+  background-color: #D4F5E2;
 }
