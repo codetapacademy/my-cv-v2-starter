@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 @import 'font.css';
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
   /* margin-top: 0;
@@ -16,9 +20,14 @@ grid {
   grid-gap: 10px;
 }
 
-grid > c{
-  grid-column-start: 1;
-  grid-column-end: -1;
+grid > c {
+  overflow: hidden;
+}
+
+grid > c[span="row"] {
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  grid-column: 1 / -1;
 }
 
 .main-title {
@@ -44,6 +53,10 @@ grid > c{
 
 c[height="30"] {
   height: 30px;
+}
+
+c[span="1"] {
+  grid-column-end: span 1;
 }
 
 .box-shadow {
@@ -82,6 +95,97 @@ c[height="30"] {
   font-size: 18px;
 }
 
+i[class="my-cv-arrow-down"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .text-centered {
   text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.image-wrapper {
+  border-radius: 6px;
+  border-color: #FFFFFF;
+  padding: 8px;
+  padding-bottom: 4px;
+  border: 1px solid #808080;
+}
+
+a[class^="disc-link__"] {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="disc-link__"] > [class^="my-cv"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a[class^="disc-link__"] > [class^="my-cv"]:not([class="my-cv-codewars"])::before {
+  font-size: 8vw;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-codewars"] {
+  font-size: 13vw;
+}
+
+.disc-link__onahau-dark {
+  background-color: #CCE4FF;
+}
+
+.disc-link__oasis {
+  background-color: #FDEBCF;
+}
+
+.disc-link__onahau-light {
+  background-color: #CCF5FF;
+}
+
+.disc-link__blue-chalk {
+  background-color: #F1DEFF;
+}
+
+.disc-link__pastel-pink {
+  background-color: #FFCCDB;
+}
+
+.disc-link__azalea {
+  background-color: #FADBD8;
+}
+
+.disc-link__moon-raker {
+  background-color: #DFDDF9;
+}
+
+.disc-link__white-ice {
+  background-color: #D4F6F1;
+}
+
+.disc-link__janna {
+  background-color: #F4E5D7;
+}
+
+.disc-link__double-pearl-lusta {
+  background-color: #FCF3CF;
+}
+
+.disc-link__granny-apple {
+  background-color: #D4F5E2;
 }
