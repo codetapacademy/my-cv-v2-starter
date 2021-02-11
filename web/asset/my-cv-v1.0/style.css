@@ -10,10 +10,10 @@
   font-display: block;
 }
 
-[class^="my-cv-"], [class*=" my-cv"] {
+[class^="my-cv-"], [class*=" my-cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'my-cv' !important;
-  speak-as: never;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,29 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.my-cv-codewars:before {
+.my-cv-codwarse:before {
   content: "\e904";
 }
-
-.my-cv-arrow-up:before {
-  content: "\e900";
-  display: block;
-  transform: rotate(180deg);
-}
-
-.my-cv-arrow-up:before,
 .my-cv-arrow-down:before {
   content: "\e900";
+}
+.my-cv-arrow-up:before {
+  content: "\e901";
 }
 .my-cv-book:before {
   content: "\e902";
 }
-
 .my-cv-codetap:before {
-  background-color: #d52027;
   content: "\e903";
 }
-
 .my-cv-commits:before {
   content: "\e905";
 }
