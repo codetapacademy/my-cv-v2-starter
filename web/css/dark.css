@@ -1,6 +1,5 @@
 @media (use-prefers-dark) {
   body {
-    
     background-color: red !important; 
   }
 }
