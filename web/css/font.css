@@ -24,7 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.my-cv-arrow-down:before {
+.my-cv-arrow-down:before, .my-cv-arrow-down-rotated:before {
   content: "\e900";
 }
 .my-cv-arrow-up:before {
@@ -35,6 +35,10 @@
 }
 .my-cv-codetap:before {
   content: "\e903";
+  color: #ffffff;
+  background-color: #444444;
+  border-color: #707070;
+  border-radius: 10%;
 }
 .my-cv-codewars:before {
   content: "\e904";
