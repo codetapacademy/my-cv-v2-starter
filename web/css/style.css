@@ -44,11 +44,18 @@ grid > c[span="row"] {
   text-align: center;
 }
 
-.section-title {
+.section-title, .section-subtitle {
   height: 30px;
   margin: 0;
-  font-size: 22px;
   color: #808080;
+} 
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-subtitle {
+  font-size: 20px;
 }
 
 c[height="30"] {
@@ -95,11 +102,15 @@ c[span="1"] {
   font-size: 18px;
 }
 
-i[class="my-cv-arrow-down"] {
+i[class^="my-cv-arrow-down"] {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+i[class="my-cv-arrow-down-rotated"] {
+  transform: rotateX(180deg);
 }
 
 .text-centered {
@@ -138,12 +149,12 @@ a[class^="disc-link__"] > [class^="my-cv"] {
   justify-content: center;
 }
 
-a[class^="disc-link__"] > [class^="my-cv"]:not([class="my-cv-codewars"])::before {
+a[class^="disc-link__"] > i[class^="my-cv"]:not([class="my-cv-codewars"])::before {
   font-size: 8vw;
 }
 
-a[class^="disc-link__"] > [class^="my-cv-codewars"] {
-  font-size: 13vw;
+a[class^="disc-link__"] > i[class="my-cv-codewars"] {
+  font-size: 16vw;
 }
 
 .disc-link__onahau-dark {
@@ -188,4 +199,96 @@ a[class^="disc-link__"] > [class^="my-cv-codewars"] {
 
 .disc-link__granny-apple {
   background-color: #D4F5E2;
+}
+
+.skills-button__buttercup, 
+.skills-button__shamrock, 
+.skills-button__torch-red {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.skills-button__torch-red {
+  background-color: #FD004D;
+}
+
+.skills-button__shamrock {
+  background-color: #2DD070;
+}
+
+.skills-button__buttercup {
+  background-color: #F29E1A;
+}
+
+.skills-list {
+  padding: 20px 0;
+  padding-bottom: 2px;
+}
+
+.skills-list-last {
+  padding: 20px 0;
+  padding-bottom: 22px;
+}
+
+.skills-legend {
+  border: 2px solid #f0f0f0;
+  padding-left: 0px;
+  list-style-type: none;
+  border-radius: 15px;
+  overflow: hidden;
+  margin:20px 0;
+  margin-bottom: 10px;
+}
+
+.skills-legend_item:not(:last-child) {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skills-legend_item:hover {
+  background-color: #FAFAFA;
+}
+
+.skills-legend_item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-count {
+  padding: 0;
+  padding-right: 20px;
+}
+
+.legend-description {
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+.skills-legend_item > span[class="my-cv-heart"] {
+  color: #FD004D;
+}
+
+.skills-legend_item > span[class="my-cv-trophy"] {
+  color: #2DD070;
+}
+
+.skills-legend_item > span[class="my-cv-book"] {
+  color: #F29E1A;
+}
+
+.skills-legend_item > span[class^="my-cv"] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
 }
