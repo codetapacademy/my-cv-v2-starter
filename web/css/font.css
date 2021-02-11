@@ -35,6 +35,10 @@
 }
 .my-cv-codetap:before {
   content: "\e903";
+  color: #ffffff;
+  background-color: #444444;
+  border-color: #707070;
+  border-radius: 10%;
 }
 .my-cv-codewars:before {
   content: "\e904";
