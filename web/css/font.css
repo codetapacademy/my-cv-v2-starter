@@ -24,7 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.my-cv-arrow-down:before {
+.my-cv-arrow-down:before, .my-cv-arrow-down-rotated:before {
   content: "\e900";
 }
 .my-cv-arrow-up:before {
