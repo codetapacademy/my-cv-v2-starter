@@ -11,7 +11,7 @@
     grid-column-end: span 8;
   }
 
-  a[class^="disc-link__"] [class^="my-cv-"]:before,
+  a[class^="disk-link__"] [class^="my-cv-"]:before,
   .my-cv-codetap .path1:before,
   .my-cv-codetap .path2:before,
   .my-cv-codetap .path3:before,

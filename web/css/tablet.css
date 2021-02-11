@@ -12,8 +12,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-
-a[class^="disc-link__"] [class^="my-cv-"]:before,
+  a[class^="disk-link__"] > [class^="my-cv-"]::before,
   .my-cv-codetap .path1:before,
   .my-cv-codetap .path2:before,
   .my-cv-codetap .path3:before,
