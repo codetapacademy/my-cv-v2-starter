@@ -1,0 +1,38 @@
+@media (min-width: 1024px) {
+  grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+  }
+
+  body {
+    margin: 0 139px;
+  }
+
+  .skills-legend {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  grid > c[span-desktop$="+8"] {
+    grid-column: auto / span 4;
+  }
+
+  grid > c[span-desktop="8"] {
+    grid-column: auto / span 8;
+  }
+  
+  grid[columns-desktop="8"] {
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  a[class^="disc-link__"] > i[class^="my-cv"]:not([class="my-cv-codewars"])::before {
+    font-size: 2vw;
+  }
+
+  a[class^="disc-link__"] > i[class="my-cv-codewars"] {
+    font-size: 4vw;
+  }
+}

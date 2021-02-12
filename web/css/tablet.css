@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 16px;
+  }
+
+  body {
+    margin: 0 80px;
+  }
+  
+  grid > c[span-tablet="4"],
+  grid > c[span-tablet$="+4"] {
+    /* grid-column-end: span 4;
+    grid-column-start: auto; */
+    grid-column: auto / span 4;
+  }
+  
+  grid[columns-tablet="4"] {
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  a[class^="disc-link__"] > i[class^="my-cv"]:not([class="my-cv-codewars"])::before {
+    font-size: 4vw;
+  }
+
+  a[class^="disc-link__"] > i[class="my-cv-codewars"] {
+    font-size: 8vw;
+  }
+
+  .image-wrapper {
+    margin-bottom: 0;
+  }
+
+  .skills-legend {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
