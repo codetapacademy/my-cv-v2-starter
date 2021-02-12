@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    grid>c[span-tablet$="+4"],
+    grid>c[span-tablet="4"] {
+        grid-column-end: span 4;
+        grid-column-start: auto;
+    }
+
+    grid[columns-tablet="4"] {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    a[class^="disk-link__"]>[class^="my-Cv-"]::before {
+        font-size: 6vw;
+    }
+
+    body {
+        margin: 0 80px;
+    }
+}
