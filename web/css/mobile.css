@@ -9,6 +9,7 @@ body {
   margin-left: 36px;
   margin-right: 36px; */
   margin: 0 36px;
+  background-color: hsl(0, 0%, 100%);
 }
 
 grid {
@@ -29,6 +30,7 @@ grid > c[span="row"] {
   margin: 0;
   font-size: 36px;
   text-align: center;
+  color: hsl(0, 0%, 10%);
 }
 
 .second-title {
@@ -36,12 +38,14 @@ grid > c[span="row"] {
   margin: 0;
   font-size: 24px;
   text-align: center;
+  color: hsl(0, 0%, 10%);
 }
 
-.section-title, .section-subtitle {
+.section-title, 
+.section-subtitle {
   height: 30px;
   margin: 0;
-  color: #808080;
+  color: hsl(0, 0%, 50%);
 } 
 
 .section-title {
@@ -61,9 +65,9 @@ c[span="1"] {
 }
 
 .box-shadow {
-  background-color: #FAFAFA;
+  background-color: hsl(0, 0%, 98%);
   padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 6px hsla(0, 0%, 0%, 0.25);
 }
 
 .text-description {
@@ -75,7 +79,7 @@ c[span="1"] {
 }
 
 .button__attention {
-  background-color: #FE004E;
+  background-color: hsl(342, 100%, 50%);
   color: #FFFFFF;
   height: 40px;
   padding: 0 24px;
@@ -118,7 +122,7 @@ i[class="my-cv-arrow-down-rotated"] {
 
 .image-wrapper {
   border-radius: 6px;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   padding: 8px;
   padding-bottom: 4px;
   border: 1px solid #808080;
@@ -233,6 +237,8 @@ a[class^="disc-link__"] > i[class="my-cv-codewars"] {
 }
 
 .skills-legend {
+  background-color: #000;
+  color: #000;
   border: 2px solid #f0f0f0;
   padding-left: 0px;
   list-style-type: none;

@@ -1,0 +1,29 @@
+@media (prefers-color-scheme:dark) {
+  body{
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  .main-title, 
+  .second-title {
+    color: hsl(0, 0%, 90%);
+  }
+
+  .box-shadow {
+    background-color: hsl(0, 0%, 2%);
+    box-shadow: 0 2px 6px hsla(0, 0%, 100%, 0.25);
+  }
+
+  .skills-legend {
+    border: 2px solid hsl(0, 0%, 6%);
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+  }
+
+  .skills-legend_item:hover {
+    background-color: hsl(0, 0%, 10%);
+  }
+
+  .skills-legend_item:not(:last-child) {
+    border-bottom: 2px solid hsl(0, 0%, 6%);
+  }  
+}
