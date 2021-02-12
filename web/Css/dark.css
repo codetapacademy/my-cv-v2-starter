@@ -1,0 +1,30 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: hsl(0, 0%, 0%);
+    }
+
+
+    .main-title,
+    .second-title {
+        margin: 0;
+        text-align: center;
+        color: hsl(0, 0%, 10%);
+
+    }
+
+    .section-title,
+    .section-subtitle {
+        color: hsl(0, 0%, 50%)
+    }
+
+    .skills-legend {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 100%);
+        border-bottom: 2px solid hsl(0, 0%, 94%);
+        list-style-type: none;
+        padding-left: 0;
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px;
+    }
+}

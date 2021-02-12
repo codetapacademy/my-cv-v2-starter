@@ -2,4 +2,28 @@
     grid {
         grid-template-columns: repeat(12, 1fr);
     }
+
+    a[class^="disk-link__"]>[class^="my-Cv-"]::before {
+        font-size: 6vw;
+    }
+
+
+
+
+    .skills-legend-item>span[class^="my-Cv-trophy"] {
+        color: green;
+        size: 3vw;
+
+    }
+
+    .skills-legend-item>span[class^="my-Cv-book"] {
+        color: #f29e10;
+        size: 4vw;
+    }
+
+    .skills-legend-item>span[class^="my-Cv-heart"] {
+        color: red;
+        size: 4vw;
+
+    }
 }

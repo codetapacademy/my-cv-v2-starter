@@ -6,6 +6,7 @@
 body {
     font-family: Roboto;
     margin: 0 36px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 grid {
@@ -113,20 +114,23 @@ grid>c {
     overflow: hidden;
 }
 
-
+.second-title,
 .main-title {
-    height: 40px;
     margin: 0;
-    font-size: 36px;
     text-align: center;
+    color: #1a1a1a;
 }
 
+.main-title {
+    font-size: 36px;
+    height: 40px;
+
+}
 
 .second-title {
     line-height: 40px;
-    margin: 0;
     font-size: 24px;
-    text-align: center;
+    color: #1a1a1a;
 }
 
 .section-title,
@@ -268,7 +272,8 @@ c[height="30"] {
 }
 
 .skills-legend {
-    border-bottom: 2px solid #f0f0f0;
+    background-color: hsl(0, 0%, 0%);
+    border-bottom: 2px solid hsl(0, 0%, 6%);
     list-style-type: none;
     padding-left: 0;
     border-radius: 15px;
