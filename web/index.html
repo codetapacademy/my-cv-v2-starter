@@ -7,6 +7,11 @@
 
    
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/mobile.css">
+<link rel="stylesheet" href="css/tablet.css">
+<link rel="stylesheet" href="css/desktop.css">
+<link rel="stylesheet" href="css/dark.css">
+<link re
 
 </head> 
 <body>
@@ -41,6 +46,7 @@
     <c span="row" class="text-centered">
       <button class="button__attention">Download My CV</button>
     </c> 
+    
     <c span="row" height="30"></c>
     <c span="row" class="text-centered">     
       <button class="button__disc__info">
@@ -53,70 +59,79 @@
       <h3 class="section-title">Let's connect</h3>
     </c>
     <c span="row"></c>
-    <c span="row">
+    <c span="row" span-tablet="1+4">
       <div class="image-wrapper">
-        <img class avatar src="./5.jpg"> 
+        <img class="avatar" src="./5.jpg"> 
       </div>
     </c>
-    <c span="row"></c>
-    <c span="1">
-      <a class="disk-link__onahau-dark">
-        <i class="my-Cv-udemy"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__granny-apple" >
-        <i class="my-Cv-codewars"></i>
-      </a> 
-    </c>
-
-    <c span="1">
-      <a class="disk-link__oasis">
-        <i class="my-Cv-codetap"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__onahau-light">
-        <i class="my-Cv-facebook"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__blue-chalk">
-        <i class="my-Cv-github"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__pastel-pink">
-        <i class="my-Cv-skype"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__azalea">
-        <i class="my-Cv-linkedin"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__moon-raker">
-        <i class="my-Cv-stackoverflow"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__white-ice">
-        <i class="my-Cv-instagram"></i>
-      </a> 
-    </c>
-   
-    <c span="1">
-      <a class="disk-link__janna">
-        <i class="my-Cv-twitter"></i>
-      </a> 
-    </c>
-    <c span="1">
-      <a class="disk-link__double-pearl-lusta">
-        <i class="my-Cv-youtube"></i>
-      </a> 
+    <c span="row" span-tablet="4">
+      <grid columns-tablet="4">
+        
+        <c span="1">
+          <a class="disk-link__onahau-dark">
+            <i class="my-Cv-udemy"></i>
+          </a> 
+        </c>
+      <c span="1">
+        <a class="disk-link__granny-apple" >
+          <i class="my-Cv-codewars"></i>
+        </a> 
+      </c>
     
+      <c span="1">
+        <a class="disk-link__oasis">
+          <i class="my-Cv-codetap">
+            <i class="path1"></i>
+            <i class="path2"></i>
+            <i class="path3>"></i>
+            <i class="path4"></i>
+          </i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__onahau-light">
+          <i class="my-Cv-facebook"></i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__blue-chalk">
+          <i class="my-Cv-github"></i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__pastel-pink">
+          <i class="my-Cv-skype"></i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__azalea">
+          <i class="my-Cv-linkedin"></i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__moon-raker">
+          <i class="my-Cv-stackoverflow"></i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__white-ice">
+          <i class="my-Cv-instagram"></i>
+        </a> 
+      </c>
+     
+      <c span="1">
+        <a class="disk-link__janna">
+          <i class="my-Cv-twitter"></i>
+        </a> 
+      </c>
+      <c span="1">
+        <a class="disk-link__double-pearl-lusta">
+          <i class="my-Cv-youtube"></i>
+        </a> 
+
+      </grid>
     </c>
+    <c span="1"></c>
     <c span="row" height="30"></c>
     <c span="row" class="text-centered">
     <button class="button__disc__info">
@@ -174,14 +189,16 @@
       </div>
     </div>
   </c>
-  <c span="row">
-    <h4 class="subtitle">Other</h4>
-    <button class="skills-button_schamrock">Word</button>
-    <button class="skills-button_buttercup">Jira</button>
-    <button class="skills-button_schamrock">Excel</button>
-    <button class="skills-button_buttercup">XD</button>
-    <button class="skills-button_schamrock">Agile</button>
-  </c>
+  <div class="skills-list-last">
+    <c span="row">
+      <h4 class="subtitle">Other</h4>
+      <button class="skills-button_schamrock">Word</button>
+      <button class="skills-button_buttercup">Jira</button>
+      <button class="skills-button_schamrock">Excel</button>
+      <button class="skills-button_buttercup">XD</button>
+      <button class="skills-button_schamrock">Agile</button>
+    </div>
+    </c>
     <c span="row" height="30"></c>
     <c span="row" class="text-centered">
       <button class="button__disc__info">

@@ -1,0 +1,18 @@
+.my-Cv-arrow-up:before {
+    content: "\e900";
+    display: inline-block;
+    transform: rotateZ(180deg)
+}
+
+.my-Cv-codetap .path1:before {
+    color: #d52027;
+
+}
+
+.my-Cv-codetap .path1:before,
+.my-Cv-codetap .path2:before,
+.my-Cv-codetap .path3:before,
+.my-Cv-codetap .path4:before {
+    font-size: 8vw;
+    font-style: normal;
+}
