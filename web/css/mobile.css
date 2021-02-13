@@ -6,6 +6,7 @@
 body {
   font-family: Roboto;
   margin: 0 36px;
+  background-color: hsl(0, 0%, 100%);
 }
 
 grid {
@@ -97,25 +98,30 @@ a[class^="disk-link__"] > [class^="my-cv-"]::before {
   background-color:#FCF3CF;
 }
 
+.main-title,
+.second-title {
+  margin: 0;
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+
+
+}
+
 .main-title {
-height: 40px;
-margin: 0;
-font-size: 36px;
-text-align: center;
+  font-size: 36px;
+  height: 40px;
 }
 
 .second-title {
 height: 30px;
-margin: 0;
 font-size: 24px;
-text-align: center;
 }
 
 .section-title, 
 .section-subtitle {
 height: 30px;
 margin: 0;
-color: #808080;
+color: hsl(0, 0%, 50%);
 }
 
 .section-title {
@@ -142,6 +148,8 @@ font-size:20px;
 }
 
 .skills-legend{
+  background-color: #fff;
+  color: hsl(0, 0%, 0%);
   border: 2px solid #F0F0F0;
   list-style-type: none;
   padding-left: 0;
