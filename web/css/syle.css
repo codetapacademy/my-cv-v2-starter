@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 500 & display = swap'); 
+body {
+  font-family: Roboto;
+}
+
+.main-title {
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+
+
