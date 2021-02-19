@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+body {
+  font-family: Roboto;
+  margin: 0 36px;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+grid > c {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.main-title {
+  height: 40px;
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+.second-title {
+  height: 30px;
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-title {
+  height: 30px;
+  margin: 0;
+  font-size: 20px;
+  color: #808080;
+}
+
+c[height="30"] {
+  height: 30px;
+}
+
+.box-shadow {
+  background-color: #FAFAFA;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.30);
+}
+
+.text-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+}
+
+.button__attention {
+  background-color: lime;
+  color: rgb(141, 6, 6);
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-disc__info {
+  background-color: crimson;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 18px;
+}
+
+.text-centered {
+  text-align: center;
+}
