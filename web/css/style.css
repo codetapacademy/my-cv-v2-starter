@@ -3,7 +3,7 @@
 @import 'font.css';
 
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,9 +17,21 @@ grid {
   grid-gap: 10px;
 }
 
-grid > c {
-  grid-column-start: 1;
-  grid-column-end: -1;
+grid > c[span="row"] {
+  grid-column-end: span 1;
+}
+
+  /*grid-column-start: 1;
+  grid-column-end: -1; */
+  overflow: hidden;
+}
+
+.disc-link {
+  width: 100%;
+  padding-top: 100%;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  display: block;
 }
 
 .main-title {
@@ -62,8 +74,8 @@ c[height="30"] {
 }
 
 .button__attention {
-  background-color: lime;
-  color: rgb(141, 6, 6);
+  background-color:rgb(179, 11, 11);
+  color: rgb(252, 250, 250);
   height: 40px;
   padding: 0 24px;
   border-radius: 20px;
@@ -73,20 +85,20 @@ c[height="30"] {
 }
 
 .button-disc__info {
-  background-color: crimson;
+  background-color: #2dd070;
   color: white;
   border-radius: 50%;
   height: 40px;
   width: 40px;
   border: 0;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .text-centered {
   text-align: center;
 }
 
-.foto {
+.foto-my-cv-v2 {
   width: 100%;
   border-radius: 5px;
   border: 1px solid #808080;
@@ -97,4 +109,3 @@ c[height="30"] {
   padding: 8px;
   border: 1px solid #808080;
 }
-
