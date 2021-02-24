@@ -44,7 +44,7 @@ a[class^="disc-link__"] > [class^="my-cv"] {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100;
+  height: 100%;
   left: 0;
   display: flex;
   justify-content: center;
