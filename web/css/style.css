@@ -18,7 +18,7 @@ grid {
 }
 
 grid > c[span="row"] {
-  /*grid-column-start: 1;
+  /* grid-column-start: 1;
   grid-column-end: -1; */
   grid-column: 1 / -1;
 }
@@ -34,20 +34,58 @@ c[span="1"] {
 a[class^="disc-link__"] {
   width: 100%;
   padding-top: 100%;
+  /* background-color: lightsteelblue; */
   border-radius: 50%;
   display: block;
   position: relative;
 }
 
-a[class^="disc-link__"] > [class^="my-cv-v2"] {
+a[class^="disc-link__"] > [class^="my-cv"] {
   position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.disc-link__onahau {
-  background-color: #cce4ff;
+a[class^="disc-link__"] > [class^="my-cv"]::before {
+  font-size : 8vw;
+}
+.disc-link__onahau-dark {
+  background-color: #CCF8FF;
 }
 .disc-link__granny-apple {
   background-color: #d4f5e2;
+}
+.disc-link__oasis {
+  background-color: #fdebcf;
+}
+.disc-link__onahau-light {
+  background-color: #ccf5ff;
+}
+.disc-link__blue-chalk {
+  background-color: #f1deff;
+}
+.disc-link__pastel-pink {
+  background-color: #ffccdb;
+}
+.disc-link__azalea {
+  background-color: #FADBD8;
+}
+.disc-link__moon-raker {
+  background-color: #DFDDF9;
+}
+.disc-link__white-ice {
+  background-color: #D4F6F1;
+}
+.disc-link__janna {
+  background-color: #F4E5D7;
+}
+.disc-link__double-pearl-lusta {
+  background-color: #FCF3CF;
 }
 
 .main-title {
@@ -78,7 +116,8 @@ c[height="30"] {
 .box-shadow {
   background-color: #FAFAFA;
   padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.30);
+  border-radius: 50px;
+  box-shadow:0 2px 6px rgba(0, 0, 0, 0.30);
 }
 
 .text-description {
@@ -96,7 +135,7 @@ c[height="30"] {
   padding: 0 24px;
   border-radius: 20px;
   border: 0;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
 }
 
