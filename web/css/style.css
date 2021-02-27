@@ -106,13 +106,44 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
   text-align: center;
 }
 
-.section-title {
+.section-title,
+.section-subtitle {
   height: 30px;
   margin: 0;
+  color: #808080;
+}
+
+.section-title {
+  font-size: 22px;
+}
+
+.section-subtitle {
   font-size: 20px;
   color: #808080;
 }
 
+.skills-button__torch-red {
+  background-color: #fd004d;
+}
+.skills-button__sharmrock {
+  background-color: #2DD070;
+}
+.skills-button__buttercup {
+  background-color: #F29E1A;
+}
+.skills-button__torch-red,
+.skills-button__sharmrock,
+.skills-button__buttercup {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
 c[height="30"] {
   height: 30px;
 }
@@ -165,6 +196,6 @@ c[height="30"] {
 
 .image-wrapper {
   border-radius: 6px;
-  padding: 8px;
+  padding: 8px 8px 4px;
   border: 1px solid #808080;
 }
