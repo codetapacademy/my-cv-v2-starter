@@ -144,6 +144,66 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
   margin-right: 8px;
   margin-bottom: 8px;
 }
+
+.skills-legend {
+  border: 2px solid #f0f0f0;
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-legend_item:not(:last-child) {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skills-legend_item:hover {
+  background-color: #fafafa;
+}
+
+.skills-legend_item > span[class^="my-cv-heart"]
+{
+  color: #fe004e;
+}
+.skills-legend_item > span[class^="my-cv-trophy"]
+{
+  color: #2dd070;
+}
+.skills-legend_item > span[class^="my-cv-book"]
+{
+  color: #F29E1A;
+}
+
+.skills-legend_item > span[class^="my-cv-"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-legend_item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-count {
+  padding-right: 20px;
+}
+
+.legend-description {
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+.skills-list {
+  padding: 20px 0;
+}
+
 c[height="30"] {
   height: 30px;
 }
