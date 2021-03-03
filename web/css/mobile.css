@@ -6,6 +6,7 @@
 body {
   font-family: Roboto;
   margin: 0 36px;
+  background-color: hsl(0, 0%, 100%);
 }
 
 grid {
@@ -89,18 +90,21 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
   background-color: #FCF3CF;
 }
 
-.main-title {
-  height: 40px;
+.main-title,
+.second-title {
   margin: 0;
-  font-size: 36px;
   text-align: center;
+  color: hsl(0, 0%, 10%);
+}
+
+.main-title {
+  font-size: 36px;
+  height: 40px;
 }
 
 .second-title {
   height: 30px;
-  margin: 0;
   font-size: 24px;
-  text-align: center;
 }
 
 .section-title,
@@ -116,7 +120,7 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
 
 .section-subtitle {
   font-size: 20px;
-  color: #808080;
+  color: hsl(0, 0%, 50%);
 }
 
 .skills-button__torch-red {
@@ -143,7 +147,9 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
 }
 
 .skills-legend {
-  border: 2px solid #f0f0f0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 94%);
   list-style-type: none;
   padding-left: 0;
   border-radius: 15px;
@@ -152,13 +158,11 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
 }
 
 .skills-legend_item:not(:last-child) {
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid hsl(0, 0%, 94%);
 }
-
 .skills-legend_item:hover {
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 98%);
 }
-
 .skills-legend_item > span[class^="my-cv-heart"]
 {
   color: #fe004e;
