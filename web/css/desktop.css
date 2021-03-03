@@ -1,0 +1,10 @@
+/* @media (min-width: 1280px) */
+@media (min-width: 1024px) {
+  grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  grid[columns-desktop="8"] {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
