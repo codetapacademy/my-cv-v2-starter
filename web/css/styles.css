@@ -64,13 +64,13 @@ body {
   margin-bottom: 8px;
 }
 
-.skills-list-last,
-.skills-list {
-  padding-top: 20px;
-}
-
 .skills-list {
   padding-bottom: 20px;
+}
+
+.skills-list-last,
+.skills-list {
+  padding-top: 20px 0;
 }
 
 /* skills */
@@ -97,9 +97,11 @@ body {
 .skills-legend_item > span[class^="my-cv-heart"] {
   color: #fd004d;
 }
+
 .skills-legend_item > span[class^="my-cv-trophy"] {
   color: #2dd070;
 }
+
 .skills-legend_item > span[class^="my-cv-book"] {
   color: #f29e1a;
 }
