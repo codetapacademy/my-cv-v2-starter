@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import "test.css";
 @import "font.css";
 
 body {
@@ -37,9 +41,31 @@ grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+grid > c[span="row"] {
+  grid-column: 1 / -1;
+}
+
 grid > c {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  overflow: hidden;
+}
+
+c[span="1"] {
+  grid-column-end: span 1;
+}
+
+a[class^="disc-link__"] {
+  width: 100%;
+  padding-top: 100%;
+
+  border-radius: 50%;
+  display: block;
+}
+
+.disc-link__onahau {
+  background-color: #cce4ff;
+}
+.disc-link__granny-apple {
+  background-color: #c1f8c0;
 }
 
 .box-shadow {
@@ -79,4 +105,17 @@ grid > c {
 
 .text-centered {
   text-align: center;
+}
+
+.avatar {
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #808080;
+  border: 0;
+}
+
+.image-wrapper {
+  border-radius: 6px;
+  padding: 6px;
+  border: 1px solid #808080;
 }
