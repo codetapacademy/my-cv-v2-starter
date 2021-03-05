@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-
+@import "test.css";
 @import "font.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   margin: 0 36px;
 }
 
@@ -37,9 +41,75 @@ grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+grid > c[span="row"] {
+  grid-column: 1 / -1;
+}
+
 grid > c {
-  grid-column-start: 1;
-  grid-column-end: -1;
+  overflow: hidden;
+}
+
+c[span="1"] {
+  grid-column-end: span 1;
+}
+
+a[class^="disc-link__"] {
+  width: 100%;
+  padding-top: 100%;
+
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="disc-link__"] > [class^="my-cv"] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="disc-link__"] > [class^="my-cv"]::before {
+  font-size: 8vw;
+}
+
+.disc-link__onahau {
+  background-color: #cce4ff;
+}
+.disc-link__granny-apple {
+  background-color: #c1f8c0;
+}
+.disc-link__oasis {
+  background-color: #fdebcf;
+}
+
+.disc-link__onahau-light {
+  background-color: #ccf5ff;
+}
+.disc-link__blue-chalk {
+  background-color: #e3d6e9;
+}
+.disc-link__pastel-pink {
+  background-color: #ffd1dc;
+}
+.disc-link__azalea {
+  background-color: #f9c0c4;
+}
+.disc-link__moon-raker {
+  background-color: #dfddf9;
+}
+.disc-link__janna {
+  background-color: #f5ead9;
+}
+.disc-link__white-ice {
+  background-color: #e1e7e4;
+}
+.disc-link__yt {
+  background-color: #ece5e5;
 }
 
 .box-shadow {
@@ -79,4 +149,17 @@ grid > c {
 
 .text-centered {
   text-align: center;
+}
+
+.avatar {
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #808080;
+  border: 0;
+}
+
+.image-wrapper {
+  border-radius: 6px;
+  padding: 6px;
+  border: 1px solid #808080;
 }
