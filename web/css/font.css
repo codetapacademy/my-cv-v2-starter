@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'my-cv';
-  src:
-    url('fonts/my-cv.ttf?i5qi8r') format('truetype'),
-    url('fonts/my-cv.woff?i5qi8r') format('woff'),
-    url('fonts/my-cv.svg?i5qi8r#my-cv') format('svg');
+  font-family: "my-cv";
+  src: url("./fonts/my-cv.ttf?i5qi8r") format("truetype"),
+    url("./fonts/my-cv.woff?i5qi8r") format("woff"),
+    url("./fonts/my-cv.svg?i5qi8r#my-cv") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="my-cv-"], [class*=" my-cv-"] {
+[class^="my-cv-"],
+[class*=" my-cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'my-cv' !important;
+  font-family: "my-cv" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;

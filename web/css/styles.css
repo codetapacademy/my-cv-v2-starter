@@ -1,13 +1,13 @@
-* {
-  box-sizing: border-box;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 @import "test.css";
 @import "font.css";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   margin: 0 36px;
 }
 
