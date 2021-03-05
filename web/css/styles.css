@@ -25,12 +25,112 @@ body {
   margin: 0;
 }
 
-.section-title {
+.section-title,
+.section-subtitle {
   height: 30px;
-  font-size: 22px;
   margin: 0;
   color: #808080;
 }
+.section-title {
+  font-size: 22px;
+}
+.section-subtitle {
+  font-size: 20px;
+}
+
+.skills-button__torch-red {
+  background-color: #fd004d;
+}
+.skills-button__shamrock {
+  background-color: #2dd070;
+}
+.skills-button__buttercup {
+  background-color: #f29e1a;
+}
+
+.skills-button__shamrock,
+.skills-button__buttercup,
+.skills-button__torch-red,
+.skills-button__torch-red,
+.skills-button__torch-red {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.skills-list-last,
+.skills-list {
+  padding-top: 20px;
+}
+
+.skills-list {
+  padding-bottom: 20px;
+}
+
+/* skills */
+
+.skills-legend {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 94%);
+  list-style-type: none;
+  padding-left: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.skills-legend_item:not(:last-child) {
+  border-bottom: 2px solid hsl(0, 0%, 98%);
+}
+
+.skills-legend_item:hover {
+  background-color: hsl(0, 0%, 94%);
+}
+
+.skills-legend_item > span[class^="my-cv-heart"] {
+  color: #fd004d;
+}
+.skills-legend_item > span[class^="my-cv-trophy"] {
+  color: #2dd070;
+}
+.skills-legend_item > span[class^="my-cv-book"] {
+  color: #f29e1a;
+}
+
+.skills-legend_item > span[class^="my-cv-"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-legend_item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-count {
+  padding: 0;
+  padding-right: 20px;
+}
+
+.legend-description {
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+/*  */
 
 c[height="30"] {
   height: 30px;
@@ -109,7 +209,7 @@ a[class^="disc-link__"] > [class^="my-cv"]::before {
   background-color: #e1e7e4;
 }
 .disc-link__yt {
-  background-color: #ece5e5;
+  background-color: #f9c0c4;
 }
 
 .box-shadow {

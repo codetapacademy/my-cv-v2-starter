@@ -12,7 +12,6 @@
 [class*=" my-cv-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "my-cv" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -27,7 +26,13 @@
 .my-cv-arrow-down:before {
   content: "\e900";
 }
-.my-cv-arrow-up:before {
+
+.my-cv-arrow-down:before {
+  display: block;
+  transform: rotate(180deg);
+}
+.my-cv-arrow-up:before,
+.my-cv-arrow-down:before {
   content: "\e901";
 }
 .my-cv-book:before {
