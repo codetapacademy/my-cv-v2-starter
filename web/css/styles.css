@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
+@import "font.css";
+
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -23,6 +25,7 @@ body {
   height: 30px;
   font-size: 22px;
   margin: 0;
+  color: #808080;
 }
 
 c[height="30"] {
@@ -37,4 +40,43 @@ grid {
 grid > c {
   grid-column-start: 1;
   grid-column-end: -1;
+}
+
+.box-shadow {
+  background-color: #fafafa;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.text-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+}
+
+.button__attention {
+  background-color: #fe004e;
+  color: white;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button-disc__info {
+  background-color: #2dd070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 18px;
+}
+
+.text-centered {
+  text-align: center;
 }
