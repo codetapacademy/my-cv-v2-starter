@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: Roboto;
+  margin: 0 36px;
+}
+
+.main-title {
+  margin: 0;
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.second-title {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.section-title {
+  height: 30px;
+  font-size: 22px;
+  margin: 0;
+}
+
+c[height="30"] {
+  height: 30px;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+grid > c {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
