@@ -1,0 +1,13 @@
+grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+grid > c[span-tablet$="+4"],
+grid > c[span-tablet$="4"] {
+  grid-column-end: span 4;
+  grid-column-start: auto;
+}
+
+grid[columns-tablet="4"] {
+  grid-template-columns: repeat(4, 1fr);
+}

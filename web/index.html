@@ -2,13 +2,8 @@
 <html lang="en">
   <head>
     <title>My CV v2 - starter</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500, 700&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <grid>
@@ -17,12 +12,11 @@
         <h1 class="main-title">Iosif Screpciuc</h1>
       </c>
       <c span="row">
-        <h2 class="second-title">Junior Developer</h2>
+        <h2 class="second-title">Junior Web developer</h2>
       </c>
-
       <c span="row" height="30"></c>
       <c span="row">
-        <h3 class="section-title">About Me</h3>
+        <h4 class="section-title">About me</h4>
       </c>
       <c span="row">
         <div class="box-shadow">
@@ -44,79 +38,137 @@
           <i class="my-cv-arrow-down"></i>
         </button>
       </c>
+      <c></c>
       <c span="row" height="30"></c>
       <c span="row">
-        <h3 class="section-title">Let's connect</h3>
+        <h4 class="section-title">Let's connect</h4>
       </c>
-      <c span="row"></c>
-      <c span="row">
+      <c span="row"> </c>
+      <c span="row" span-tablet="1+4">
         <div class="image-wrapper">
-          <img class="avatar" src="./css//images/me.jpg" />
+          <img class="avatar" src="./css/images/me.jpg" alt="avatar" />
         </div>
       </c>
-      <c span="1">
-        <a class="disc-link__onahau">
-          <i class="my-cv-udemy"></i>
-        </a>
+      <c span="row" span-tablet="4" span-desktop="8">
+        <grid columns-tablet="4" columns-desktop="8">
+          <c span="1">
+            <a class="disc-link onahau-dark">
+              <i class="my-cv-udemy"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link granny-apple">
+              <i class="my-cv-codewars"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link oasis">
+              <i class="my-cv-codetap"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link onahau-light">
+              <i class="my-cv-facebook"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link blue-chalk">
+              <i class="my-cv-github"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link pastel-pink">
+              <i class="my-cv-skype"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link azalea">
+              <i class="my-cv-linkedin"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link moon-raker">
+              <i class="my-cv-stackoverflow"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link white-ice">
+              <i class="my-cv-instagram"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link janna">
+              <i class="my-cv-twitter"></i>
+            </a>
+          </c>
+          <c span="1">
+            <a class="disc-link double-pearl-lusta">
+              <i class="my-cv-youtube"></i>
+            </a>
+          </c>
+        </grid>
       </c>
-      <c span="1">
-        <a class="disc-link__granny-apple">
-          <i class="my-cv-codewars"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__oasis">
-          <i class="my-cv-codetap"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__onahau-light">
-          <i class="my-cv-facebook"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__blue-chalk">
-          <i class="my-cv-github"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__pastel-pink">
-          <i class="my-cv-skype"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__azalea">
-          <i class="my-cv-linkedin"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__moon-raker">
-          <i class="my-cv-stackoverflow"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__white-ice">
-          <i class="my-cv-instagram"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__janna">
-          <i class="my-cv-twitter"></i>
-        </a>
-      </c>
-      <c span="1">
-        <a class="disc-link__yt">
-          <i class="my-cv-youtube"></i>
-        </a>
-      </c>
-
-      <c span="row" height="30"> </c>
       <c span="row" height="30"></c>
       <c span="row" class="text-centered">
         <button class="button-disc__info">
-          <i class="my-cv-arrow-down"></i>
+          <i class="my-cv-arrow-down"></i></button
+      ></c>
+      <c span="row" height="30"></c>
+      <c span="row">
+        <h3 class="section-title">Skills</h3>
+        <ul class="skills-legend">
+          <li class="skills-legend_item">
+            <span class="my-cv-heart"> </span>
+            <span class="legend-description"> I prefer to work with </span>
+            <span class="legent-count">1</span>
+          </li>
+          <li class="skills-legend_item">
+            <span class="my-cv-trophy"></span>
+            <span class="legend-description"> I am good at it </span>
+            <span class="legent-count">2</span>
+          </li>
+          <li class="skills-legend_item">
+            <span class="my-cv-book"></span>
+            <span class="legend-description"> I want to get better </span>
+            <span class="legent-count">3</span>
+          </li>
+        </ul></c
+      >
+      <c span="row">
+        <h4 class="section-subtitle">Front-end</h4>
+        <div class="skills-list">
+          <button class="skills-button__torch-red">HTML5</button>
+          <button class="skills-button__torch-red">CSS</button>
+          <button class="skills-button__shamrock">JavaScript</button>
+          <button class="skills-button__shamrock">Git</button>
+        </div>
+      </c>
+      <c span="row">
+        <h4 class="section-subtitle">Back-end</h4>
+        <div class="skills-list">
+          <button class="skills-button__shamrock">Firebase</button>
+          <button class="skills-button__shamrock">CLI</button>
+          <button class="skills-button__buttercup">NodeJS</button>
+          <button class="skills-button__buttercup">Bash</button>
+        </div>
+      </c>
+      <c span="row">
+        <h4 class="section-subtitle">Others</h4>
+        <div class="skills-list-last">
+          <button class="skills-button__shamrock">Word</button>
+          <button class="skills-button__shamrock">Excel</button>
+          <button class="skills-button__shamrock">Agile</button>
+          <button class="skills-button__buttercup">Jira</button>
+          <button class="skills-button__buttercup">XP</button>
+        </div>
+      </c>
+      <c span="row" height="30"> </c>
+      <c span="row" class="text-centered">
+        <button class="button-disc__info">
+          <i class="my-cv-arrow-up"> </i>
         </button>
       </c>
+      <c span="row" height="30"> </c>
     </grid>
   </body>
 </html>
