@@ -1,19 +1,19 @@
-[class^="test"] {
-  padding: 1rem;
+[class^="test"]{
+    padding: 1rem;
 }
 
-.test-1 {
-  background-color: red;
+.test-1{
+    background-color: #c00 ;
 }
 
-.test-2 {
-  background-color: blue;
+.test-2{
+    background-color: #036;
 }
 
-.test-3 {
-  background-color: green;
+.test-3{
+    background-color: #0f0;
 }
 
-.test-4 {
-  background-color: pink;
+.test-4{
+    background-color: #f0f;
 }
