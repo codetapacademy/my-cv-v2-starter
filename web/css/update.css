@@ -18,10 +18,6 @@ grid > c[span="row"] {
   grid-column: 1 / -1;
 }
 
-/* grid > c {
-  overflow: hidden;
-} */
-
 c[span="1"] {
   grid-column-end: span 1;
 }
@@ -273,7 +269,6 @@ c[height="30"] {
   background-size: cover;
 }
 
-/* Update of font */
 @font-face {
   font-family: "my-cv";
   src: url("fonts/my-cv.ttf?wpa5t7") format("truetype"),
@@ -286,7 +281,6 @@ c[height="30"] {
 
 [class^="my-cv-"],
 [class*=" my-cv-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "my-cv" !important;
   speak: never;
   font-style: normal;
@@ -295,7 +289,6 @@ c[height="30"] {
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
