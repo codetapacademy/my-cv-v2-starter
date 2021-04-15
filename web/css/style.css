@@ -2,3 +2,21 @@
 body {
   font-family: Roboto;
 }
+
+.main-title {
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.second-title {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-title {
+  height: 30px;
+  font-size: 22px;
+
+}
