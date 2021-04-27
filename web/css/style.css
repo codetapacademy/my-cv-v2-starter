@@ -8,6 +8,12 @@ grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+
+grid > c {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
 .main-title {
   height: 40px;
   font-size: 36px;
