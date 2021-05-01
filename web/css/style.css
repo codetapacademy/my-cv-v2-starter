@@ -50,3 +50,27 @@ text-description {
   font-weight: 500;
   line-height: 30px;
 }
+
+.button__attention {
+  background-color: #FE004E;
+  color: white;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button-disc__info {
+  background-color: #2DD070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+}
+
+.text-centered {
+  text-align: center;
+}
