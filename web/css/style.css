@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700;1,900&display=swap');
+
+@import'font.css';
+
 body {
   font-family: Roboto;
   margin: 0 36px;
@@ -32,6 +35,7 @@ grid > c {
 .section-title {
   height: 30px;
   font-size: 22px;
+  color: #808080;
 }
 
 c[height="30"] {
@@ -49,6 +53,7 @@ text-description {
   font-size: 40px;
   font-weight: 500;
   line-height: 30px;
+  color: #808080;
 }
 
 .button__attention {
@@ -69,6 +74,7 @@ text-description {
   height: 40px;
   width: 40px;
   border: 0;
+  font-size: 18px;
 }
 
 .text-centered {
