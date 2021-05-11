@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import "font.css";
+
+/* @media screen (min-width 360px) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 36px;
+  font-family: "Roboto";
+  background-color: white;
+}
+
+c[height="30px"] {
+  height: 30px;
+}
+
+c[span="1"] {
+  grid-column: span 1;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+grid > c[span="row"] {
+  grid-column: 1 / -1;
+}
+
+/* grid > c {
+  overflow: hidden;
+} */
+
+.main-title,
+.second-title {
+  text-align: center;
+  margin: 0;
+  color: #1a1a1a;
+}
+
+.main-title {
+  /* font-weight: 500; */
+  font-size: 36px;
+  height: 40px;
+}
+
+.second-title {
+  /* font-weight: 400; */
+  font-size: 24px;
+  height: 30px;
+}
+
+.section-title,
+.section-subtitle {
+  font-weight: 400;
+  height: 30px;
+  margin: 0px;
+  color: #808080;
+}
+.section-title {
+  font-size: 22px;
+}
+.section-subtitle {
+  font-size: 20px;
+}
+
+.shadowed-box {
+  background-color: #fafafa;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.text-description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #808080;
+}
+
+.button-cv {
+  background-color: rgb(225, 65, 78);
+  color: whitesmoke;
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: bold;
+  border: 0;
+}
+
+.disc {
+  background-color: #2dd070;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 0;
+  font-size: 18px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.image-wrapper {
+  border-radius: 6px;
+  padding: 8px 8px 4px;
+  border: 1px solid #808080;
+  margin-bottom: 10px;
+}
+
+a[class^="disc-link__"] {
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"] {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a[class^="disc-link__"] > [class^="my-cv-"]::before {
+  font-size: 8vw;
+}
+
+.disc-link__onahau {
+  background-color: #cce4ff;
+}
+
+.disc-link__granny-apple {
+  background-color: #d4f5e2;
+}
+
+.disc-link__oasis {
+  background-color: #fdebcf;
+}
+
+.disc-link__onahau-light {
+  background-color: #cce4ff;
+}
+
+.disc-link__blue-chalk {
+  background-color: #f1deff;
+}
+
+.disc-link__pastel-pink {
+  background-color: #ffccdb;
+}
+
+.disc-link__azalea {
+  background-color: #fadbd8;
+}
+
+.disc-link__moon-raker {
+  background-color: #dfddf9;
+}
+
+.disc-link__white-ice {
+  background-color: #d4f6f1;
+}
+
+.disc-link__janna {
+  background-color: #f4e5d7;
+}
+
+.disc-link__double-pearl-lusta {
+  background-color: #fcf3cf;
+}
+
+.skills-legend {
+  background-color: white;
+  border: 2px solid #f0f0f0;
+  padding-left: 0;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 20px 0;
+  /* list-style-type: none; */
+}
+
+.skills-legend_item:not(:last-child) {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.skills-legend_item:hover {
+  background-color: #fafafa;
+}
+
+.skills-legend_item > span[class^="my-cv-"] {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-legend_item {
+  height: 52px;
+  line-height: 32px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.legend_count {
+  padding: 0;
+  flex-grow: 1;
+}
+
+.legend-description {
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.skills-button__torch-red {
+  background-color: #fd004d;
+}
+
+.skills-button__shamrock {
+  background-color: #2dd070;
+}
+
+.skills-button__buttercup {
+  background-color: #f29e1a;
+}
+
+.skills-button__torch-red,
+.skills-button__shamrock,
+.skills-button__buttercup {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.skills-list-last,
+.skills-list {
+  padding-top: 20px;
+}
+
+.skills-list {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #212734;
+  }
+  .main-title ,
+  .second-title{
+    color: #FAFAFA;
+  }
+  .shadowed-box {
+    background-color: #31394D;
+  }
+  .second-title, .section-title, .section-subtitle {
+    color: #F7F7F7;
+  }
+  .skills-legend {
+    background-color: #212734;
+    border: 2px solid #F0F0F0;  
+    color: cornsilk;
+  }
+  .skills-legend_item:not(:last-child) {
+    border-bottom: 2px solid #F0F0F0;  
+  }
+  .skills-legend_item:hover {
+    background-color: #31394D;
+  }
+  
+}
