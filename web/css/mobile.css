@@ -13,7 +13,7 @@ body {
   background-color: white;
 }
 
-c[height="30px"] {
+c[height="30"] {
   height: 30px;
 }
 
@@ -61,9 +61,11 @@ grid > c[span="row"] {
   margin: 0px;
   color: #808080;
 }
+
 .section-title {
   font-size: 22px;
 }
+
 .section-subtitle {
   font-size: 20px;
 }
