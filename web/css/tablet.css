@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+  grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  grid > c[span-tablet$="+4"] ,
+  grid > c[span-tablet="4"] {
+    grid-column-end: span 4;
+    grid-column-start: auto;
+  }
+  grid [columns-tablet="4"]{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  a[class^="disc-link__"] > [class^="my-cv-"]:before {
+    font-size: 5vw;
+  }
+  body {
+    margin: 0 80px;
+  } 
+}
